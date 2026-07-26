@@ -67,7 +67,7 @@ export default function Hero() {
 
               <br />
 
-              With Industry Skills
+              With IT Industry Skills
             </motion.h1>
 
             <motion.p
@@ -76,7 +76,7 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="mt-8 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg"
             >
-              Join Success Point College for BCA, MCA, PGDCA and Cyber
+              Join Success Point College, Sikar for BCA, MCA, PGDCA and Cyber
               Security programs. Learn from industry experts, work on
               live projects, earn industry certifications, and receive
               complete placement assistance to build your successful
