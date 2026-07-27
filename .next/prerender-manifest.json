@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "da24257b1d1cb9816b0af3d9c3edb956",
-    "previewModeSigningKey": "6d80a0c0c09db799c04c150f078145238e33159e4ae17f6864492e8a72f3d0fb",
-    "previewModeEncryptionKey": "dbf8f7e6c1ca0d39c3780eefe10d552a1bb8b61ae542e221b4370ee61b44b5bd"
-  }
-}
+{"version":4,"routes":{"/course-category/graduation-courses":{},"/course-category/post-graduation-courses":{},"/course-category/computer-courses":{},"/course-category/professional-courses":{},"/course-category/skill-development-courses":{},"/courses/bca":{},"/courses/mca":{},"/courses/basic-computer":{},"/courses/advanced-computer":{},"/courses/dca":{},"/courses/pg-diploma-cyber-security":{},"/courses/digital-marketing":{},"/courses/data-analyst":{},"/courses/full-stack-web-development":{},"/courses/mobile-app-development":{}},"dynamicRoutes":{"/course-category/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/course-category/[slug]","routeRegex":"^\\/course\\-category\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/courses/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/courses/[slug]","routeRegex":"^\\/courses\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"da24257b1d1cb9816b0af3d9c3edb956","previewModeSigningKey":"6d80a0c0c09db799c04c150f078145238e33159e4ae17f6864492e8a72f3d0fb","previewModeEncryptionKey":"dbf8f7e6c1ca0d39c3780eefe10d552a1bb8b61ae542e221b4370ee61b44b5bd"}}

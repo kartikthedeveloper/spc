@@ -51,10 +51,10 @@ export const NAV_LINKS = [
     href: "/admissions",
     children: [
       { label: "Admission Process", href: "/admissions" },
-      { label: "Fee Structure", href: "/fee-structure" },
+      // { label: "Fee Structure", href: "/fee-structure" },
     ],
   },
-  // { label: "Blog", href: "/blog" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export const FOOTER_LINKS = {

@@ -35,16 +35,68 @@ export const metadata = {
   },
   description: SITE.description,
   keywords: [
+    // Brand
+    "Success Point College Sikar",
+    "Success Point College",
+
+    // General
     "best college in Sikar",
+    "best computer institute in Sikar",
+    "computer courses in Sikar",
+    "professional computer training Sikar",
+    "IT training institute Sikar",
+
+    // Degree Courses
     "best BCA college in Sikar",
-    "computer institute in Sikar",
-    "digital marketing institute Sikar",
+    "BCA admission Sikar",
+    "BCA college Rajasthan",
+    "best MCA college in Sikar",
+    "MCA admission Sikar",
     "MCA college Rajasthan",
+
+    // Diploma Courses
+    "DCA course in Sikar",
+    "PGDCA course in Sikar",
+    "computer diploma course Sikar",
+
+    // Digital Marketing
+    "digital marketing institute Sikar",
+    "digital marketing course in Sikar",
+    "AI digital marketing course",
+
+    // Data Analytics
+    "data analytics course in Sikar",
+    "data analyst course in Rajasthan",
+    "Power BI course in Sikar",
+    "Excel course in Sikar",
+
+    // Web Development
+    "website development course in Sikar",
+    "web development institute Sikar",
+    "full stack development course Sikar",
+    "MERN Stack course in Sikar",
+
+    // Mobile App Development
+    "Android app development course in Sikar",
+    "mobile app development course in Sikar",
+    "React Native course in Sikar",
+
+    // Cyber Security
+    "cyber security course in Sikar",
+    "PG Diploma in Cyber Security and Cyber Law",
+    "cyber law course in Rajasthan",
+    "ethical hacking course in Sikar",
+
+    // Career
+    "job oriented computer courses",
+    "internship with computer courses",
+    "AI integrated computer courses",
+    "placement assistance Sikar"
   ],
   openGraph: {
     type: "website",
     url: SITE.url,
-    title: `${SITE.name} | Best College & Computer Institute in Sikar, Rajasthan`,
+    title: `${SITE.name} | Best Coding & Digital Marketing Institute in Sikar, Rajasthan`,
     description: SITE.description,
     siteName: SITE.name,
   },
