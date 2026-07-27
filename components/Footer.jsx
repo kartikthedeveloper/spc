@@ -1,6 +1,8 @@
 import Link from "next/link";
-import { Facebook, Instagram, Youtube, Linkedin, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, Linkedin,Google, MapPin, Phone, Mail } from "lucide-react";
 import { SITE, FOOTER_LINKS } from "@/data/site";
+import Image from "next/image";
+
 
 export default function Footer() {
   return (
@@ -9,19 +11,24 @@ export default function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid gap-10 md:grid-cols-5">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2">
-              <span className="grid h-9 w-9 place-items-center rounded-lg bg-brass-500 text-navy-950 font-display text-lg">
-                SP
-              </span>
-              <span className="font-display text-lg font-semibold">{SITE.name}</span>
-            </div>
+            <Link href="/" className="flex items-center gap-3">
+
+              <Image
+                src="/images/success-point-logo.png"
+                alt="success point logo"
+                width={90}
+                height={90}
+                className=""
+              />
+
+            </Link>
             <p className="mt-4 max-w-sm text-sm text-ivory-100/70">{SITE.description}</p>
             <div className="mt-5 flex gap-3">
               {[
                 { Icon: Facebook, href: SITE.social.facebook, label: "Facebook" },
                 { Icon: Instagram, href: SITE.social.instagram, label: "Instagram" },
-                { Icon: Youtube, href: SITE.social.youtube, label: "YouTube" },
                 { Icon: Linkedin, href: SITE.social.linkedin, label: "LinkedIn" },
+                
               ].map(({ Icon, href, label }) => (
                 <a
                   key={label}

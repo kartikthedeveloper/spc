@@ -17,10 +17,10 @@ export const SITE = {
   whatsapp: "919351540357",
   email: "info@successpointcollege.in",
   social: {
-    facebook: "https://facebook.com/successpointcollege",
-    instagram: "https://instagram.com/successpointcollege",
-    youtube: "https://youtube.com/@successpointcollege",
-    linkedin: "https://linkedin.com/company/successpointcollege",
+    facebook: "https://www.facebook.com/successpointitandmanagementcollege",
+    instagram: "https://www.instagram.com/success_point_college",
+    linkedin: "https://www.linkedin.com/company/success-point-college-sikar",
+    google: "https://g.page/r/CYEGXiXLxfNyEBM/review"
   },
   mapEmbedQuery: "Success Point College, Piprali Rd, Sikar, Rajasthan",
 };
@@ -32,10 +32,8 @@ export const NAV_LINKS = [
     href: "/about",
     children: [
       { label: "About College", href: "/about" },
-      { label: "Why Choose Us", href: "/why-choose-us" },
       { label: "Director's Message", href: "/directors-message" },
       { label: "Infrastructure", href: "/infrastructure" },
-      { label: "Faculty", href: "/faculty" },
     ],
   },
   {
@@ -46,7 +44,6 @@ export const NAV_LINKS = [
       { label: "Post Graduation Courses", href: "/course-category/post-graduation-courses" },
       { label: "Computer Courses", href: "/course-category/computer-courses" },
       { label: "Professional Courses", href: "/course-category/professional-courses" },
-      { label: "Skill Development Courses", href: "/course-category/skill-development-courses" },
     ],
   },
   {
@@ -57,8 +54,7 @@ export const NAV_LINKS = [
       { label: "Fee Structure", href: "/fee-structure" },
     ],
   },
-  { label: "Gallery", href: "/gallery" },
-  { label: "Blog", href: "/blog" },
+  // { label: "Blog", href: "/blog" },
 ];
 
 export const FOOTER_LINKS = {
@@ -66,7 +62,6 @@ export const FOOTER_LINKS = {
     { label: "About College", href: "/about" },
     { label: "Faculty", href: "/faculty" },
     { label: "Infrastructure", href: "/infrastructure" },
-    { label: "Gallery", href: "/gallery" },
     { label: "FAQs", href: "/faqs" },
   ],
   admissions: [
