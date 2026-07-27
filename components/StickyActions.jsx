@@ -21,13 +21,13 @@ export default function StickyActions() {
       <div className="fixed inset-x-0 bottom-0 z-40 flex lg:hidden border-t border-brass-500/20 bg-navy-950">
         <a
           href={`tel:${SITE.phones[0].replace(/\s/g, "")}`}
-          className="flex flex-1 items-center justify-center gap-2 py-3 text-sm font-semibold text-brass-300 focus-ring"
+          className="flex flex-1 items-center justify-center gap-2 py-3 text-sm font-semibold text-white focus-ring"
         >
           <Phone size={16} aria-hidden="true" /> Call Now
         </a>
         <a
           href="/admissions/form"
-          className="flex flex-1 items-center justify-center gap-2 border-l border-brass-500/20 bg-brass-500 py-3 text-sm font-semibold text-navy-950 focus-ring"
+          className="flex flex-1 items-center justify-center gap-2 border-l border-white bg-indigo-600 py-3 text-sm font-semibold text-white focus-ring"
         >
           <GraduationCap size={16} aria-hidden="true" /> Apply Now
         </a>

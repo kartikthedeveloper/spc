@@ -42,7 +42,7 @@ export const COURSES = [
     title: "BCA (Bachelor of Computer Applications)",
     shortTitle: "BCA",
     category: "graduation-courses",
-    image: "/images/bcabanner.webp", // Add your image
+    image: "/images/bcabanner.webp",
     tagline: "A 3‑year honours‑track degree built around real software development — the best BCA in Sikar.",
     duration: "3 Years (6 Semesters)",
     eligibility: "Passed 10+2 in any stream from a recognised board; basic mathematics recommended.",
@@ -71,6 +71,8 @@ export const COURSES = [
       "Resume building, mock technical interviews, and campus placement drives with our IT and services sector recruiting partners in Rajasthan and beyond.",
     careers: ["Software Developer", "Web Developer", "Database Administrator", "Systems Analyst", "IT Support Engineer"],
     salaryRange: "₹2.4 LPA – ₹6 LPA for freshers, depending on role and city",
+    rating: 4.8,
+    enrolled: 215,
     faqs: [
       {
         q: "Is BCA equivalent to a B.Tech in Computer Science?",
@@ -117,6 +119,8 @@ export const COURSES = [
       "Senior‑track placement preparation including system design interviews and referrals to partner IT companies in Jaipur, Delhi, and remote.",
     careers: ["Senior Software Engineer", "Systems Architect", "Data Engineer", "Technical Project Lead", "Cloud Engineer"],
     salaryRange: "₹4 LPA – ₹10 LPA for freshers, higher with prior BCA project experience",
+    rating: 4.7,
+    enrolled: 142,
     faqs: [
       {
         q: "Is MCA still relevant after the rise of B.Tech CSE?",
@@ -132,7 +136,7 @@ export const COURSES = [
     title: "Basic Computer Course",
     shortTitle: "Basic Computer",
     category: "computer-courses",
-    image: "/images/courses/basic-computer.jpg",
+    image: "/images/basicbanner.webp",
     tagline: "Your first step into computing — for absolute beginners in Sikar.",
     duration: "3 Months",
     eligibility: "No prior computer knowledge required; open to students after 10th and working adults.",
@@ -152,6 +156,8 @@ export const COURSES = [
     placementSupport: "Guidance toward entry‑level office assistant and data entry roles in Sikar and nearby areas.",
     careers: ["Office Assistant", "Data Entry Operator", "Computer Operator"],
     salaryRange: "₹1.2 LPA – ₹2.2 LPA for entry‑level roles",
+    rating: 4.6,
+    enrolled: 320,
     faqs: [
       {
         q: "Can adults with no computer background join this course?",
@@ -165,7 +171,7 @@ export const COURSES = [
     title: "Advanced Computer Course",
     shortTitle: "Advanced Computer",
     category: "computer-courses",
-    image: "/images/courses/advanced-computer.jpg",
+    image: "/images/advancebanner.webp",
     tagline: "Master advanced MS Office, internet skills, and more — for professionals in Sikar.",
     duration: "3 Months",
     eligibility: "Basic computer knowledge required; 10+2 passed recommended.",
@@ -186,6 +192,8 @@ export const COURSES = [
     placementSupport: "Assistance for office‑based job placements in Sikar, Jaipur, and remote roles.",
     careers: ["Senior Office Assistant", "Administrative Executive", "Data Analyst (Entry)", "Computer Teacher"],
     salaryRange: "₹1.8 LPA – ₹3.5 LPA",
+    rating: 4.5,
+    enrolled: 185,
     faqs: [
       {
         q: "Is this course suitable for working professionals?",
@@ -199,7 +207,7 @@ export const COURSES = [
     title: "DCA (Diploma in Computer Applications)",
     shortTitle: "DCA",
     category: "computer-courses",
-    image: "/images/courses/dca.jpg",
+    image: "/images/dcabanner.webp",
     tagline: "A one‑year diploma for comprehensive computer skills — the best DCA in Sikar.",
     duration: "1 Year (2 Semesters)",
     eligibility: "Passed 10+2 in any stream from a recognised board.",
@@ -222,6 +230,8 @@ export const COURSES = [
       "Placement guidance for government exam computer‑proficiency requirements and office‑role positions in Rajasthan.",
     careers: ["Computer Operator", "Data Entry Supervisor", "Office Administrator", "Junior Programmer"],
     salaryRange: "₹1.8 LPA – ₹3.2 LPA for freshers",
+    rating: 4.7,
+    enrolled: 98,
     faqs: [
       {
         q: "Is DCA recognised for government jobs?",
@@ -270,6 +280,8 @@ export const COURSES = [
       "Compliance Officer",
     ],
     salaryRange: "₹3 LPA – ₹8 LPA for freshers",
+    rating: 4.9,
+    enrolled: 76,
     faqs: [
       {
         q: "Do I need a technical background to join?",
@@ -309,6 +321,8 @@ export const COURSES = [
       "Internship placements with local businesses and digital agencies in Sikar, plus freelancing guidance.",
     careers: ["SEO Executive", "Social Media Manager", "PPC Executive", "Digital Marketing Executive", "Content Marketer"],
     salaryRange: "₹2 LPA – ₹5 LPA for freshers; higher with a strong portfolio",
+    rating: 4.8,
+    enrolled: 230,
     faqs: [
       {
         q: "Can I start freelancing after this course?",
@@ -343,6 +357,8 @@ export const COURSES = [
     placementSupport: "Portfolio building and interview preparation for analyst roles with local and remote employers.",
     careers: ["Data Analyst", "Business Analyst", "Reporting Analyst", "MIS Executive"],
     salaryRange: "₹2.5 LPA – ₹6 LPA for freshers",
+    rating: 4.6,
+    enrolled: 167,
     faqs: [
       {
         q: "Do I need to know programming before starting?",
@@ -356,7 +372,7 @@ export const COURSES = [
     title: "Full Stack Web Development",
     shortTitle: "Full Stack Web Dev",
     category: "professional-courses",
-    image: "/images/courses/full-stack-web-development.jpg",
+    image: "/images/fullstack.webp",
     tagline: "From HTML to full‑stack MERN — build and ship real websites, the best in Sikar.",
     duration: "4–6 Months",
     eligibility: "Passed 12th; basic computer familiarity recommended.",
@@ -380,6 +396,8 @@ export const COURSES = [
     placementSupport: "Portfolio review, mock coding interviews, and referrals to partner web development companies.",
     careers: ["Frontend Developer", "Backend Developer", "Full Stack Developer", "Web Designer"],
     salaryRange: "₹2.5 LPA – ₹6 LPA for freshers",
+    rating: 4.9,
+    enrolled: 198,
     faqs: [
       {
         q: "Do I need prior coding experience to join?",
@@ -393,7 +411,7 @@ export const COURSES = [
     title: "Mobile App Development",
     shortTitle: "Mobile App Dev",
     category: "professional-courses",
-    image: "/images/courses/mobile-app-development.jpg",
+    image: "/images/mobileapp.webp",
     tagline: "Build Android and iOS apps with Flutter or React Native — the best app development course in Sikar.",
     duration: "4–5 Months",
     eligibility: "Passed 12th; basic programming knowledge recommended.",
@@ -421,6 +439,8 @@ export const COURSES = [
       "Portfolio building and interview preparation for mobile developer roles at startups and IT companies.",
     careers: ["Mobile App Developer", "Cross‑Platform Developer", "UI/UX Developer", "React Native Developer"],
     salaryRange: "₹2.5 LPA – ₹7 LPA for freshers",
+    rating: 4.8,
+    enrolled: 134,
     faqs: [
       {
         q: "Which framework do you teach – Flutter or React Native?",

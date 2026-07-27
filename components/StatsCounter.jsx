@@ -4,10 +4,10 @@ import { useEffect, useRef } from "react";
 import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 
 const STATS = [
-  { label: "Years of Academic Presence", value: 12, suffix: "+" },
-  { label: "Students Trained", value: 4500, suffix: "+" },
-  { label: "Courses Offered", value: 40, suffix: "+" },
-  { label: "Placement Partners", value: 60, suffix: "+" },
+  { label: "Years of Academic Presence", value: 8, suffix: "+" },
+  { label: "Students Trained", value: 1000, suffix: "+" },
+  { label: "Courses Offered", value: 10, suffix: "+" },
+  { label: "Placement Partners", value: 15, suffix: "+" },
 ];
 
 function Counter({ value, suffix }) {
@@ -42,7 +42,7 @@ export default function StatsCounter() {
             transition={{ duration: 0.5, delay: i * 0.08 }}
             className="text-center"
           >
-            <p className="font-display text-4xl font-semibold text-brass-300 sm:text-5xl">
+            <p className="font-display text-4xl font-bold text-white sm:text-5xl">
               <Counter value={stat.value} suffix={stat.suffix} />
             </p>
             <p className="mt-2 text-sm text-ivory-100/60">{stat.label}</p>

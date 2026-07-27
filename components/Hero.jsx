@@ -166,47 +166,47 @@ export default function Hero() {
 
             {/* Floating Image */}
 
-         <motion.div
-  animate={{
-    y: [0, -15, 0],
-  }}
-  transition={{
-    duration: 4,
-    repeat: Infinity,
-    ease: "easeInOut",
-  }}
-  className="relative flex items-center justify-center"
->
-  {/* Animated Gradient Ring */}
-  <motion.div
-    animate={{
-      rotate: 360,
-    }}
-    transition={{
-      duration: 8,
-      repeat: Infinity,
-      ease: "linear",
-    }}
-    className="absolute h-[340px] w-[340px] rounded-full bg-gradient-to-r from-blue-500 via-cyan-400 to-indigo-600 p-[6px]"
-  >
-    <div className="h-full w-full rounded-full bg-white" />
-  </motion.div>
+            <motion.div
+              animate={{
+                y: [0, -15, 0],
+              }}
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              className="relative flex items-center justify-center"
+            >
+              {/* Animated Gradient Ring */}
+              <motion.div
+                animate={{
+                  rotate: 360,
+                }}
+                transition={{
+                  duration: 8,
+                  repeat: Infinity,
+                  ease: "linear",
+                }}
+                className="absolute h-[340px] w-[340px] rounded-full bg-gradient-to-r from-blue-500 via-cyan-400 to-indigo-600 p-[6px]"
+              >
+                <div className="h-full w-full rounded-full bg-white" />
+              </motion.div>
 
-  {/* Glow */}
-  <div className="absolute h-[360px] w-[360px] rounded-full bg-blue-500/20 blur-3xl" />
+              {/* Glow */}
+              <div className="absolute h-[360px] w-[360px] rounded-full bg-blue-500/20 blur-3xl" />
 
-  {/* Image */}
-  <div className="relative z-10 overflow-hidden rounded-full border-[8px] border-white shadow-[0_20px_60px_rgba(37,99,235,0.35)]">
-    <Image
-      src="/images/kartik.webp"
-      alt="Success Point College Student"
-      width={650}
-      height={650}
-      priority
-      className="h-[550px] w-[650px] object-cover transition-transform duration-500 hover:scale-110"
-    />
-  </div>
-</motion.div>
+              {/* Image */}
+              <div className="relative z-10 overflow-hidden rounded-full border-[8px] border-white shadow-[0_20px_60px_rgba(37,99,235,0.35)]">
+                <Image
+                  src="/images/kartik.webp"
+                  alt="Success Point College Student"
+                  width={650}
+                  height={650}
+                  priority
+                  className="h-[450px] w-[450px] object-cover transition-transform duration-500 hover:scale-110"
+                />
+              </div>
+            </motion.div>
             {/* Floating Card */}
 
             <motion.div

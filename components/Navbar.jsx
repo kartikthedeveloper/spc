@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
@@ -51,15 +51,13 @@ export default function Navbar() {
 
             <Link href="/" className="flex items-center gap-3">
 
-              <div className="w-11 h-11 rounded-xl bg-navy-950 flex items-center justify-center text-brass-300 font-bold text-lg">
-                SP
-              </div>
-
-              <div>
-                <h2 className="font-bold text-lg text-navy-950">
-                  {SITE.shortName}
-                </h2> 
-              </div>
+               <Image
+                       src="/images/success-point-logo.png"
+                       alt="success point logo"
+                       width={90}
+                       height={90}
+                       className=""
+                     />
 
             </Link>
 
