@@ -43,7 +43,6 @@ export default function Footer() {
           </div>
 
           <FooterCol title="Explore" links={FOOTER_LINKS.quickLinks} />
-          <FooterCol title="Admissions" links={FOOTER_LINKS.admissions} />
 
           <div>
             <h3 className="font-display text-sm font-semibold text-brass-300">Contact</h3>

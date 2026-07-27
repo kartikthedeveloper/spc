@@ -1,3 +1,5 @@
+import { label } from "framer-motion/client";
+
 export const SITE = {
   name: "Success Point College",
   shortName: "Success Point",
@@ -60,14 +62,12 @@ export const NAV_LINKS = [
 export const FOOTER_LINKS = {
   quickLinks: [
     { label: "About College", href: "/about" },
-    { label: "Faculty", href: "/faculty" },
+    { label:"Director's Message", href:"/directors-message"},
     { label: "Infrastructure", href: "/infrastructure" },
-    { label: "FAQs", href: "/faqs" },
-  ],
-  admissions: [
     { label: "Admission Process", href: "/admissions" },
-    { label: "Fee Structure", href: "/fee-structure" },
+
   ],
+
   legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },
     { label: "Refund Policy", href: "/refund-policy" },

@@ -1,38 +1,42 @@
 import Image from "next/image";
 
 export const metadata = {
-  title:
-    "Director's Message | Success Point College Sikar",
+  title: "Leadership Team | Success Point College Sikar",
   description:
-    "Read the Director's Message from Success Point College Sikar. Learn our vision, mission and commitment towards quality computer education, AI, Digital Marketing, BCA, MCA and career-focused learning.",
+    "Meet the leadership team of Success Point College Sikar. Learn about Founder Mr. Praveen Soni and Co-Founder Mr. Kartik Sharma, their vision, experience and commitment towards quality education.",
 
   keywords: [
-    "Director Message Success Point College",
     "Success Point College Sikar",
-    "Director Success Point",
+    "Founder Success Point College",
+    "Praveen Soni",
+    "Kartik Sharma",
+    "Co-Founder Success Point",
     "BCA College Sikar",
     "MCA College Sikar",
     "Computer Institute Sikar",
-    "Digital Marketing Institute",
-    "AI Training Institute Rajasthan",
+    "AI Institute Rajasthan",
+    "Digital Marketing Institute Sikar",
+    "Cyber Security Institute Rajasthan",
+    "Data Analytics Institute Sikar",
   ],
 
   alternates: {
-    canonical: "https://yourdomain.com/director-message",
+    canonical:
+      "https://yourdomain.com/leadership",
   },
 
   openGraph: {
-    title: "Director's Message | Success Point College",
+    title: "Leadership Team | Success Point College",
     description:
-      "A message from the Director of Success Point College Sikar.",
+      "Meet the Founder and Co-Founder of Success Point College Sikar.",
+    url: "https://yourdomain.com/leadership",
     type: "website",
-    url: "https://yourdomain.com/director-message",
   },
 };
 
-export default function DirectorMessage() {
+export default function LeadershipPage() {
   return (
-    <section className="bg-white">
+    <section className="bg-white mt-6">
 
       {/* Hero */}
 
@@ -41,109 +45,189 @@ export default function DirectorMessage() {
         <div className="mx-auto max-w-7xl px-6 text-center">
 
           <span className="rounded-full bg-white/20 px-5 py-2 text-sm font-semibold text-white">
-            Leadership
+            Leadership Team
           </span>
 
           <h1 className="mt-6 text-4xl font-bold text-white md:text-6xl">
-            Director's Message
+            Meet Our Leadership
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg text-indigo-100">
-            Inspiring students to learn, innovate and build successful careers
-            through quality education and practical knowledge.
+            Dedicated leaders committed to empowering students through
+            innovation, technology, quality education and career-focused
+            learning.
           </p>
 
         </div>
 
       </div>
 
-      {/* Director */}
+      {/* Leadership */}
 
-      <div className="mx-auto grid max-w-7xl gap-16 px-6 py-20 lg:grid-cols-[380px,1fr]">
+      <div className="mx-auto max-w-7xl px-6 py-20">
 
-        {/* Image */}
+        <div className="grid gap-10 lg:grid-cols-2">
 
-        <div className="flex justify-center">
+          {/* Founder */}
 
           <div className="overflow-hidden rounded-3xl border bg-white shadow-xl">
 
             <Image
               src="/images/director.webp"
-              alt="Praveen Soni - Director Success Point College Sikar"
-              width={420}
-              height={520}
-              priority
-              className="object-cover"
+              alt="Mr. Praveen Soni Founder Success Point College"
+              width={600}
+              height={650}
+              className="w-full object-cover"
             />
+
+            <div className="p-8">
+
+              <span className="rounded-full bg-indigo-100 px-4 py-2 text-sm font-semibold text-indigo-700">
+                Founder
+              </span>
+
+              <h2 className="mt-5 text-3xl font-bold text-gray-900">
+                Mr. Praveen Soni
+              </h2>
+
+              <p className="mt-2 text-indigo-600 font-medium">
+                Founder, Success Point College
+              </p>
+
+              <div className="mt-6 space-y-4 text-gray-700 leading-8">
+
+                <p>
+                  <strong>Experience :</strong> 15+ Years in Education &
+                  Academic Leadership
+                </p>
+
+                <p>
+                  Mr. Praveen Soni has been dedicated to transforming
+                  computer education by creating an institution focused on
+                  practical learning, professional development and student
+                  success. His vision has helped thousands of students
+                  build successful careers in technology and management.
+                </p>
+
+                <p>
+                  Under his leadership, Success Point College continues to
+                  provide industry-oriented education with a strong emphasis
+                  on quality teaching, innovation and ethical values.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          {/* Co-Founder */}
+
+          <div className="overflow-hidden rounded-3xl border bg-white shadow-xl">
+
+            <Image
+              src="/images/kartik-sharma.webp"
+              alt="Mr. Kartik Sharma Co-Founder Success Point College"
+              width={600}
+              height={650}
+              className="w-full object-cover"
+            />
+
+            <div className="p-8">
+
+              <span className="rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700">
+                Co-Founder
+              </span>
+
+              <h2 className="mt-5 text-3xl font-bold text-gray-900">
+                Mr. Kartik Sharma
+              </h2>
+
+              <p className="mt-2 text-green-600 font-medium">
+                Co-Founder & Technology Head
+              </p>
+
+              <div className="mt-6 space-y-4 text-gray-700 leading-8">
+
+                <p>
+                  <strong>Experience :</strong> 6+ Years in Software
+                  Development, AI, Digital Marketing & Technical Training
+                </p>
+
+                <p>
+                  Mr. Kartik Sharma is a technology educator, software
+                  developer and digital marketing professional with
+                  expertise in Artificial Intelligence, Full Stack Web
+                  Development, Mobile App Development, Data Analytics and
+                  Cyber Security.
+                </p>
+
+                <p>
+                  His mission is to bridge the gap between academics and
+                  industry by providing students with hands-on training,
+                  live projects, internships and modern AI-powered learning
+                  methodologies.
+                </p>
+
+              </div>
+
+            </div>
 
           </div>
 
         </div>
 
-        {/* Content */}
+      </div>
 
-        <div>
+      {/* Director Message */}
 
-          <span className="rounded-full bg-indigo-100 px-4 py-2 text-sm font-semibold text-indigo-700">
-            Director
-          </span>
+      <div className="bg-gray-50 py-20">
 
-          <h2 className="mt-5 text-4xl font-bold text-gray-900">
-            Mr. Praveen Soni
+        <div className="mx-auto max-w-5xl rounded-3xl bg-white p-10 shadow-lg">
+
+          <h2 className="text-4xl font-bold text-center text-gray-900">
+            Founder's Message
           </h2>
 
-          <p className="mt-2 text-lg font-medium text-indigo-600">
-            Director, Success Point College, Sikar
-          </p>
+          <div className="mt-10 space-y-7 text-lg leading-9 text-gray-700">
 
-          <div className="mt-10 space-y-6 text-lg leading-9 text-gray-700">
+            <p>Dear Students,</p>
 
             <p>
-              Dear Students,
+              Education is not merely about earning a qualification—it is
+              about developing the confidence, knowledge and practical
+              skills required to succeed in a rapidly changing world.
             </p>
 
             <p>
-              Education is not only about earning a degree—it is about developing
-              the knowledge, confidence and practical skills that help you
-              succeed throughout your life. At Success Point College, we are
-              committed to providing an educational environment where every
-              student can discover their potential and prepare for a successful
-              future.
+              At Success Point College, our commitment is to provide
+              industry-focused education that combines academic excellence
+              with practical exposure. We believe students should graduate
+              with real skills that prepare them for successful careers.
             </p>
 
             <p>
-              Today's world is driven by Artificial Intelligence, Data,
-              Software Development, Digital Marketing and Cyber Security.
-              Our programs are carefully designed to combine academic learning
-              with practical experience so that students are ready to meet the
-              expectations of modern industries.
+              As technology continues to evolve through Artificial
+              Intelligence, Software Development, Data Analytics, Digital
+              Marketing and Cyber Security, our institution remains focused
+              on delivering modern education that meets current industry
+              standards.
             </p>
 
             <p>
-              We strongly believe that learning should be practical,
-              innovative and career-oriented. Our experienced faculty,
-              modern computer labs, industry-focused curriculum and project-based
-              training help students gain real-world skills rather than just
-              theoretical knowledge.
+              Together with our experienced faculty and leadership team, we
+              strive to inspire innovation, professionalism and lifelong
+              learning in every student.
             </p>
 
             <p>
-              Our goal is not only to educate students but also to inspire them
-              to become responsible professionals, entrepreneurs and lifelong
-              learners. Every student who joins Success Point College becomes a
-              part of a learning community focused on excellence, innovation and
-              continuous growth.
+              I warmly welcome you to Success Point College and invite you
+              to become a part of our journey towards excellence.
             </p>
 
-            <p>
-              I warmly welcome you to Success Point College and encourage you to
-              take the first step toward a bright and successful future. Together,
-              let us learn, innovate and achieve excellence.
-            </p>
+            <div className="pt-8">
 
-            <div className="pt-6">
-
-              <h3 className="text-2xl font-bold text-gray-900">
+              <h3 className="text-2xl font-bold">
                 Best Wishes,
               </h3>
 
@@ -152,7 +236,7 @@ export default function DirectorMessage() {
               </p>
 
               <p className="text-gray-600">
-                Director
+                Founder
               </p>
 
               <p className="text-gray-600">
@@ -167,37 +251,38 @@ export default function DirectorMessage() {
 
       </div>
 
-      {/* Vision */}
+      {/* Vision & Mission */}
 
-      <div className="bg-gray-50 py-20">
+      <div className="py-20">
 
         <div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-2">
 
-          <div className="rounded-3xl bg-white p-10 shadow-sm">
+          <div className="rounded-3xl bg-indigo-50 p-10">
 
             <h3 className="text-3xl font-bold text-indigo-700">
               Our Vision
             </h3>
 
             <p className="mt-6 leading-8 text-gray-700">
-              To become one of Rajasthan's leading institutions for
-              computer education by nurturing skilled professionals in
-              Artificial Intelligence, Software Development, Cyber Security,
-              Data Analytics and Digital Marketing.
+              To become Rajasthan's most trusted institution for
+              technology and professional education by nurturing future
+              leaders in Artificial Intelligence, Software Development,
+              Cyber Security, Digital Marketing and Data Analytics.
             </p>
 
           </div>
 
-          <div className="rounded-3xl bg-white p-10 shadow-sm">
+          <div className="rounded-3xl bg-green-50 p-10">
 
-            <h3 className="text-3xl font-bold text-indigo-700">
+            <h3 className="text-3xl font-bold text-green-700">
               Our Mission
             </h3>
 
             <p className="mt-6 leading-8 text-gray-700">
-              To provide affordable, practical and industry-oriented education
-              that enables students to achieve academic excellence, secure
-              rewarding careers and contribute positively to society.
+              To provide affordable, practical and industry-oriented
+              education through experienced faculty, live projects,
+              internships and career guidance that empowers students to
+              achieve excellence.
             </p>
 
           </div>
@@ -208,17 +293,17 @@ export default function DirectorMessage() {
 
       {/* Quote */}
 
-      <div className="py-20">
+      <div className="pb-20">
 
         <div className="mx-auto max-w-5xl px-6 text-center">
 
           <blockquote className="text-3xl font-semibold leading-relaxed text-gray-900 md:text-4xl">
-            "Success is achieved through continuous learning, practical
-            experience and the courage to embrace innovation."
+            "Learning never stops. Innovation begins where curiosity meets
+            opportunity."
           </blockquote>
 
           <p className="mt-8 text-lg font-semibold text-indigo-700">
-            — Director, Success Point College
+            — Leadership Team, Success Point College
           </p>
 
         </div>
