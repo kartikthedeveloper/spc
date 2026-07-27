@@ -7,7 +7,7 @@ export const SITE = {
   url: "https://www.successpointcollege.in",
   address: {
     line1: "Piprali Rd, Opp. M.K. Memorial Sr. Sec. School",
-    line2: "Jat Colony, Sikar, Rajasthan, India",
+    line2: "Rajasthan, India",
     city: "Sikar",
     state: "Rajasthan",
     country: "India",
@@ -33,8 +33,6 @@ export const NAV_LINKS = [
     children: [
       { label: "About College", href: "/about" },
       { label: "Why Choose Us", href: "/why-choose-us" },
-      { label: "Chairman's Message", href: "/chairmans-message" },
-      { label: "Principal's Message", href: "/principals-message" },
       { label: "Director's Message", href: "/directors-message" },
       { label: "Infrastructure", href: "/infrastructure" },
       { label: "Faculty", href: "/faculty" },
@@ -56,15 +54,11 @@ export const NAV_LINKS = [
     href: "/admissions",
     children: [
       { label: "Admission Process", href: "/admissions" },
-      { label: "Admission Form", href: "/admissions/form" },
       { label: "Fee Structure", href: "/fee-structure" },
-      { label: "Scholarships", href: "/scholarships" },
     ],
   },
-  { label: "Placements", href: "/placements" },
   { label: "Gallery", href: "/gallery" },
   { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "/contact" },
 ];
 
 export const FOOTER_LINKS = {
@@ -72,15 +66,12 @@ export const FOOTER_LINKS = {
     { label: "About College", href: "/about" },
     { label: "Faculty", href: "/faculty" },
     { label: "Infrastructure", href: "/infrastructure" },
-    { label: "Placement Cell", href: "/placements" },
     { label: "Gallery", href: "/gallery" },
     { label: "FAQs", href: "/faqs" },
   ],
   admissions: [
     { label: "Admission Process", href: "/admissions" },
-    { label: "Admission Form", href: "/admissions/form" },
     { label: "Fee Structure", href: "/fee-structure" },
-    { label: "Scholarships", href: "/scholarships" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },

@@ -133,7 +133,7 @@ export default function Navbar() {
 
               <Link
                 href="/admissions/form"
-                className="rounded-xl bg-navy-950 px-5 py-3 text-white font-semibold hover:bg-black transition"
+                className="rounded-xl bg-indigo-700 px-5 py-3 text-white font-semibold hover:bg-indigo-900 transition"
               >
                 Apply Now
               </Link>
