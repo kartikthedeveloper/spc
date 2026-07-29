@@ -27,13 +27,13 @@ export const metadata = {
     "Success Point College Refund",
   ],
   alternates: {
-    canonical: "https://yourdomain.com/refund-policy",
+    canonical: "https://successpointsikar.com/refund-policy",
   },
   openGraph: {
     title: "Refund & Cancellation Policy | Success Point College Sikar",
     description:
       "Understand our fee refund and cancellation procedures. We ensure a transparent and fair refund process for all students.",
-    url: "https://yourdomain.com/refund-policy",
+    url: "https://successpointsikar.com/refund-policy",
     type: "website",
   },
 };

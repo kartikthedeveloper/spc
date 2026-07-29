@@ -22,14 +22,14 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://yourdomain.com/leadership",
+      "https://successpointsikar.com/leadership",
   },
 
   openGraph: {
     title: "Leadership Team | Success Point College",
     description:
       "Meet the Founder and Co-Founder of Success Point College Sikar.",
-    url: "https://yourdomain.com/leadership",
+    url: "https://successpointsikar.com/leadership",
     type: "website",
   },
 };

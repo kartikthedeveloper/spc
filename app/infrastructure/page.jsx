@@ -19,25 +19,25 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://yourdomain.com/infrastructure",
+    canonical: "https://successpointsikar.com/infrastructure",
   },
 
   openGraph: {
     title: "Infrastructure | Success Point College",
     description:
       "Modern classrooms, computer labs and career-focused learning environment.",
-    url: "https://yourdomain.com/infrastructure",
+    url: "https://successpointsikar.com/infrastructure",
     type: "website",
   },
 };
 
 const gallery = [
-  "/images/infrastructure/1.webp",
-  "/images/infrastructure/2.webp",
-  "/images/infrastructure/3.webp",
-  "/images/infrastructure/4.webp",
-  "/images/infrastructure/5.webp",
-  "/images/infrastructure/6.webp",
+  "/images/first.webp",
+  "/images/second.webp",
+  "/images/third.webp",
+  "/images/fourth.webp",
+  "/images/fifth.webp",
+  "/images/sixth.webp",
 ];
 
 const facilities = [
@@ -144,7 +144,7 @@ export default function Infrastructure() {
 
           </div>
 
-          <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-2">
 
             {gallery.map((img, index) => (
               <div
@@ -241,7 +241,7 @@ export default function Infrastructure() {
             <div>
 
               <Image
-                src="/images/infrastructure/main.webp"
+                src="/images/first.webp"
                 alt="Success Point College Campus"
                 width={700}
                 height={550}
@@ -299,7 +299,7 @@ export default function Infrastructure() {
 
           <p className="mt-8 text-lg font-semibold text-indigo-700">
 
-            — Success Point College, Sikar
+            — Success Point, Sikar
 
           </p>
 

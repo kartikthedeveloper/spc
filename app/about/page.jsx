@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://yourdomain.com/about",
+    canonical: "https://successpointsikar.com/about",
   },
 
   openGraph: {
     title: "About Success Point College Sikar",
     description:
       "Empowering students with industry-ready skills in Computer Science, AI, Digital Marketing, Cyber Security and Software Development.",
-    url: "https://yourdomain.com/about",
+    url: "https://successpointsikar.com/about",
     siteName: "Success Point College",
     type: "website",
   },

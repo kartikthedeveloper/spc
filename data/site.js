@@ -6,7 +6,7 @@ export const SITE = {
   tagline: "Where Sikar's Careers Begin",
   description:
     "Success Point College is a premier college and computer institute in Sikar, Rajasthan, offering graduation, computer, and professional courses with dedicated placement support.",
-  url: "https://www.successpointcollege.in",
+  url: "https://www.successpointcollege.com",
   address: {
     line1: "Piprali Rd, Opp. M.K. Memorial Sr. Sec. School",
     line2: "Rajasthan, India",

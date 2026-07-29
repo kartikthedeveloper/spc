@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: auto; /* Lenis takes over smooth scrolling */
+}
+
+body {
+  @apply bg-ivory-100 text-ink-900 font-body antialiased;
+}
+
+::selection {
+  background: rgba(184, 144, 46, 0.25);
+}
+
+/* Signature blueprint grid — the campus site-plan motif used across dark sections */
+.blueprint-grid {
+  background-image: linear-gradient(rgba(216, 182, 92, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(216, 182, 92, 0.09) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.glass-panel {
+  background: rgba(250, 247, 240, 0.06);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(216, 182, 92, 0.18);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(184, 144, 46, 0.15);
+}
+
+.text-gradient-brass {
+  background: linear-gradient(120deg, #e3c57a 0%, #b8902e 60%, #9a7523 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.focus-ring {
+  @apply outline-none focus-visible:ring-2 focus-visible:ring-brass-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

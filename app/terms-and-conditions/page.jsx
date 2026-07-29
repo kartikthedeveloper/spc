@@ -29,13 +29,13 @@ export const metadata = {
     "Acceptable Use Policy",
   ],
   alternates: {
-    canonical: "https://yourdomain.com/terms-conditions",
+    canonical: "https://successpointsikar.com/terms-conditions",
   },
   openGraph: {
     title: "Terms & Conditions | Success Point College Sikar",
     description:
       "Review the terms and conditions for using the Success Point College website and accessing our educational services.",
-    url: "https://yourdomain.com/terms-conditions",
+    url: "https://successpointsikar.com/terms-conditions",
     type: "website",
   },
 };

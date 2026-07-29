@@ -26,13 +26,13 @@ export const metadata = {
     "Success Point College Privacy",
   ],
   alternates: {
-    canonical: "https://yourdomain.com/privacy-policy",
+    canonical: "https://successpointsikar.com/privacy-policy",
   },
   openGraph: {
     title: "Privacy Policy | Success Point College Sikar",
     description:
       "We are committed to protecting your privacy. Read our full privacy policy to understand how your data is handled.",
-    url: "https://yourdomain.com/privacy-policy",
+    url: "https://successpointsikar.com/privacy-policy",
     type: "website",
   },
 };

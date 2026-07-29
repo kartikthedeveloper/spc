@@ -28,13 +28,13 @@ export const metadata = {
     "Success Point College admission 2026",
   ],
   alternates: {
-    canonical: "https://yourdomain.com/admission-process",
+    canonical: "https://successpointsikar.com/admission-process",
   },
   openGraph: {
     title: "Admission Process | Success Point College Sikar",
     description:
       "Step-by-step guide to admission at Success Point College. Apply now for BCA, MCA, and professional courses.",
-    url: "https://yourdomain.com/admission-process",
+    url: "https://successpointsikar.com/admission-process",
     type: "website",
   },
 };
