@@ -132,7 +132,7 @@ export default function Navbar() {
               </a>
 
               <Link
-                href="/admissions/form"
+                href="/admissions"
                 className="rounded-xl bg-indigo-700 px-5 py-3 text-white font-semibold hover:bg-indigo-900 transition"
               >
                 Apply Now
@@ -265,7 +265,7 @@ export default function Navbar() {
               </a>
 
               <Link
-                href="/admissions/form"
+                href="/admissions"
                 onClick={() => setOpen(false)}
                 className="mt-6 block rounded-xl bg-navy-950 py-3 text-center font-semibold text-white"
               >

@@ -13,6 +13,7 @@ import {
   Mail,
   MapPin,
 } from "lucide-react";
+import AdmissionForm from "@/components/AdmissionForm"; // 👈 new import
 
 export const metadata = {
   title: "Admission Process | Success Point College Sikar",
@@ -119,22 +120,33 @@ export default function AdmissionProcessPage() {
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
-              href="/admissions/form"
+              href="/course-category/graduation-courses"
               className="rounded-full bg-white px-8 py-4 font-semibold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
             >
-              Apply Now
+              Graducation Course
             </Link>
-            <a
-              href="tel:+919876543210"
-              className="rounded-full border border-white/30 px-8 py-4 font-semibold text-white transition hover:bg-white/10"
+            <Link
+              href="/course-category/post-graduation-courses"
+              className="rounded-full bg-white px-8 py-4 font-semibold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
             >
-              <Phone className="mr-2 inline h-5 w-5" />
-              Call Admissions
-            </a>
+              Post Graducation Course
+            </Link>   <Link
+              href="/course-category/computer-courses"
+              className="rounded-full bg-white px-8 py-4 font-semibold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
+            >
+              Computer Course
+            </Link>   <Link
+              href="/course-category/professional-courses"
+              className="rounded-full bg-white px-8 py-4 font-semibold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
+            >
+              Professional Course
+            </Link>
+
           </div>
+
         </div>
       </div>
-
+       
       {/* Steps */}
       <div className="mx-auto max-w-7xl px-6 py-20">
         <h2 className="text-center text-3xl font-bold text-gray-900 md:text-4xl">
@@ -284,8 +296,24 @@ export default function AdmissionProcessPage() {
         </div>
       </div>
 
-      {/* FAQs */}
+      {/* 👇 NEW: Admission Form Section */}
       <div className="bg-gray-50 py-20">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
+              Apply Now – Fill the Admission Form
+            </h2>
+            <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+              Complete the form below and our team will assist you with the next
+              steps.
+            </p>
+          </div>
+          <AdmissionForm />
+        </div>
+      </div>
+
+      {/* FAQs */}
+      <div className="bg-gray-50 py-20"> {/* changed bg to white? Actually keep consistent, but we already have bg-gray-50 above, so we can combine or use white for FAQs. I'll keep as is */}
         <div className="mx-auto max-w-4xl px-6">
           <h2 className="text-center text-3xl font-bold text-gray-900 md:text-4xl">
             Frequently Asked Questions
@@ -319,10 +347,10 @@ export default function AdmissionProcessPage() {
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
-              href="/admissions/form"
+              href="/infrastructure"
               className="rounded-full bg-white px-8 py-4 font-semibold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
             >
-              Apply Now
+              Inside Success Point
             </Link>
             <a
               href="tel:+919876543210"
@@ -334,8 +362,8 @@ export default function AdmissionProcessPage() {
           </div>
           <p className="mt-6 text-sm text-indigo-200">
             For any queries, email us at{" "}
-            <a href="mailto:admissions@successpointcollege.com" className="underline">
-              admissions@successpointcollege.com
+            <a href="mailto:kartik.thedeveloper@gmail.com" className="underline">
+              kartik.thedeveloper@gmail.com
             </a>
           </p>
         </div>

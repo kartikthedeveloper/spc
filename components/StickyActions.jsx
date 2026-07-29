@@ -26,7 +26,7 @@ export default function StickyActions() {
           <Phone size={16} aria-hidden="true" /> Call Now
         </a>
         <a
-          href="/admissions/form"
+          href="/admissions"
           className="flex flex-1 items-center justify-center gap-2 border-l border-white bg-indigo-600 py-3 text-sm font-semibold text-white focus-ring"
         >
           <GraduationCap size={16} aria-hidden="true" /> Apply Now

@@ -17,7 +17,7 @@ export default function CTASection() {
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link
-                href="/admissions/form"
+                href="/admissions"
                 className="inline-flex items-center gap-2 rounded-xl bg-brass-500 px-6 py-3.5 font-semibold text-navy-950 shadow-glow transition-transform hover:-translate-y-0.5 focus-ring"
               >
                 Apply for Admission

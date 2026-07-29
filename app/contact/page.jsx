@@ -1,5 +1,6 @@
 import { MapPin, Phone, Mail, MessageCircle } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import ContactForm from "@/components/ContactForm";
 import { SITE } from "@/data/site";
 
 export const metadata = {
@@ -52,30 +53,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <form className="space-y-4 rounded-xl2 border border-brass-500/20 bg-ivory-50 p-6 shadow-premium">
-            <div>
-              <label htmlFor="name" className="text-sm font-medium text-ink-700">Full Name</label>
-              <input id="name" name="name" type="text" required className="mt-1.5 w-full rounded-lg border border-brass-500/25 px-4 py-2.5 text-sm focus-ring" />
-            </div>
-            <div>
-              <label htmlFor="phone" className="text-sm font-medium text-ink-700">Phone Number</label>
-              <input id="phone" name="phone" type="tel" required className="mt-1.5 w-full rounded-lg border border-brass-500/25 px-4 py-2.5 text-sm focus-ring" />
-            </div>
-            <div>
-              <label htmlFor="course" className="text-sm font-medium text-ink-700">Course of Interest</label>
-              <input id="course" name="course" type="text" className="mt-1.5 w-full rounded-lg border border-brass-500/25 px-4 py-2.5 text-sm focus-ring" />
-            </div>
-            <div>
-              <label htmlFor="message" className="text-sm font-medium text-ink-700">Message</label>
-              <textarea id="message" name="message" rows={4} className="mt-1.5 w-full rounded-lg border border-brass-500/25 px-4 py-2.5 text-sm focus-ring" />
-            </div>
-            <button
-              type="submit"
-              className="w-full rounded-lg bg-navy-950 px-6 py-3 font-semibold text-brass-300 hover:bg-navy-900 transition-colors focus-ring"
-            >
-              Send Message
-            </button>
-          </form>
+          <ContactForm />
         </div>
       </div>
     </section>

@@ -289,7 +289,7 @@ export default function CoursePage({ params }) {
                     {/* CTAs */}
                     <div className="mt-8 flex flex-wrap items-center gap-4">
                         <Link
-                            href="/admissions/form"
+                            href="/admissions"
                             className="inline-flex items-center border-white gap-2 rounded-xl bg-indigo-500 px-6 py-3.5 font-semibold text-white shadow-glow hover:-translate-y-0.5 transition-transform focus-ring"
                         >
                             Apply for {course.shortTitle}
@@ -587,7 +587,7 @@ export default function CoursePage({ params }) {
                     </p>
                     <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
                         <Link
-                            href="/admissions/form"
+                            href="/admissions"
                             className="inline-flex items-center gap-2 rounded-xl bg-indigo-500 px-8 py-4 font-semibold text-navy-950 shadow-glow hover:-translate-y-0.5 transition-transform focus-ring"
                         >
                             Apply Now for {course.shortTitle}

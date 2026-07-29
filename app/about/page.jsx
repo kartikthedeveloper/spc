@@ -240,10 +240,10 @@ export default function About() {
         <div className="mt-10 flex flex-wrap justify-center gap-5">
 
           <Link
-            href="/courses"
+            href="/blog"
             className="rounded-xl bg-indigo-600 px-8 py-4 font-semibold text-white hover:bg-indigo-700"
           >
-            Explore Courses
+            Explore Blog
           </Link>
 
           <Link

@@ -232,7 +232,7 @@ export default function BlogPostPage({ params }) {
               </h2>
               <div className="mt-6 flex flex-wrap justify-center gap-4">
                 <Link
-                  href="/admissions/form"
+                  href="/admissions"
                   className="inline-flex items-center gap-2 rounded-xl bg-indigo-700 px-6 py-3 font-semibold text-white border-white shadow-glow hover:-translate-y-0.5 transition-transform focus-ring"
                 >
                   Apply for Admission <ArrowRight size={18} />

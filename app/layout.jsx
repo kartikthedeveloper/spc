@@ -34,6 +34,9 @@ export const metadata = {
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
+  verification: {
+    google: "ByKQGI0VFAK1A8ZpCp68Rrl0LgHJ1LEkioiya_jGDC0",
+  },
   keywords: [
     // Brand
     "Success Point College Sikar",
