@@ -1,13 +1,13 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Leadership Team | Success Point College Sikar",
+  title: "Leadership Team | Success Point Institute Sikar",
   description:
-    "Meet the leadership team of Success Point College Sikar. Learn about Founder Mr. Praveen Soni and Co-Founder Mr. Kartik Sharma, their vision, experience and commitment towards quality education.",
+    "Meet the leadership team of Success Point Institute Sikar. Learn about Founder Mr. Praveen Soni and Co-Founder Mr. Kartik Sharma, their vision, experience and commitment towards quality education.",
 
   keywords: [
-    "Success Point College Sikar",
-    "Founder Success Point College",
+    "Success Point Institute Sikar",
+    "Founder Success Point Institute",
     "Praveen Soni",
     "Kartik Sharma",
     "Co-Founder Success Point",
@@ -26,9 +26,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Leadership Team | Success Point College",
+    title: "Leadership Team | Success Point Institute",
     description:
-      "Meet the Founder and Co-Founder of Success Point College Sikar.",
+      "Meet the Founder and Co-Founder of Success Point Institute Sikar.",
     url: "https://successpointsikar.com/leadership",
     type: "website",
   },
@@ -75,7 +75,7 @@ export default function LeadershipPage() {
             <div className="w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl">
               <Image
                 src="/images/praveen-soni-copy.jpg"
-                alt="Mr. Praveen Soni Founder Success Point College"
+                alt="Mr. Praveen Soni Founder Success Point Institute"
                 width={500}
                 height={500}
                 className="w-full h-full object-cover"
@@ -93,7 +93,7 @@ export default function LeadershipPage() {
               </h2>
 
               <p className="mt-2 text-indigo-600 font-medium">
-                Founder, Success Point College
+                Founder, Success Point Institute
               </p>
 
               <div className="mt-6 space-y-4 text-gray-700 leading-8">
@@ -112,7 +112,7 @@ export default function LeadershipPage() {
                 </p>
 
                 <p>
-                  Under his leadership, Success Point College continues to
+                  Under his leadership, Success Point Institute continues to
                   provide industry-oriented education with a strong emphasis
                   on quality teaching, innovation and ethical values.
                 </p>
@@ -130,7 +130,7 @@ export default function LeadershipPage() {
             <div className="w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl flex justify-center items-center">
               <Image
                 src="/images/kartik-sharma.webp"
-                alt="Mr. Kartik Sharma Co-Founder Success Point College"
+                alt="Mr. Kartik Sharma Co-Founder Success Point Institute"
                 width={500}
                 height={500}
                 className="w-full h-full object-cover "
@@ -202,7 +202,7 @@ export default function LeadershipPage() {
             </p>
 
             <p>
-              At Success Point College, our commitment is to provide
+              At Success Point Institute, our commitment is to provide
               industry-focused education that combines academic excellence
               with practical exposure. We believe students should graduate
               with real skills that prepare them for successful careers.
@@ -223,7 +223,7 @@ export default function LeadershipPage() {
             </p>
 
             <p>
-              I warmly welcome you to Success Point College and invite you
+              I warmly welcome you to Success Point Institute and invite you
               to become a part of our journey towards excellence.
             </p>
 
@@ -298,7 +298,7 @@ export default function LeadershipPage() {
           </blockquote>
 
           <p className="mt-8 text-lg font-semibold text-indigo-700">
-            — Leadership Team, Success Point College
+            — Leadership Team, Success Point Institute
           </p>
 
         </div>

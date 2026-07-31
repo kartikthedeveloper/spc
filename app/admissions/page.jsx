@@ -16,25 +16,25 @@ import {
 import AdmissionForm from "@/components/AdmissionForm"; // 👈 new import
 
 export const metadata = {
-  title: "Admission Process | Success Point College Sikar",
+  title: "Admission Process | Success Point Institute Sikar",
   description:
-    "Learn about the easy and transparent admission process at Success Point College Sikar. Apply online, document verification, counselling, and enrollment for BCA, MCA, and professional courses.",
+    "Learn about the easy and transparent admission process at Success Point Institute Sikar. Apply online, document verification, counselling, and enrollment for BCA, MCA, and professional courses.",
   keywords: [
-    "Admission Process Success Point College",
-    "How to apply Success Point College",
+    "Admission Process Success Point Institute",
+    "How to apply Success Point Institute",
     "Admission in BCA Sikar",
     "Admission in MCA Sikar",
     "Computer College Admission Sikar",
     "Admission procedure Rajasthan",
-    "Success Point College admission 2026",
+    "Success Point Institute admission 2026",
   ],
   alternates: {
     canonical: "https://successpointsikar.com/admission-process",
   },
   openGraph: {
-    title: "Admission Process | Success Point College Sikar",
+    title: "Admission Process | Success Point Institute Sikar",
     description:
-      "Step-by-step guide to admission at Success Point College. Apply now for BCA, MCA, and professional courses.",
+      "Step-by-step guide to admission at Success Point Institute. Apply now for BCA, MCA, and professional courses.",
     url: "https://successpointsikar.com/admission-process",
     type: "website",
   },
@@ -116,7 +116,7 @@ export default function AdmissionProcessPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-indigo-100">
             A transparent, hassle-free admission process designed to help you
-            start your journey at Success Point College, Sikar.
+            start your journey at Success Point Institute, Sikar.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
@@ -259,7 +259,7 @@ export default function AdmissionProcessPage() {
       <div className="py-20">
         <div className="mx-auto max-w-7xl px-6">
           <h2 className="text-center text-3xl font-bold text-gray-900 md:text-4xl">
-            Why Choose Success Point College?
+            Why Choose Success Point Institute?
           </h2>
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
@@ -343,7 +343,7 @@ export default function AdmissionProcessPage() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-indigo-100">
             Start your admission process today and unlock a world of
-            opportunities at Success Point College, Sikar.
+            opportunities at Success Point Institute, Sikar.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link

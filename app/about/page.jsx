@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export const metadata = {
   title:
-    "About Success Point College Sikar | Best Computer Institute for BCA, MCA, AI & Digital Marketing",
+    "About Success Point Institute Sikar | Best Computer Institute for BCA, MCA, AI & Digital Marketing",
   description:
-    "Learn about Success Point College Sikar. We provide BCA, MCA, DCA, Data Analytics, AI, Digital Marketing, Website Development, Mobile App Development, Cyber Security and career-focused computer education with practical training and internship support.",
+    "Learn about Success Point Institute Sikar. We provide BCA, MCA, DCA, Data Analytics, AI, Digital Marketing, Website Development, Mobile App Development, Cyber Security and career-focused computer education with practical training and internship support.",
 
   keywords: [
-    "Success Point College Sikar",
-    "About Success Point College",
+    "Success Point Institute Sikar",
+    "About Success Point Institute",
     "Best Computer Institute in Sikar",
     "BCA College Sikar",
     "MCA College Sikar",
@@ -28,11 +28,11 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "About Success Point College Sikar",
+    title: "About Success Point Institute Sikar",
     description:
       "Empowering students with industry-ready skills in Computer Science, AI, Digital Marketing, Cyber Security and Software Development.",
     url: "https://successpointsikar.com/about",
-    siteName: "Success Point College",
+    siteName: "Success Point Institute",
     type: "website",
   },
 };
@@ -48,7 +48,7 @@ export default function About() {
         <div className="mx-auto max-w-4xl text-center">
 
           <span className="rounded-full bg-indigo-100 px-4 py-2 text-sm font-semibold text-indigo-700">
-            About Success Point College
+            About Success Point Institute
           </span>
 
           <h1 className="mt-6 text-4xl font-bold leading-tight text-gray-900 md:text-6xl">
@@ -57,7 +57,7 @@ export default function About() {
           </h1>
 
           <p className="mt-8 text-lg leading-8 text-gray-600">
-            Success Point College is one of the leading computer education and
+            Success Point Institute is one of the leading computer education and
             professional training institutes in Sikar, Rajasthan. Our mission is
             to prepare students with practical skills, industry knowledge, AI
             technologies and real-world experience so they can build successful
@@ -78,7 +78,7 @@ export default function About() {
           </h2>
 
           <p className="mt-6 text-gray-600 leading-8">
-            Success Point College provides modern computer education that focuses
+            Success Point Institute provides modern computer education that focuses
             on practical learning instead of only theoretical knowledge. Every
             course is designed according to today's industry requirements so that
             students can confidently work in companies, startups or as
@@ -163,7 +163,7 @@ export default function About() {
       <div className="mx-auto max-w-7xl px-6 py-20">
 
         <h2 className="text-center text-3xl font-bold text-gray-900">
-          Why Choose Success Point College?
+          Why Choose Success Point Institute?
         </h2>
 
         <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -206,7 +206,7 @@ export default function About() {
           <p className="mt-6 leading-8 text-gray-700">
             Technology is changing rapidly with Artificial Intelligence,
             automation and cloud computing becoming an essential part of every
-            industry. At Success Point College Sikar, students learn practical
+            industry. At Success Point Institute Sikar, students learn practical
             skills in software development, AI tools, digital marketing, cyber
             security, website development, mobile application development and
             data analytics to stay ahead in the modern job market.
@@ -228,7 +228,7 @@ export default function About() {
       <div className="mx-auto max-w-5xl px-6 py-20 text-center">
 
         <h2 className="text-4xl font-bold text-gray-900">
-          Start Your Career with Success Point College
+          Start Your Career with Success Point Institute
         </h2>
 
         <p className="mt-6 text-lg text-gray-600">

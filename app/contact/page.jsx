@@ -44,7 +44,7 @@ export default function ContactPage() {
 
             <div className="overflow-hidden rounded-xl2 border border-brass-500/20">
               <iframe
-                title="Success Point College Map"
+                title="Success Point Institute Map"
                 src={`https://www.google.com/maps?q=${encodeURIComponent(SITE.mapEmbedQuery)}&output=embed`}
                 className="h-72 w-full"
                 loading="lazy"

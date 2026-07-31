@@ -76,7 +76,7 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="mt-8 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg"
             >
-              Join Success Point College, Sikar for BCA, MCA, PGDCA and Cyber
+              Join Success Point Institute, Sikar for BCA, MCA, PGDCA and Cyber
               Security programs. Learn from industry experts, work on
               live projects, earn industry certifications, and receive
               complete placement assistance to build your successful
@@ -199,7 +199,7 @@ export default function Hero() {
               <div className="relative z-10 overflow-hidden rounded-full border-[8px] border-white shadow-[0_20px_60px_rgba(37,99,235,0.35)]">
                 <Image
                   src="/images/kartik.webp"
-                  alt="Success Point College Student"
+                  alt="Success Point Institute Student"
                   width={650}
                   height={650}
                   priority

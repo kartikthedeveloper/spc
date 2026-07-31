@@ -1,4 +1,4 @@
-# Success Point College — Website
+# Success Point Institute — Website
 
 Next.js 15 (App Router), JavaScript only, Tailwind CSS, Framer Motion, GSAP-ready, React Three Fiber.
 

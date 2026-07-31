@@ -39,14 +39,14 @@ export function generateMetadata({ params }) {
     const course = getCourseBySlug(params.slug);
     if (!course) return {};
 
-    const title = `${course.title} — ${course.duration} | Fees, Curriculum & Careers | Success Point College Sikar`;
+    const title = `${course.title} — ${course.duration} | Fees, Curriculum & Careers | Success Point Institute Sikar`;
     const description =
         `${course.tagline} ${course.eligibility}. ${course.overview.slice(0, 120)}... Best ${course.shortTitle} course in Sikar, Rajasthan. Enroll now for ${course.duration}.`;
 
     return {
         title,
         description,
-        keywords: `${course.title}, ${course.shortTitle} course, ${course.shortTitle} in Sikar, ${course.shortTitle} Rajasthan, ${course.category.replace(/-/g, " ")}, computer courses Sikar, best coaching Sikar, Success Point College`,
+        keywords: `${course.title}, ${course.shortTitle} course, ${course.shortTitle} in Sikar, ${course.shortTitle} Rajasthan, ${course.category.replace(/-/g, " ")}, computer courses Sikar, best coaching Sikar, Success Point Institute`,
         alternates: {
             canonical: `${SITE.url}/courses/${course.slug}`,
         },
@@ -113,7 +113,7 @@ export default function CoursePage({ params }) {
             courseMode: "onsite",
             location: {
                 "@type": "Place",
-                name: "Success Point College, Sikar",
+                name: "Success Point Institute, Sikar",
                 address: {
                     "@type": "PostalAddress",
                     addressLocality: "Sikar",
@@ -314,7 +314,7 @@ export default function CoursePage({ params }) {
                     {/* Geo badge */}
                     <div className="mt-6 flex items-center gap-2 text-xs text-ivory-100/40">
                         <MapPin size={14} />
-                        <span>Offered at Success Point College, Sikar, Rajasthan</span>
+                        <span>Offered at Success Point Institute, Sikar, Rajasthan</span>
                     </div>
                 </div>
             </section>
@@ -603,7 +603,7 @@ export default function CoursePage({ params }) {
                     </div>
                     <p className="mt-6 text-xs text-ivory-100/30 flex items-center justify-center gap-2">
                         <MapPin size={14} />
-                        Success Point College, Sikar, Rajasthan
+                        Success Point Institute, Sikar, Rajasthan
                     </p>
                 </div>
             </section>

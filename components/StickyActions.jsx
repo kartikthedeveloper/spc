@@ -46,7 +46,7 @@ export default function StickyActions() {
         </a>
         <a
           href={`tel:${SITE.phones[0].replace(/\s/g, "")}`}
-          aria-label="Call Success Point College"
+          aria-label="Call Success Point Institute"
           className="grid h-12 w-12 place-items-center rounded-full bg-navy-950 text-brass-300 shadow-premium hover:bg-navy-900 transition-colors focus-ring"
         >
           <Phone size={20} />

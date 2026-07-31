@@ -7,7 +7,7 @@ import { SITE } from "@/data/site";
 export const metadata = {
   title: "Blog — Career Guidance, Course Insights & Study Tips",
   description:
-    "Guides on choosing courses, career paths, and skills for students in Sikar and Rajasthan, from Success Point College.",
+    "Guides on choosing courses, career paths, and skills for students in Sikar and Rajasthan, from Success Point Institute.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: `Blog | ${SITE.name}`,

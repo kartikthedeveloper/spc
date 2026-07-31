@@ -17,13 +17,13 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Terms & Conditions | Success Point College Sikar",
+  title: "Terms & Conditions | Success Point Institute Sikar",
   description:
-    "Read the terms and conditions of using the Success Point College website and services. Understand your rights, obligations, and our policies regarding content, admissions, and more.",
+    "Read the terms and conditions of using the Success Point Institute website and services. Understand your rights, obligations, and our policies regarding content, admissions, and more.",
   keywords: [
-    "Terms and Conditions Success Point College",
+    "Terms and Conditions Success Point Institute",
     "Website Terms Sikar",
-    "Success Point College Policies",
+    "Success Point Institute Policies",
     "User Agreement Rajasthan",
     "College Terms of Use",
     "Acceptable Use Policy",
@@ -32,9 +32,9 @@ export const metadata = {
     canonical: "https://successpointsikar.com/terms-conditions",
   },
   openGraph: {
-    title: "Terms & Conditions | Success Point College Sikar",
+    title: "Terms & Conditions | Success Point Institute Sikar",
     description:
-      "Review the terms and conditions for using the Success Point College website and accessing our educational services.",
+      "Review the terms and conditions for using the Success Point Institute website and accessing our educational services.",
     url: "https://successpointsikar.com/terms-conditions",
     type: "website",
   },
@@ -46,7 +46,7 @@ export default function TermsConditionsPage() {
       icon: <Scale className="h-8 w-8 text-indigo-600" />,
       title: "Acceptance of Terms",
       items: [
-        "By using the Success Point College website, you agree to comply with these terms.",
+        "By using the Success Point Institute website, you agree to comply with these terms.",
         "If you do not agree with any part of these terms, please refrain from using our website.",
         "We reserve the right to update these terms at any time; continued use constitutes acceptance.",
       ],
@@ -55,7 +55,7 @@ export default function TermsConditionsPage() {
       icon: <BookOpen className="h-8 w-8 text-indigo-600" />,
       title: "Intellectual Property",
       items: [
-        "All content on this website – including text, graphics, logos, images, and course materials – is the property of Success Point College.",
+        "All content on this website – including text, graphics, logos, images, and course materials – is the property of Success Point Institute.",
         "You may not reproduce, distribute, or commercially exploit any content without prior written consent.",
         "Course materials provided to students are for personal educational use only.",
       ],
@@ -91,7 +91,7 @@ export default function TermsConditionsPage() {
       icon: <Shield className="h-8 w-8 text-indigo-600" />,
       title: "Limitation of Liability",
       items: [
-        "Success Point College shall not be liable for any indirect, incidental, or consequential damages arising from the use of our website or services.",
+        "Success Point Institute shall not be liable for any indirect, incidental, or consequential damages arising from the use of our website or services.",
         "Our total liability, in any case, is limited to the total fee paid by the student for the relevant course.",
         "We are not responsible for the content of external websites linked from our site.",
       ],
@@ -148,7 +148,7 @@ export default function TermsConditionsPage() {
               </h2>
               <p className="mt-4 text-gray-700 leading-relaxed">
                 This Terms and Conditions agreement governs your use of the
-                Success Point College website, application forms, and all
+                Success Point Institute website, application forms, and all
                 related services. It applies to all visitors, students, and
                 users. Please review these terms carefully before proceeding.
               </p>
@@ -204,7 +204,7 @@ export default function TermsConditionsPage() {
               </h3>
               <p className="mt-4 text-gray-700 leading-relaxed">
                 These terms constitute the entire agreement between you and
-                Success Point College regarding the use of our website and
+                Success Point Institute regarding the use of our website and
                 services. They supersede any prior agreements or understandings.
               </p>
             </div>
@@ -255,7 +255,7 @@ export default function TermsConditionsPage() {
               <MapPin className="h-8 w-8 text-indigo-600" />
               <p className="mt-2 font-medium text-gray-900">Address</p>
               <p className="text-center text-sm text-gray-700">
-                Success Point College, Sikar, Rajasthan
+                Success Point Institute, Sikar, Rajasthan
               </p>
             </div>
           </div>

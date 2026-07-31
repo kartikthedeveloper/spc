@@ -46,9 +46,9 @@ export const COURSES = [
     tagline: "A 3‑year honours‑track degree built around real software development — the best BCA in Sikar.",
     duration: "3 Years (6 Semesters)",
     eligibility: "Passed 10+2 in any stream from a recognised board; basic mathematics recommended.",
-    fees: "Contact Success Point College admissions cell for the current fee structure and instalment options.",
+    fees: "Contact Success Point Institute admissions cell for the current fee structure and instalment options.",
     overview:
-      "Success Point College, the best coaching institute in Sikar, Rajasthan, offers a BCA program that takes students from programming fundamentals to full project delivery. With a state‑of‑the‑art computer centre and expert faculty, students graduate with a working portfolio, not just a transcript. Our BCA is designed to meet the needs of the local IT industry and prepare you for higher studies.",
+      "Success Point Institute, the best coaching institute in Sikar, Rajasthan, offers a BCA program that takes students from programming fundamentals to full project delivery. With a state‑of‑the‑art computer centre and expert faculty, students graduate with a working portfolio, not just a transcript. Our BCA is designed to meet the needs of the local IT industry and prepare you for higher studies.",
     curriculum: [
       "Programming Fundamentals (C, C++)",
       "Data Structures & Algorithms",
@@ -96,9 +96,9 @@ export const COURSES = [
     tagline: "A 2‑year postgraduate program for graduates aiming at senior software roles — top MCA in Sikar.",
     duration: "2 Years (4 Semesters)",
     eligibility: "Graduation (BCA/B.Sc/B.Com or equivalent) with mathematics at 10+2 or graduation level.",
-    fees: "Contact Success Point College admissions cell for the current fee structure and instalment options.",
+    fees: "Contact Success Point Institute admissions cell for the current fee structure and instalment options.",
     overview:
-      "Success Point College, the best coaching in Sikar, Rajasthan, offers an MCA program that builds on undergraduate computing knowledge with advanced subjects in software architecture, cloud systems, and data engineering. Our MCA prepares students for senior developer, architect, and analyst roles, with a strong focus on practical projects and industry exposure.",
+      "Success Point Institute, the best coaching in Sikar, Rajasthan, offers an MCA program that builds on undergraduate computing knowledge with advanced subjects in software architecture, cloud systems, and data engineering. Our MCA prepares students for senior developer, architect, and analyst roles, with a strong focus on practical projects and industry exposure.",
     curriculum: [
       "Advanced Data Structures",
       "Advanced Database Management Systems",
@@ -140,9 +140,9 @@ export const COURSES = [
     tagline: "Your first step into computing — for absolute beginners in Sikar.",
     duration: "3 Months",
     eligibility: "No prior computer knowledge required; open to students after 10th and working adults.",
-    fees: "Contact Success Point College for the current fee structure.",
+    fees: "Contact Success Point Institute for the current fee structure.",
     overview:
-      "Success Point College, the best computer coaching in Sikar, Rajasthan, offers a Basic Computer Course that takes complete beginners from switching on a computer to confidently using MS Office, email, and the internet. This course is ideal for school leavers, housewives, and professionals who want to become computer‑literate.",
+      "Success Point Institute, the best computer coaching in Sikar, Rajasthan, offers a Basic Computer Course that takes complete beginners from switching on a computer to confidently using MS Office, email, and the internet. This course is ideal for school leavers, housewives, and professionals who want to become computer‑literate.",
     curriculum: [
       "Computer Fundamentals & Operating System Basics",
       "MS Word for documents and letters",
@@ -152,7 +152,7 @@ export const COURSES = [
     ],
     software: ["Windows", "MS Word", "MS Excel", "MS PowerPoint"],
     projects: ["A formatted resume in MS Word", "A simple monthly expense sheet in MS Excel"],
-    certification: "Certificate of Completion issued by Success Point College.",
+    certification: "Certificate of Completion issued by Success Point Institute.",
     placementSupport: "Guidance toward entry‑level office assistant and data entry roles in Sikar and nearby areas.",
     careers: ["Office Assistant", "Data Entry Operator", "Computer Operator"],
     salaryRange: "₹1.2 LPA – ₹2.2 LPA for entry‑level roles",
@@ -175,9 +175,9 @@ export const COURSES = [
     tagline: "Master advanced MS Office, internet skills, and more — for professionals in Sikar.",
     duration: "3 Months",
     eligibility: "Basic computer knowledge required; 10+2 passed recommended.",
-    fees: "Contact Success Point College for the current fee structure.",
+    fees: "Contact Success Point Institute for the current fee structure.",
     overview:
-      "Success Point College, the leading computer training centre in Sikar, Rajasthan, offers an Advanced Computer Course that goes beyond the basics. You will master advanced features of MS Office, internet research, email management, and basic trouble‑shooting. This course is perfect for office professionals, teachers, and anyone who wants to enhance their productivity.",
+      "Success Point Institute, the leading computer training centre in Sikar, Rajasthan, offers an Advanced Computer Course that goes beyond the basics. You will master advanced features of MS Office, internet research, email management, and basic trouble‑shooting. This course is perfect for office professionals, teachers, and anyone who wants to enhance their productivity.",
     curriculum: [
       "Advanced MS Word (Mail Merge, Macros, Forms)",
       "Advanced MS Excel (Pivot Tables, Lookups, Dashboards)",
@@ -188,7 +188,7 @@ export const COURSES = [
     ],
     software: ["MS Word", "MS Excel", "MS PowerPoint", "Outlook", "Tally Prime (intro)"],
     projects: ["A complete office automation project (letters, invoices, reports)"],
-    certification: "Certificate of Completion issued by Success Point College.",
+    certification: "Certificate of Completion issued by Success Point Institute.",
     placementSupport: "Assistance for office‑based job placements in Sikar, Jaipur, and remote roles.",
     careers: ["Senior Office Assistant", "Administrative Executive", "Data Analyst (Entry)", "Computer Teacher"],
     salaryRange: "₹1.8 LPA – ₹3.5 LPA",
@@ -211,9 +211,9 @@ export const COURSES = [
     tagline: "A one‑year diploma for comprehensive computer skills — the best DCA in Sikar.",
     duration: "1 Year (2 Semesters)",
     eligibility: "Passed 10+2 in any stream from a recognised board.",
-    fees: "Contact Success Point College for the current fee structure.",
+    fees: "Contact Success Point Institute for the current fee structure.",
     overview:
-      "Success Point College, the premier computer education institute in Sikar, Rajasthan, offers a DCA program that covers a wide range of computer applications — from office tools to programming and web design. This diploma is ideal for students who want a strong foundation in computing for government jobs, further studies, or immediate employment.",
+      "Success Point Institute, the premier computer education institute in Sikar, Rajasthan, offers a DCA program that covers a wide range of computer applications — from office tools to programming and web design. This diploma is ideal for students who want a strong foundation in computing for government jobs, further studies, or immediate employment.",
     curriculum: [
       "Computer Fundamentals & Operating Systems",
       "MS Office (Word, Excel, PowerPoint, Access)",
@@ -251,9 +251,9 @@ export const COURSES = [
     tagline: "Become a cyber security expert with legal knowledge — the best PG Diploma in Sikar.",
     duration: "1 Year (2 Semesters)",
     eligibility: "Graduation in any discipline from a recognised university.",
-    fees: "Contact Success Point College for the current fee structure.",
+    fees: "Contact Success Point Institute for the current fee structure.",
     overview:
-      "Success Point College, the top coaching institute in Sikar, Rajasthan, offers a Post Graduate Diploma in Cyber Security & Cyber Law. This program combines technical security skills (network security, ethical hacking, cryptography) with an understanding of cyber laws, IT Act, and digital forensics. Ideal for graduates aiming for security analyst roles or legal consultancy.",
+      "Success Point Institute, the top coaching institute in Sikar, Rajasthan, offers a Post Graduate Diploma in Cyber Security & Cyber Law. This program combines technical security skills (network security, ethical hacking, cryptography) with an understanding of cyber laws, IT Act, and digital forensics. Ideal for graduates aiming for security analyst roles or legal consultancy.",
     curriculum: [
       "Computer Networks & Security Fundamentals",
       "Ethical Hacking & Penetration Testing",
@@ -299,9 +299,9 @@ export const COURSES = [
     tagline: "SEO, paid ads, and social media — the best digital marketing course in Sikar.",
     duration: "3–4 Months",
     eligibility: "Passed 12th or graduation; open to working professionals.",
-    fees: "Contact Success Point College for the current fee structure.",
+    fees: "Contact Success Point Institute for the current fee structure.",
     overview:
-      "Success Point College, the best digital marketing training provider in Sikar, Rajasthan, offers a hands‑on course covering SEO, Google Ads, Meta Ads, social media, and content marketing. Students run real campaigns on practice budgets and build a portfolio of live work, making them job‑ready for the booming digital economy.",
+      "Success Point Institute, the best digital marketing training provider in Sikar, Rajasthan, offers a hands‑on course covering SEO, Google Ads, Meta Ads, social media, and content marketing. Students run real campaigns on practice budgets and build a portfolio of live work, making them job‑ready for the booming digital economy.",
     curriculum: [
       "Digital Marketing Fundamentals & Strategy",
       "Search Engine Optimization (On‑page, Off‑page, Technical)",
@@ -316,7 +316,7 @@ export const COURSES = [
       "A complete SEO audit and improvement plan for a local business in Sikar",
       "A live small‑budget ad campaign with performance report",
     ],
-    certification: "Certificate of Completion issued by Success Point College; guidance for Google & Meta certifications.",
+    certification: "Certificate of Completion issued by Success Point Institute; guidance for Google & Meta certifications.",
     placementSupport:
       "Internship placements with local businesses and digital agencies in Sikar, plus freelancing guidance.",
     careers: ["SEO Executive", "Social Media Manager", "PPC Executive", "Digital Marketing Executive", "Content Marketer"],
@@ -340,9 +340,9 @@ export const COURSES = [
     tagline: "Turn spreadsheets and databases into business decisions — the best data analyst course in Sikar.",
     duration: "3–4 Months",
     eligibility: "Passed 12th or graduation in any stream; basic Excel familiarity helpful.",
-    fees: "Contact Success Point College for the current fee structure.",
+    fees: "Contact Success Point Institute for the current fee structure.",
     overview:
-      "Success Point College, the top data analytics training institute in Sikar, Rajasthan, offers a practical Data Analyst course. You will master Excel, SQL, Power BI, and Python to clean, analyse, and visualise business data. This course prepares you for analyst roles across industries, with a focus on real‑world datasets.",
+      "Success Point Institute, the top data analytics training institute in Sikar, Rajasthan, offers a practical Data Analyst course. You will master Excel, SQL, Power BI, and Python to clean, analyse, and visualise business data. This course prepares you for analyst roles across industries, with a focus on real‑world datasets.",
     curriculum: [
       "Advanced Excel (Pivot Tables, Lookup Functions, Dashboards)",
       "SQL for Data Querying",
@@ -353,7 +353,7 @@ export const COURSES = [
     ],
     software: ["MS Excel", "Power BI Desktop", "MySQL", "Python (Jupyter Notebook)"],
     projects: ["A sales performance dashboard in Power BI", "An end‑to‑end analysis project using a public dataset"],
-    certification: "Certificate of Completion issued by Success Point College.",
+    certification: "Certificate of Completion issued by Success Point Institute.",
     placementSupport: "Portfolio building and interview preparation for analyst roles with local and remote employers.",
     careers: ["Data Analyst", "Business Analyst", "Reporting Analyst", "MIS Executive"],
     salaryRange: "₹2.5 LPA – ₹6 LPA for freshers",
@@ -376,9 +376,9 @@ export const COURSES = [
     tagline: "From HTML to full‑stack MERN — build and ship real websites, the best in Sikar.",
     duration: "4–6 Months",
     eligibility: "Passed 12th; basic computer familiarity recommended.",
-    fees: "Contact Success Point College for the current fee structure.",
+    fees: "Contact Success Point Institute for the current fee structure.",
     overview:
-      "Success Point College, the best web development coaching in Sikar, Rajasthan, offers a project‑driven Full Stack Web Development course. You will learn frontend, backend, and databases, and finally deploy your own full‑stack applications live on the internet. This course is designed to make you a job‑ready developer.",
+      "Success Point Institute, the best web development coaching in Sikar, Rajasthan, offers a project‑driven Full Stack Web Development course. You will learn frontend, backend, and databases, and finally deploy your own full‑stack applications live on the internet. This course is designed to make you a job‑ready developer.",
     curriculum: [
       "HTML5, CSS3 & Responsive Design",
       "JavaScript (ES6+) Fundamentals",
@@ -392,7 +392,7 @@ export const COURSES = [
       "A responsive personal portfolio site",
       "A full‑stack MERN application with authentication, deployed live",
     ],
-    certification: "Certificate of Completion issued by Success Point College.",
+    certification: "Certificate of Completion issued by Success Point Institute.",
     placementSupport: "Portfolio review, mock coding interviews, and referrals to partner web development companies.",
     careers: ["Frontend Developer", "Backend Developer", "Full Stack Developer", "Web Designer"],
     salaryRange: "₹2.5 LPA – ₹6 LPA for freshers",
@@ -415,9 +415,9 @@ export const COURSES = [
     tagline: "Build Android and iOS apps with Flutter or React Native — the best app development course in Sikar.",
     duration: "4–5 Months",
     eligibility: "Passed 12th; basic programming knowledge recommended.",
-    fees: "Contact Success Point College for the current fee structure.",
+    fees: "Contact Success Point Institute for the current fee structure.",
     overview:
-      "Success Point College, the best mobile app development training in Sikar, Rajasthan, offers a comprehensive course covering both Android and iOS app development using cross‑platform frameworks like Flutter and React Native. Students build and publish real apps on the Google Play Store and Apple App Store, gaining hands‑on experience.",
+      "Success Point Institute, the best mobile app development training in Sikar, Rajasthan, offers a comprehensive course covering both Android and iOS app development using cross‑platform frameworks like Flutter and React Native. Students build and publish real apps on the Google Play Store and Apple App Store, gaining hands‑on experience.",
     curriculum: [
       "Introduction to Mobile Development & Frameworks (Flutter/React Native)",
       "UI/UX Design Principles for Mobile",
@@ -434,7 +434,7 @@ export const COURSES = [
       "A simple to‑do app with Firebase authentication",
       "A full‑featured e‑commerce or social media app published on the store",
     ],
-    certification: "Certificate of Completion issued by Success Point College.",
+    certification: "Certificate of Completion issued by Success Point Institute.",
     placementSupport:
       "Portfolio building and interview preparation for mobile developer roles at startups and IT companies.",
     careers: ["Mobile App Developer", "Cross‑Platform Developer", "UI/UX Developer", "React Native Developer"],

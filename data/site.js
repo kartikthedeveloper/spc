@@ -1,11 +1,11 @@
 import { label } from "framer-motion/client";
 
 export const SITE = {
-  name: "Success Point College",
+  name: "Success Point Institute Sikar",
   shortName: "Success Point",
   tagline: "Where Sikar's Careers Begin",
   description:
-    "Success Point College is a premier college and computer institute in Sikar, Rajasthan, offering graduation, computer, and professional courses with dedicated placement support.",
+    "Success Point Institute is a Coding and computer institute in Sikar, Rajasthan, offering graduation, computer, and professional courses with dedicated placement support.",
   url: "https://www.successpointsikar.com",
   address: {
     line1: "Piprali Rd, Opp. M.K. Memorial Sr. Sec. School",
@@ -24,7 +24,7 @@ export const SITE = {
     linkedin: "https://www.linkedin.com/company/success-point-college-sikar",
     google: "https://g.page/r/CYEGXiXLxfNyEBM/review"
   },
-  mapEmbedQuery: "Success Point College, Piprali Rd, Sikar, Rajasthan",
+  mapEmbedQuery: "Success Point Institute, Piprali Rd, Sikar, Rajasthan",
 };
 
 export const NAV_LINKS = [

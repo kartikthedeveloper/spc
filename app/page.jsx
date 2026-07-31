@@ -11,7 +11,7 @@ import BlogCard from "@/components/BlogCard";
 export const metadata = {
   title: "Best Coding & Digital Marketing Institute in Sikar, Rajasthan",
   description:
-    "Succes offers BCA, MCA, PGDCA, and job-ready computer, digital marketing, and data analytics courses with dedicated placement support.",
+    "BCA, MCA, Digital marketing, Full Stack Web and data analytics courses with dedicated placement support.",
   alternates: { canonical: "/" },
 };
 

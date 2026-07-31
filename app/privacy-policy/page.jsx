@@ -14,22 +14,22 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy | Success Point College Sikar",
+  title: "Privacy Policy | Success Point Institute Sikar",
   description:
-    "Read the privacy policy of Success Point College Sikar. Learn how we collect, use, and protect your personal data when you visit our website or apply for admission.",
+    "Read the privacy policy of Success Point Institute Sikar. Learn how we collect, use, and protect your personal data when you visit our website or apply for admission.",
   keywords: [
-    "Privacy Policy Success Point College",
+    "Privacy Policy Success Point Institute",
     "Data Protection Sikar",
     "Student Privacy",
     "Website Privacy Policy",
     "Information Security Rajasthan",
-    "Success Point College Privacy",
+    "Success Point Institute Privacy",
   ],
   alternates: {
     canonical: "https://successpointsikar.com/privacy-policy",
   },
   openGraph: {
-    title: "Privacy Policy | Success Point College Sikar",
+    title: "Privacy Policy | Success Point Institute Sikar",
     description:
       "We are committed to protecting your privacy. Read our full privacy policy to understand how your data is handled.",
     url: "https://successpointsikar.com/privacy-policy",
@@ -95,7 +95,7 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-indigo-100">
-            At Success Point College, we are committed to protecting your
+            At Success Point Institute, we are committed to protecting your
             personal information. This policy explains how we collect, use, and
             safeguard your data.
           </p>
@@ -115,7 +115,7 @@ export default function PrivacyPolicyPage() {
                 Our Commitment to Privacy
               </h2>
               <p className="mt-4 text-gray-700 leading-relaxed">
-                Success Point College respects your privacy. This Privacy Policy
+                Success Point Institute respects your privacy. This Privacy Policy
                 applies to all visitors, students, and users of our website and
                 services. By using our website, you agree to the collection and
                 use of information in accordance with this policy.
@@ -225,7 +225,7 @@ export default function PrivacyPolicyPage() {
               <MapPin className="h-8 w-8 text-indigo-600" />
               <p className="mt-2 font-medium text-gray-900">Address</p>
               <p className="text-center text-sm text-gray-700">
-                Success Point College, Sikar, Rajasthan
+                Success Point Institute, Sikar, Rajasthan
               </p>
             </div>
           </div>

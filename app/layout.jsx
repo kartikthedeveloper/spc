@@ -39,8 +39,8 @@ export const metadata = {
   },
   keywords: [
     // Brand
-    "Success Point College Sikar",
-    "Success Point College",
+    "Success Point Institute Sikar",
+    "Success Point Institute",
 
     // General
     "best college in Sikar",
@@ -99,7 +99,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: SITE.url,
-    title: `${SITE.name} | Best Coding & Digital Marketing Institute in Sikar, Rajasthan`,
+    title: `${SITE.name} | Best Coding and Digital Marketing Institute in Sikar, Rajasthan`,
     description: SITE.description,
     siteName: SITE.name,
   },

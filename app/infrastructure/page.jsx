@@ -1,13 +1,13 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Infrastructure | Success Point College Sikar",
+  title: "Infrastructure | Success Point Institute Sikar",
 
   description:
-    "Explore the modern infrastructure of Success Point College Sikar including smart classrooms, advanced computer labs, digital learning environment, seminar hall, library and career-focused facilities.",
+    "Explore the modern infrastructure of Success Point Institute Sikar including smart classrooms, advanced computer labs, digital learning environment, seminar hall, library and career-focused facilities.",
 
   keywords: [
-    "Success Point College Infrastructure",
+    "Success Point Institute Infrastructure",
     "Computer Lab Sikar",
     "Best Computer Institute Sikar",
     "BCA College Infrastructure",
@@ -23,7 +23,7 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Infrastructure | Success Point College",
+    title: "Infrastructure | Success Point Institute",
     description:
       "Modern classrooms, computer labs and career-focused learning environment.",
     url: "https://successpointsikar.com/infrastructure",
@@ -106,7 +106,7 @@ export default function Infrastructure() {
 
           <p className="mt-8 text-lg leading-9 text-gray-700">
 
-            At Success Point College, we believe that an excellent learning
+            At Success Point Institute, we believe that an excellent learning
             environment plays a vital role in student success. Our campus
             combines modern infrastructure with practical training facilities
             to ensure students receive industry-ready education.
@@ -153,7 +153,7 @@ export default function Infrastructure() {
               >
                 <Image
                   src={img}
-                  alt={`Success Point College Infrastructure ${index + 1}`}
+                  alt={`Success Point Institute Infrastructure ${index + 1}`}
                   width={600}
                   height={450}
                   className="h-full w-full object-cover"
@@ -242,7 +242,7 @@ export default function Infrastructure() {
 
               <Image
                 src="/images/first.webp"
-                alt="Success Point College Campus"
+                alt="Success Point Institute Campus"
                 width={700}
                 height={550}
                 className="rounded-3xl shadow-xl"

@@ -15,22 +15,22 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Refund & Cancellation Policy | Success Point College Sikar",
+  title: "Refund & Cancellation Policy | Success Point Institute Sikar",
   description:
-    "Read the refund and cancellation policy of Success Point College Sikar. Learn about fee refund eligibility, timelines, and the process for requesting a refund.",
+    "Read the refund and cancellation policy of Success Point Institute Sikar. Learn about fee refund eligibility, timelines, and the process for requesting a refund.",
   keywords: [
-    "Refund Policy Success Point College",
+    "Refund Policy Success Point Institute",
     "Cancellation Policy Sikar",
     "Fee Refund College Rajasthan",
     "Tuition Refund Policy",
     "Admission Cancellation Process",
-    "Success Point College Refund",
+    "Success Point Institute Refund",
   ],
   alternates: {
     canonical: "https://successpointsikar.com/refund-policy",
   },
   openGraph: {
-    title: "Refund & Cancellation Policy | Success Point College Sikar",
+    title: "Refund & Cancellation Policy | Success Point Institute Sikar",
     description:
       "Understand our fee refund and cancellation procedures. We ensure a transparent and fair refund process for all students.",
     url: "https://successpointsikar.com/refund-policy",
@@ -111,7 +111,7 @@ export default function RefundPolicyPage() {
           <p className="mx-auto mt-6 max-w-3xl text-lg text-indigo-100">
             We believe in transparency and fairness. This policy outlines the
             terms and conditions for cancellation of admission and fee refunds
-            at Success Point College.
+            at Success Point Institute.
           </p>
           <p className="mt-4 text-sm text-indigo-200">
             Last updated: 01 January 2026
@@ -129,7 +129,7 @@ export default function RefundPolicyPage() {
                 Our Commitment to Fairness
               </h2>
               <p className="mt-4 text-gray-700 leading-relaxed">
-                At Success Point College, we are committed to providing a fair
+                At Success Point Institute, we are committed to providing a fair
                 and transparent refund process. This policy applies to all
                 students who seek to cancel their admission or request a refund
                 of the fees paid. We encourage you to read this policy carefully
