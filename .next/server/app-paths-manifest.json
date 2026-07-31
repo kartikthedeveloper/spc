@@ -1,5 +1,4 @@
 {
   "/page": "app/page.js",
-  "/directors-message/page": "app/directors-message/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/directors-message/page": "app/directors-message/page.js"
 }
