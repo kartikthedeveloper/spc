@@ -74,7 +74,7 @@ export default function LeadershipPage() {
 
             <div className="w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl">
               <Image
-                src="/images/praveen-soni-copy.jpg"
+                src="/images/praveen-soni.jpeg"
                 alt="Mr. Praveen Soni Founder Success Point Institute"
                 width={500}
                 height={500}
