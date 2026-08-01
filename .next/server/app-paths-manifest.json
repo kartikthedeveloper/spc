@@ -1,5 +1,6 @@
 {
-  "/blog/page": "app/blog/page.js",
   "/page": "app/page.js",
-  "/directors-message/page": "app/directors-message/page.js"
+  "/blog/page": "app/blog/page.js",
+  "/directors-message/page": "app/directors-message/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js"
 }

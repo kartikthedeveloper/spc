@@ -12,9 +12,16 @@ export const BLOG_POSTS = [
     excerpt:
       "A practical comparison of the computer courses worth taking after 12th in Sikar — what each one actually teaches, how long it takes, and what job it leads to.",
     category: "Career Guidance",
-    image:"/images/best-computer-course-in-sikar.webp",
-    author: "Success Point Institute Team",
-    publishedAt: "2026-07-29",
+    reviewedBy: {
+      name: "Kartik Sharma",
+      designation: "Academic Co-Founder",
+    },
+    image: "/images/best-computer-course-in-sikar.webp",
+    author: {
+      name: "Kartik Sharma",
+      designation: "Career Guidance & Education Experts",
+      profile: "/directors-message",
+    }, publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",
     readingTime: "7 min read",
     keywords: [
@@ -65,15 +72,55 @@ export const BLOG_POSTS = [
     faqs: [
       {
         q: "Can I do a computer course while also pursuing a degree?",
-        a: "Yes — most computer courses like Basic Computer, Tally Prime with GST, or Digital Marketing run for 2–4 months and are commonly taken alongside a degree program or during a gap before admission.",
+        a: "Yes. Most computer courses like Basic Computer, Web Development, and Digital Marketing are flexible and can be completed alongside a degree program or during the gap before college admissions.",
       },
       {
         q: "Which computer course has the fastest job placement in Sikar?",
-        a: "Tally Prime with GST and Basic Computer typically lead to the fastest local placements, since small businesses and CA firms in Sikar hire for these skills year-round.",
+        a: "Basic Computer, and Digital Marketing are among the fastest job-oriented computer courses. They can help students become job-ready within a few months, depending on their practical skills and performance.",
+      },
+      {
+        q: "Which is the best computer course after 12th?",
+        a: "The best course depends on your career goals. Students interested in software development can choose BCA or Web Development, while those interested in marketing can choose Digital Marketing. For office jobs, Basic Computer and advance computer are excellent options.",
+      },
+      {
+        q: "Can Arts students join computer courses after 12th?",
+        a: "Yes. Students from Arts, Commerce, and Science streams can join most computer courses. Many beginner-friendly courses do not require any prior programming knowledge.",
+      },
+      {
+        q: "Can Commerce students learn programming?",
+        a: "Absolutely. Programming can be learned by students from any stream. With consistent practice, Commerce students can build careers in web development, software development, and other IT fields.",
+      },
+      {
+        q: "Which computer course has the highest salary potential?",
+        a: "Courses such as Full Stack Web Development, Artificial Intelligence, Data Analytics, Cyber Security, and Software Development generally offer higher long-term salary potential compared to basic computer courses.",
+      },
+      {
+        q: "Do I need coding knowledge before joining a computer course?",
+        a: "No. Most beginner-level computer courses start from the basics. Coding is introduced gradually in programming-related courses such as Web Development or BCA.",
+      },
+      {
+        q: "Is Digital Marketing a good career after 12th?",
+        a: "Yes. Digital Marketing is a growing field with opportunities in agencies, companies, freelancing, and remote work. Students can start learning immediately after completing 12th.",
+      },
+      {
+        q: "Can I do both BCA and a computer course together?",
+        a: "Yes. Many students pursue short-term skill-based courses like Digital Marketing, Graphic Design, or Web Development alongside their BCA degree to improve practical skills and employability.",
+      },
+      {
+        q: "How long does a computer course usually take?",
+        a: "The duration depends on the course. Basic Computer and Tally courses usually take 2–3 months, while Digital Marketing and Web Development courses may take 3–6 months. Degree programs like BCA generally take three years.",
+      },
+      {
+        q: "Are computer courses useful for getting internships?",
+        a: "Yes. Practical computer skills significantly improve your chances of getting internships during college. Employers often value hands-on projects and real-world skills alongside academic qualifications.",
+      },
+      {
+        q: "How do I choose the right computer course after 12th?",
+        a: "Choose a course based on your interests, career goals, available time, and future job opportunities. Compare the course curriculum, practical training, certification, placement support, and career outcomes before making a decision.",
       },
     ],
     relatedSlugs: ["career-after-bca"],
-    relatedCourseSlugs: ["basic-computer", "tally-prime-with-gst", "digital-marketing", "bca"],
+    relatedCourseSlugs: ["basic-computer", "digital-marketing", "bca"],
   },
   {
     slug: "career-after-bca",
@@ -81,7 +128,7 @@ export const BLOG_POSTS = [
     excerpt:
       "What actually happens after a BCA degree — the job roles that hire BCA graduates, realistic starting salaries, and whether MCA is worth doing next.",
     category: "Career Guidance",
-    image:"/images/career-after-bca-in-sikar.webp",
+    image: "/images/career-after-bca-in-sikar.webp",
     author: "Success Point Institute Team",
     publishedAt: "2026-07-29",
     updatedAt: "2026-07-29",

@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "c579f1351f65185be3e514dd157ff485",
-    "previewModeSigningKey": "89114cf6e53f82c17cd3b6c674847869b2797f83c627db081f0fb2876cb6e297",
-    "previewModeEncryptionKey": "5cb1dc0a164b9162064499070ca13c476d3d0089e8edbb2323dabebe7578a0af"
-  }
-}
+{"version":4,"routes":{"/blog/best-computer-courses-after-12th-sikar":{},"/blog/career-after-bca":{}},"dynamicRoutes":{"/blog/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blog/[slug]","routeRegex":"^\\/blog\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"a02ec277a180a6c491ba4603d1a451df","previewModeSigningKey":"74851dc2dc0ad6b8a1f2c19aa9f99432b6f367df2ff7423048d23fa9341c22dc","previewModeEncryptionKey":"0570b7574799dc41e0fc03e82e60dce47ba90e24fc8fc5ef7424bc4cd4257ed6"}}

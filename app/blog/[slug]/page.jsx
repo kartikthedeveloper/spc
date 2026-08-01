@@ -52,8 +52,13 @@ export default function BlogPostPage({ params }) {
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
-    author: { "@type": "Organization", name: post.author },
-    publisher: { "@type": "Organization", name: SITE.name },
+    author: {
+      "@type": "Person",
+      name:
+        typeof post.author === "string"
+          ? post.author
+          : post.author.name,
+    }, publisher: { "@type": "Organization", name: SITE.name },
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
     mainEntityOfPage: `${SITE.url}/blog/${post.slug}`,
@@ -115,8 +120,11 @@ export default function BlogPostPage({ params }) {
               <Clock size={16} className="text-brass-300" />
               {post.readingTime}
             </span>
-            <span>By {post.author}</span>
-          </div>
+            <span>
+              By {typeof post.author === "string"
+                ? post.author
+                : post.author.name}
+            </span>          </div>
 
         </div>
       </section>
@@ -170,9 +178,13 @@ export default function BlogPostPage({ params }) {
                 SP
               </div>
               <div>
-                <p className="font-display font-semibold text-navy-950">{post.author}</p>
+                <p className="font-display font-semibold text-navy-950">
+                  {typeof post.author === "string"
+                    ? post.author
+                    : post.author.name}
+                </p>
                 <p className="text-sm text-ink-500">
-                  Published by {SITE.name}, Sikar — written from direct experience placing students.
+                  Published <span>By {post.author.name}</span>, Sikar — written from direct experience placing students.
                 </p>
               </div>
             </div>
