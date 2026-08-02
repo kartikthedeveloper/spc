@@ -1,6 +1,6 @@
 {
   "/page": "app/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/directors-message/page": "app/directors-message/page.js",
-  "/blog/[slug]/page": "app/blog/[slug]/page.js"
+  "/courses/[slug]/page": "app/courses/[slug]/page.js",
+  "/course-category/[slug]/page": "app/course-category/[slug]/page.js",
+  "/admissions/page": "app/admissions/page.js"
 }

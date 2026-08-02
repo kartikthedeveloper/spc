@@ -62,12 +62,12 @@ export default function Hero() {
               <br />
 
               <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 bg-clip-text text-transparent">
-                Dream Career
+                Dream Tech Career
               </span>
 
               <br />
 
-              With IT Industry Skills
+              With IT Industry Skills | Sikar
             </motion.h1>
 
             <motion.p
@@ -220,11 +220,11 @@ export default function Hero() {
               className="absolute bottom-12 left-0 hidden rounded-2xl bg-white p-5 shadow-2xl lg:block"
             >
               <p className="text-sm text-slate-500">
-                Placement Success
+                Top Institite in Sikar
               </p>
 
-              <h3 className="mt-1 text-3xl font-bold text-blue-600">
-                95%
+              <h3 className="mt-1 text-xl font-bold text-blue-600">
+                Admission Open
               </h3>
             </motion.div>
           </motion.div>

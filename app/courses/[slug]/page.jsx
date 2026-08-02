@@ -28,6 +28,7 @@ import { COURSES, getCourseBySlug, getRelatedCourses, CATEGORIES } from "@/data/
 import { SITE } from "@/data/site";
 import CourseCard from "@/components/CourseCard";
 import SectionHeading from "@/components/SectionHeading";
+import Image from "next/image";
 
 // ─── Static Params ─────────────────────────────────────────────────────────────
 export function generateStaticParams() {
@@ -39,7 +40,7 @@ export function generateMetadata({ params }) {
     const course = getCourseBySlug(params.slug);
     if (!course) return {};
 
-    const title = `${course.title} — ${course.duration} | Fees, Curriculum & Careers | Success Point Institute Sikar`;
+    const title = `${course.title} | Success Point Institute Sikar`;
     const description =
         `${course.tagline} ${course.eligibility}. ${course.overview.slice(0, 120)}... Best ${course.shortTitle} course in Sikar, Rajasthan. Enroll now for ${course.duration}.`;
 
@@ -69,7 +70,7 @@ export function generateMetadata({ params }) {
             card: "summary_large_image",
             title,
             description,
-            images: [course.image || `${SITE.url}/og-default.jpg`],
+            images: [course.image || `${SITE.url}/og.jpg`],
         },
         other: {
             "geo.region": "IN-RJ",
@@ -137,6 +138,15 @@ export default function CoursePage({ params }) {
             },
         })),
     };
+
+    const gallery = [
+        "/images/first.webp",
+        "/images/second.webp",
+        "/images/third.webp",
+        "/images/fourth.webp",
+        "/images/fifth.webp",
+        "/images/sixth.webp",
+    ];
 
     // ─── Schema: Breadcrumb ──────────────────────────────────────────────────
     const breadcrumbSchema = {
@@ -322,7 +332,17 @@ export default function CoursePage({ params }) {
             {/* ─── OVERVIEW ────────────────────────────────────────────────── */}
             <section className="bg-ivory-100 py-14 md:py-20">
                 <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-                    <div className="grid gap-8 md:grid-cols-3">
+                    <div className="overflow-hidden rounded-2xl bg-white p-2 shadow-2xl ring-1 ring-gray-200">
+                        <Image
+                            src={course.image}
+                            alt={course.title}
+                            width={700}
+                            height={500}
+                            className="h-auto w-full rounded-xl object-cover"
+                            priority
+                        />
+                    </div>
+                    <div className="grid mt-8 gap-8 md:grid-cols-3">
                         <div className="md:col-span-2">
                             <SectionHeading
                                 eyebrow="Overview"
@@ -531,6 +551,26 @@ export default function CoursePage({ params }) {
                     </div>
                 </div>
             </section>
+
+            <div className="mt-14 px-10 grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+
+                {gallery.map((img, index) => (
+                    <div
+                        key={index}
+                        className="overflow-hidden rounded-3xl shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
+                    >
+                        <Image
+                            src={img}
+                            alt={`Success Point Institute Infrastructure ${index + 1}`}
+                            width={600}
+                            height={450}
+                            className="h-full w-full object-cover"
+                        />
+                    </div>
+                ))}
+
+            </div>
+
 
             {/* ─── FAQS ────────────────────────────────────────────────────── */}
             <section id="faqs" className="bg-ivory-50 py-14 md:py-20">
