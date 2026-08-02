@@ -6,6 +6,7 @@ import CTASection from "@/components/CTASection";
 import { BLOG_POSTS } from "@/data/blog";
 import SectionHeading from "@/components/SectionHeading";
 import BlogCard from "@/components/BlogCard";
+import Campusvideo from "@/components/Campusvideo";
 import Image from "next/image";
 
 export const metadata = {
@@ -29,6 +30,7 @@ export default function HomePage() {
     <>
       <Hero />
       <StatsCounter />
+      <Campusvideo/>
       <FeaturedCourses />
       <WhyChooseUs />
 
