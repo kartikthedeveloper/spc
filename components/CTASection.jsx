@@ -18,7 +18,7 @@ export default function CTASection() {
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link
                 href="/admissions"
-                className="inline-flex items-center gap-2 rounded-xl bg-brass-500 px-6 py-3.5 font-semibold text-navy-950 shadow-glow transition-transform hover:-translate-y-0.5 focus-ring"
+                className="inline-flex items-center gap-2 rounded-xl bg-indigo-700 px-6 py-3.5 font-semibold text-white shadow-glow transition-transform hover:-translate-y-0.5 focus-ring"
               >
                 Apply for Admission
                 <ArrowRight size={18} />

@@ -1,6 +1,17 @@
 export default function VideoPlayer() {
   return (
     <div className="mx-auto mt-10 max-w-7xl rounded-xl overflow-hidden">
+      <div className="text-center">
+
+        <h2 className="text-4xl font-bold text-indigo-700">
+          Campus Video
+        </h2>
+
+        <p className="mt-4 mb-10 text-gray-600">
+          A glimpse of our learning environment.
+        </p>
+
+      </div>
       <video
         className="w-full rounded-xl"
         // controls

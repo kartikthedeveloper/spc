@@ -20,7 +20,7 @@ export default function FeaturedCourses() {
               <Link
                 key={cat.slug}
                 href={`/course-category/${cat.slug}`}
-                className="rounded-full border border-brass-500/25 px-4 py-2 text-xs font-medium text-ink-700 hover:bg-navy-950 hover:text-brass-300 hover:border-navy-950 transition-colors focus-ring"
+                className="rounded-full border border-brass-500/25 px-4 py-2 text-xs font-medium text-ink-700 hover:bg-indigo-700 hover:text-white hover:border-navy-950 transition-colors focus-ring"
               >
                 {cat.title}
               </Link>
