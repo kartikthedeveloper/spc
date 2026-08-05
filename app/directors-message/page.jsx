@@ -3,13 +3,13 @@ import Image from "next/image";
 export const metadata = {
   title: "Leadership Team | Success Point Institute Sikar",
   description:
-    "Meet the leadership team of Success Point Institute Sikar. Learn about Founder Mr. Praveen Soni and Co-Founder Mr. Kartik Sharma, their vision, experience and commitment towards quality education.",
+    "Meet the leadership team of Success Point Institute Sikar. Learn about Founder Mr. Praveen Soni their vision, experience and commitment towards quality education.",
 
   keywords: [
     "Success Point Institute Sikar",
     "Founder Success Point Institute",
     "Praveen Soni",
-    "Kartik Sharma",
+    // "Kartik Sharma",
     "Co-Founder Success Point",
     "BCA College Sikar",
     "MCA College Sikar",
@@ -125,7 +125,7 @@ export default function LeadershipPage() {
 
           {/* Co-Founder */}
 
-          <div className="overflow-hidden  rounded-3xl border bg-white shadow-xl">
+          {/* <div className="overflow-hidden  rounded-3xl border bg-white shadow-xl">
 
             <div className="w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl flex justify-center items-center">
               <Image
@@ -175,9 +175,9 @@ export default function LeadershipPage() {
 
             </div>
 
-          </div>
+          </div>*/}
 
-        </div>
+        </div> 
 
       </div>
 

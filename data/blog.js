@@ -13,12 +13,12 @@ export const BLOG_POSTS = [
       "A practical comparison of the computer courses worth taking after 12th in Sikar — what each one actually teaches, how long it takes, and what job it leads to.",
     category: "Career Guidance",
     reviewedBy: {
-      name: "Kartik Sharma",
+      name: "Success Point Team",
       designation: "Academic Co-Founder",
     },
     image: "/images/best-computer-course-in-sikar.webp",
     author: {
-      name: "Kartik Sharma",
+      name: "Success Point Team",
       designation: "Career Guidance & Education Experts",
       profile: "/directors-message",
     }, publishedAt: "2026-07-29",

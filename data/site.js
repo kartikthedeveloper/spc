@@ -15,9 +15,9 @@ export const SITE = {
     country: "India",
     postalCode: "332001",
   },
-  phones: ["+91 93515 40357", "+91 90575 08560"],
+  phones: ["+91 93515 40357"],
   whatsapp: "919351540357",
-  email: "kartik.thedeveloper@gmail.com",
+  email: "successpointsikar@gmail.com",
   social: {
     facebook: "https://www.facebook.com/successpointitandmanagementcollege",
     instagram: "https://www.instagram.com/success_point_college",
@@ -56,6 +56,8 @@ export const NAV_LINKS = [
       // { label: "Fee Structure", href: "/fee-structure" },
     ],
   },
+  { label: "Kid's Code", href: "/kids-code-in-sikar" },
+  { label: "Internship", href: "/internship" },
   { label: "Blog", href: "/blog" },
 ];
 
