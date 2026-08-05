@@ -56,8 +56,8 @@ export const NAV_LINKS = [
       // { label: "Fee Structure", href: "/fee-structure" },
     ],
   },
-  { label: "Kid's Code", href: "/kids-code-in-sikar" },
-  { label: "Internship", href: "/internship" },
+  // { label: "Kid's Code", href: "/kids-code-in-sikar" },
+  // { label: "Internship", href: "/internship" },
   { label: "Blog", href: "/blog" },
 ];
 
