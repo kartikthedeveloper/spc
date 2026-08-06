@@ -193,10 +193,10 @@ export default function Hero() {
               </motion.div>
 
               {/* Glow */}
-              {/* <div className="absolute h-[360px] w-[360px] rounded-full bg-blue-500/20 blur-3xl" /> */}
+              <div className="absolute h-[360px] w-[360px] rounded-full bg-blue-500/20 blur-3xl" />
 
               {/* Image */}
-              {/* <div className="relative z-10 overflow-hidden rounded-full border-[8px] border-white shadow-[0_20px_60px_rgba(37,99,235,0.35)]">
+              <div className="relative z-10 overflow-hidden rounded-full border-[8px] border-white shadow-[0_20px_60px_rgba(37,99,235,0.35)]">
                 <Image
                   src="/images/kartik.webp"
                   alt="Success Point Institute Student"
@@ -205,11 +205,11 @@ export default function Hero() {
                   priority
                   className="h-[450px] w-[450px] object-cover transition-transform duration-500 hover:scale-110"
                 />
-              </div> */}
+              </div>
             </motion.div>
             {/* Floating Card */}
 
-            {/* <motion.div
+             <motion.div
               animate={{
                 y: [0, 12, 0],
               }}
@@ -226,7 +226,7 @@ export default function Hero() {
               <h3 className="mt-1 text-xl font-bold text-blue-600">
                 Admission Open
               </h3>
-            </motion.div> */}
+            </motion.div>
           </motion.div>
         </div>
       </div>

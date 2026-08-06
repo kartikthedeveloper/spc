@@ -15,7 +15,7 @@ export const SITE = {
     country: "India",
     postalCode: "332001",
   },
-  phones: ["+91 93515 40357"],
+  phones: ["+91 9351540357"],
   whatsapp: "919351540357",
   email: "successpointsikar@gmail.com",
   social: {

@@ -8,8 +8,8 @@ export const metadata = {
   keywords: [
     "Success Point Institute Sikar",
     "Founder Success Point Institute",
-    "Praveen Soni",
-    // "Kartik Sharma",
+    "Praveen Soni sikar",
+    "Kartik Sharma sikar",
     "Co-Founder Success Point",
     "BCA College Sikar",
     "MCA College Sikar",
@@ -125,7 +125,7 @@ export default function LeadershipPage() {
 
           {/* Co-Founder */}
 
-          {/* <div className="overflow-hidden  rounded-3xl border bg-white shadow-xl">
+           <div className="overflow-hidden  rounded-3xl border bg-white shadow-xl">
 
             <div className="w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl flex justify-center items-center">
               <Image
@@ -175,7 +175,7 @@ export default function LeadershipPage() {
 
             </div>
 
-          </div>*/}
+          </div>
 
         </div> 
 
