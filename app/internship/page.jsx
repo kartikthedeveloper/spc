@@ -49,15 +49,91 @@ export const metadata = {
   description:
     "Industry-focused live project internships in BCA, MCA, Digital Marketing, MERN Stack, Data Analytics, and more. Get hands-on experience with real-world projects at Success Point College, Sikar.",
   keywords: [
-    "Live project internship Sikar",
-    "Internship for BCA students",
-    "MCA internship Rajasthan",
-    "Digital marketing internship",
-    "MERN stack internship",
-    "Data analyst internship",
-    "Software development internship",
-    "Success Point College internship",
-    "Industrial training Sikar",
+    // Primary Local Keywords
+    "Internship in Sikar",
+    "Internship in Rajasthan",
+    "Best Internship in Sikar",
+    "Best Internship in Rajasthan",
+    "Live Project Internship Sikar",
+    "Live Project Internship Rajasthan",
+    "Industrial Training Sikar",
+    "Industrial Training Rajasthan",
+    "Industrial Internship Sikar",
+    "Summer Internship Sikar",
+    "Winter Internship Sikar",
+    "Professional Internship Sikar",
+    "Job Oriented Internship Sikar",
+
+    // College Students
+    "Internship for BCA Students Sikar",
+    "Internship for MCA Students Sikar",
+    "BCA Internship Rajasthan",
+    "MCA Internship Rajasthan",
+    "Internship for Computer Science Students Rajasthan",
+    "Internship for IT Students Rajasthan",
+    "Computer Science Internship Sikar",
+    "IT Internship Sikar",
+
+    // Software & Development
+    "MERN Stack Internship Sikar",
+    "MERN Stack Internship Rajasthan",
+    "Full Stack Developer Internship Sikar",
+    "Full Stack Internship Rajasthan",
+    "React JS Internship Sikar",
+    "Node JS Internship Rajasthan",
+    "Web Development Internship Sikar",
+    "Software Development Internship Rajasthan",
+    "Frontend Developer Internship Sikar",
+    "Backend Developer Internship Rajasthan",
+    "Mobile App Development Internship Rajasthan",
+
+    // Data & AI
+    "Data Analyst Internship Sikar",
+    "Data Analytics Internship Rajasthan",
+    "Artificial Intelligence Internship Rajasthan",
+    "Machine Learning Internship Rajasthan",
+    "Python Internship Sikar",
+
+    // Cyber Security
+    "Cyber Security Internship Sikar",
+    "Cyber Security Internship Rajasthan",
+    "Ethical Hacking Internship Rajasthan",
+
+    // Digital Marketing
+    "Digital Marketing Internship Sikar",
+    "Digital Marketing Internship Rajasthan",
+    "SEO Internship Rajasthan",
+    "Social Media Marketing Internship Sikar",
+
+    // Training Keywords
+    "Live Project Training Sikar",
+    "Real Time Project Training Rajasthan",
+    "Project Based Internship Sikar",
+    "Industry Oriented Training Rajasthan",
+    "Practical Training Sikar",
+    "Software Training Institute Sikar",
+    "IT Training Institute Rajasthan",
+
+    // Local Search Intent
+    "Internship Near Me",
+    "Industrial Training Near Me",
+    "Best Internship Institute Sikar",
+    "Best Industrial Training Institute Rajasthan",
+    "Best Software Training Institute Sikar",
+    "Computer Internship Sikar",
+    "Software Company Internship Sikar",
+    "Internship with Certificate Sikar",
+    "Internship with Live Projects Rajasthan",
+
+    // Brand Keywords
+    "Success Point Institute Sikar Internship",
+    "Success Point College Sikar Internship",
+    "Success Point Live Project Internship",
+    "Success Point Industrial Training Sikar",
+    "Success Point MERN Stack Internship",
+    "Success Point Digital Marketing Internship",
+    "Success Point Data Analyst Internship",
+    "Success Point Cyber Security Internship",
   ],
   alternates: {
     canonical: "https://successpointsikar.com/internship",
@@ -246,7 +322,7 @@ export default function InternshipPage() {
 
   return (
     <section className="bg-white overflow-x-hidden">
-      
+
       {/* Hero Section */}
       <div className="relative overflow-hidden bg-gradient-to-br from-indigo-700 via-purple-700 to-pink-700 py-20">
         {/* Animated elements */}
@@ -259,30 +335,30 @@ export default function InternshipPage() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-5">
           <Briefcase className="h-64 w-64 text-white" />
         </div>
-        
+
         <div className="relative mx-auto max-w-7xl px-6 text-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-white/20 px-6 py-2 text-white backdrop-blur">
             <Sparkles className="h-4 w-4" />
             <span className="font-semibold">🚀 Limited Seats Available</span>
           </div>
-          
+
           <h1 className="mt-8 text-5xl font-black text-white md:text-7xl">
             Live Project <br />
             <span className="text-yellow-300">Internship Program</span>
           </h1>
-          
+
           <p className="mx-auto mt-6 max-w-3xl text-xl text-white/90">
-            Build real-world skills with industry projects. Get hands-on experience, 
+            Build real-world skills with industry projects. Get hands-on experience,
             expert mentorship, and a certificate that <strong className="text-yellow-200">stands out</strong>.
           </p>
-          
+
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="#apply-now"
               className="group rounded-full bg-white px-8 py-4 font-bold text-purple-700 shadow-2xl transition hover:scale-105 hover:shadow-2xl"
             >
               <span className="flex items-center gap-2">
-                Apply Now 
+                Apply Now
                 <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
               </span>
             </Link>
@@ -293,7 +369,7 @@ export default function InternshipPage() {
               View Programs
             </Link>
           </div>
-          
+
           <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-white">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5" />
@@ -325,7 +401,7 @@ export default function InternshipPage() {
               Bridge the gap between academic knowledge and industry requirements.
             </p>
           </div>
-          
+
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {benefits.map((benefit, idx) => (
               <div
@@ -359,7 +435,7 @@ export default function InternshipPage() {
               Choose your domain and work on live projects that match your career goals.
             </p>
           </div>
-          
+
           <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {internshipPrograms.map((program, idx) => (
               <div
@@ -377,7 +453,7 @@ export default function InternshipPage() {
                     <Clock className="h-4 w-4" />
                     <span>{program.duration}</span>
                   </div>
-                  
+
                   <div className="mt-4">
                     <p className="text-sm font-semibold text-gray-700">Projects:</p>
                     <ul className="mt-2 space-y-1">
@@ -389,7 +465,7 @@ export default function InternshipPage() {
                       ))}
                     </ul>
                   </div>
-                  
+
                   <div className="mt-4">
                     <p className="text-sm font-semibold text-gray-700">Skills:</p>
                     <div className="mt-2 flex flex-wrap gap-1">
@@ -408,7 +484,7 @@ export default function InternshipPage() {
                       )}
                     </div>
                   </div>
-                  
+
                   <div className="mt-4 border-t pt-4">
                     <p className="text-sm text-gray-600">
                       <span className="font-semibold">Outcome:</span> {program.outcome}
@@ -432,7 +508,7 @@ export default function InternshipPage() {
               What Our <span className="text-indigo-600">Interns Say</span>
             </h2>
           </div>
-          
+
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {testimonials.map((testimonial, idx) => (
               <div
@@ -470,7 +546,7 @@ export default function InternshipPage() {
               Our alumni have been placed at leading companies across India.
             </p>
           </div>
-          
+
           <div className="mt-10 flex flex-wrap items-center justify-center gap-8">
             {companies.map((company, idx) => (
               <div
@@ -495,7 +571,7 @@ export default function InternshipPage() {
               Simple 4-step process to start your internship journey.
             </p>
           </div>
-          
+
           <div className="mt-12 grid gap-8 md:grid-cols-4">
             {[
               {

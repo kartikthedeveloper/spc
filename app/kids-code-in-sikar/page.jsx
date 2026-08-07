@@ -31,14 +31,84 @@ export const metadata = {
   description:
     "Fun & interactive coding classes for kids (Class 6-12) in Sikar. Learn programming, game development, AI, and robotics. Enroll now for 2026 batch!",
   keywords: [
-    "Kids coding classes Sikar",
-    "Coding for kids Sikar",
-    "Programming classes for children Sikar",
-    "Game development for kids",
-    "Robotics classes Sikar",
-    "Computer classes for kids sikar",
-    "Coding course for students sikar",
-    "Success Point kids coding sikar",
+    // Primary Local Keywords
+    "Kids Coding Classes Sikar",
+    "Coding Classes for Kids Sikar",
+    "Coding Course for Kids Sikar",
+    "Best Kids Coding Institute Sikar",
+    "Best Coding Institute Sikar",
+    "Coding Academy Sikar",
+    "Coding Training Institute Sikar",
+    "Programming Classes for Kids Sikar",
+    "Computer Classes for Kids Sikar",
+    "Coding Coaching Sikar",
+    "Computer Coaching Sikar",
+    "Coding Institute Near Me",
+    "Coding Classes Near Me",
+    "Kids Coding Near Me",
+    "Programming Classes Near Me",
+
+    // School Students
+    "Coding Course for School Students Sikar",
+    "Coding Classes for School Students",
+    "Coding for Beginners Sikar",
+    "Coding Classes for Beginners",
+    "Coding Classes for Children",
+    "Coding Classes for Teenagers",
+    "Coding Classes After School",
+    "Coding Course After Class 5",
+    "Coding Course After Class 6",
+    "Coding Course After Class 8",
+    "Coding Course After Class 10",
+    "Computer Education for Kids",
+    "Programming for Kids",
+    "Coding for Kids India",
+
+    // Technology Keywords
+    "Scratch Programming Classes",
+    "Scratch Coding Classes Sikar",
+    "Python for Kids",
+    "Python Classes for Kids Sikar",
+    "Game Development for Kids",
+    "Game Development Classes Sikar",
+    "Robotics Classes Sikar",
+    "STEM Education Sikar",
+    "STEM Classes Sikar",
+    "AI Classes for Kids",
+    "AI Classes for Kids Sikar",
+    "Artificial Intelligence for Kids",
+    "Block Coding Classes",
+    "Creative Coding Classes",
+    "Computational Thinking Classes",
+
+    // Parent Search Intent
+    "Best Coding Classes for Children",
+    "Best Computer Classes for Kids",
+    "Affordable Coding Classes Sikar",
+    "Weekend Coding Classes Sikar",
+    "Summer Coding Camp Sikar",
+    "Coding Bootcamp Sikar",
+    "Coding Workshop Sikar",
+    "Digital Skills for Kids",
+    "Future Skills for Students",
+    "Technology Classes for Kids",
+
+    // Local SEO
+    "Best Computer Institute in Sikar",
+    "Top Computer Institute in Sikar",
+    "Top Computer Classes in Sikar",
+    "Best Computer Coaching Sikar",
+    "Computer Training Institute Sikar",
+    "Programming Institute Sikar",
+    "Coding Education Sikar",
+    "Coding Center Sikar",
+
+    // Brand Keywords
+    "Success Point Institute Sikar",
+    "Success Point Kids Coding Sikar",
+    "Success Point Coding Classes",
+    "Success Point Computer Institute Sikar",
+    "Success Point Programming Classes",
   ],
   alternates: {
     canonical: "https://successpointsikar.com/kids-code-in-sikar",
@@ -176,7 +246,7 @@ export default function KidsCodingPage() {
 
   return (
     <section className="bg-white overflow-x-hidden">
-      
+
       {/* Hero Section - Colorful & Playful */}
       <div className="relative overflow-hidden bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 py-20">
         {/* Floating shapes for fun effect */}
@@ -189,30 +259,30 @@ export default function KidsCodingPage() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-5">
           <Code2 className="h-64 w-64 text-white" />
         </div>
-        
+
         <div className="relative mx-auto max-w-7xl px-6 text-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-white/20 px-6 py-2 text-white backdrop-blur">
             <Sparkles className="h-4 w-4" />
             <span className="font-semibold">🔥 Future Tech Leaders Program</span>
           </div>
-          
+
           <h1 className="mt-8 text-5xl font-black text-white md:text-7xl">
             Kids Coding <br />
             <span className="text-yellow-300">Classes in Sikar</span>
           </h1>
-          
+
           <p className="mx-auto mt-6 max-w-3xl text-xl text-white/90">
-            Transform your child's curiosity into creativity! Fun, interactive, 
+            Transform your child's curiosity into creativity! Fun, interactive,
             and future-ready coding courses for <strong className="text-yellow-200">Class 6 to 12</strong> students.
           </p>
-          
+
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="#apply-now"
               className="group rounded-full bg-white px-8 py-4 font-bold text-purple-700 shadow-2xl transition hover:scale-105 hover:shadow-2xl"
             >
               <span className="flex items-center gap-2">
-                Enroll Now 
+                Enroll Now
                 <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
               </span>
             </Link>
@@ -223,7 +293,7 @@ export default function KidsCodingPage() {
               View Programs
             </Link>
           </div>
-          
+
           <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-white">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5" />
@@ -256,7 +326,7 @@ export default function KidsCodingPage() {
               Here's what your child will gain:
             </p>
           </div>
-          
+
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {benefits.map((benefit, idx) => (
               <div
@@ -290,7 +360,7 @@ export default function KidsCodingPage() {
               Age-appropriate courses designed to match your child's learning pace and interests.
             </p>
           </div>
-          
+
           <div className="mt-12 grid gap-8 lg:grid-cols-3">
             {programs.map((program, idx) => (
               <div
@@ -345,7 +415,7 @@ export default function KidsCodingPage() {
               Our curriculum blends creativity with technology. Here's a peek into our courses:
             </p>
           </div>
-          
+
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {features.map((feature, idx) => (
               <div
@@ -377,7 +447,7 @@ export default function KidsCodingPage() {
               What Parents Say About <span className="text-yellow-600">Our Program</span>
             </h2>
           </div>
-          
+
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {testimonials.map((testimonial, idx) => (
               <div
@@ -411,7 +481,7 @@ export default function KidsCodingPage() {
           <p className="mx-auto mt-4 max-w-2xl text-white/80">
             New batches starting soon. Don't miss this opportunity!
           </p>
-          
+
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
               {

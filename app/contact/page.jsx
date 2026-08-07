@@ -63,11 +63,11 @@ export default function ContactPage() {
 function InfoRow({ Icon, label, children }) {
   return (
     <div className="flex gap-4">
-      <div className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-navy-950 text-brass-300">
+      <div className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-indigo-700 text-white">
         <Icon size={20} />
       </div>
       <div>
-        <p className="text-xs font-mono uppercase tracking-widest text-brass-600">{label}</p>
+        <p className="text-xs font-mono uppercase tracking-widest text-brass-900">{label}</p>
         <div className="mt-1 text-sm text-ink-700">{children}</div>
       </div>
     </div>

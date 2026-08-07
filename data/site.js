@@ -33,7 +33,7 @@ export const NAV_LINKS = [
     label: "About",
     href: "/about",
     children: [
-      { label: "About College", href: "/about" },
+      { label: "About Institute", href: "/about" },
       { label: "Director's Message", href: "/directors-message" },
       { label: "Infrastructure", href: "/infrastructure" },
     ],
@@ -53,17 +53,17 @@ export const NAV_LINKS = [
     href: "/admissions",
     children: [
       { label: "Admission Process", href: "/admissions" },
-      // { label: "Fee Structure", href: "/fee-structure" },
     ],
   },
-  // { label: "Kid's Code", href: "/kids-code-in-sikar" },
+  { label: "Kid's Code", href: "/kids-code-in-sikar" },
   // { label: "Internship", href: "/internship" },
   { label: "Blog", href: "/blog" },
 ];
 
 export const FOOTER_LINKS = {
   quickLinks: [
-    { label: "About College", href: "/about" },
+    { label: "About Institute", href: "/about" },
+    { label: "Contact Us", href: "/contact" },
     { label:"Director's Message", href:"/directors-message"},
     { label: "Infrastructure", href: "/infrastructure" },
     { label: "Admission Process", href: "/admissions" },

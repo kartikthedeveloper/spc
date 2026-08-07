@@ -41,7 +41,7 @@ export default function ContactForm() {
           name="from_name"
           type="text"
           required
-          className="mt-1.5 w-full rounded-lg border border-brass-500/25 px-4 py-2.5 text-sm focus-ring"
+          className="mt-1.5 w-full rounded-lg border border-indigo-500 px-4 py-2.5 text-sm focus-ring"
         />
       </div>
 
@@ -54,7 +54,7 @@ export default function ContactForm() {
           name="from_phone"
           type="tel"
           required
-          className="mt-1.5 w-full rounded-lg border border-brass-500/25 px-4 py-2.5 text-sm focus-ring"
+          className="mt-1.5 w-full rounded-lg border border-indigo-500 px-4 py-2.5 text-sm focus-ring"
         />
       </div>
 
@@ -67,7 +67,7 @@ export default function ContactForm() {
           name="from_email"
           type="email"
           required
-          className="mt-1.5 w-full rounded-lg border border-brass-500/25 px-4 py-2.5 text-sm focus-ring"
+          className="mt-1.5 w-full rounded-lg border border-indigo-500 px-4 py-2.5 text-sm focus-ring"
         />
       </div>
 
@@ -81,7 +81,7 @@ export default function ContactForm() {
           name="course"
           required
           defaultValue=""
-          className="mt-1.5 w-full rounded-lg border border-brass-500/25 bg-white px-4 py-2.5 text-sm focus-ring"
+          className="mt-1.5 w-full rounded-lg border border-indigo-500 bg-white px-4 py-2.5 text-sm focus-ring"
         >
           <option value="" disabled>
             Select a Course
@@ -134,14 +134,14 @@ export default function ContactForm() {
           id="message"
           name="message"
           rows={4}
-          className="mt-1.5 w-full rounded-lg border border-brass-500/25 px-4 py-2.5 text-sm focus-ring"
+          className="mt-1.5 w-full rounded-lg border border-indigo-500 px-4 py-2.5 text-sm focus-ring"
         />
       </div>
 
       <button
         type="submit"
         disabled={status === "sending"}
-        className="flex w-full items-center justify-center gap-2 rounded-lg bg-navy-950 px-6 py-3 font-semibold text-brass-300 transition-colors hover:bg-navy-900 focus-ring disabled:opacity-60"
+        className="flex w-full items-center justify-center gap-2 rounded-lg bg-indigo-700 px-6 py-3 font-bold text-white transition-colors hover:bg-indigo-800 focus-ring disabled:opacity-60"
       >
         {status === "sending" && <Loader2 size={18} className="animate-spin" />}
         {status === "sending" ? "Sending..." : "Send Message"}
