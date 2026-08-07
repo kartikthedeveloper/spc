@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import StickyActions from "@/components/StickyActions";
+import Ganalytics from "@/components/GoogleAnalytics";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
 import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 import { SITE } from "@/data/site";
@@ -149,6 +150,8 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
+                <Ganalytics />
+
         <SmoothScrollProvider>
           <ScrollProgressBar />
           <Navbar />
