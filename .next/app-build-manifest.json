@@ -21,15 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
     ],
-    "/kids-code-in-sikar/page": [
+    "/course-category/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/kids-code-in-sikar/page.js"
+      "static/chunks/app/course-category/[slug]/page.js"
     ],
-    "/internship/page": [
+    "/courses/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/internship/page.js"
+      "static/chunks/app/courses/[slug]/page.js"
     ]
   }
 }

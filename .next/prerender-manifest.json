@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "5ac56d7c6acfe0313353852e4680f8c5",
-    "previewModeSigningKey": "4e100aae77fa900e632592200e60c5b4ff98087464366e589a36935c25911b8a",
-    "previewModeEncryptionKey": "8b21f940fb4d0e39030c4caad6c232f7b43bb2db39748cc6422120c92808b179"
-  }
-}
+{"version":4,"routes":{"/course-category/graduation-courses":{},"/course-category/post-graduation-courses":{},"/course-category/computer-courses":{},"/course-category/professional-courses":{},"/course-category/skill-development-courses":{},"/courses/bca":{},"/courses/mca":{},"/courses/basic-computer":{},"/courses/advanced-computer":{},"/courses/dca":{},"/courses/pg-diploma-cyber-security":{},"/courses/digital-marketing":{},"/courses/data-analyst":{},"/courses/full-stack-web-development":{},"/courses/mobile-app-development":{},"/courses/ccna":{},"/courses/data-science":{},"/courses/computer-networking":{},"/courses/ethical-hacking":{}},"dynamicRoutes":{"/course-category/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/course-category/[slug]","routeRegex":"^\\/course\\-category\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/courses/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/courses/[slug]","routeRegex":"^\\/courses\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"903567b5cf870e5e822b502f8d62dd40","previewModeSigningKey":"30ce924bc79a373c7b4f1ce4fc2bd2ab5ac64a9708deef46d972232cdf8f9597","previewModeEncryptionKey":"29b0c34962f9eb42af22ace893d8ed8e4088784e0186c94da5846b1e84a6f2ad"}}

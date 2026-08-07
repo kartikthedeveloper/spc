@@ -265,9 +265,9 @@ export default function CoursePage({ params }) {
                     {/* Title & Tagline */}
                     <div className="mt-6 md:mt-8">
                         <h1 className="font-display text-3xl font-semibold text-ivory-50 sm:text-4xl md:text-5xl">
-                            {course.title}
+                            {course.title} in sikar, Rajasthan
                         </h1>
-                        <p className="mt-3 max-w-2xl text-base text-ivory-100/70 sm:text-lg">
+                        <p className="mt-3 max-w-7xl text-base text-ivory-100/70 sm:text-lg">
                             {course.tagline}
                         </p>
                     </div>

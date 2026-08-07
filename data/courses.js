@@ -27,12 +27,6 @@ export const CATEGORIES = [
     description:
       "Industry-oriented programs in digital marketing, web development, and data analytics designed for immediate employability.",
   },
-  {
-    slug: "skill-development-courses",
-    title: "Skill Development Courses",
-    description:
-      "Focused, shorter-duration courses for working professionals and students to add an in-demand skill to their profile quickly.",
-  },
 ];
 
 export const COURSES = [
@@ -448,6 +442,223 @@ export const COURSES = [
       },
     ],
     related: ["full-stack-web-development", "frontend-development", "react-native", "flutter"],
+  },
+  // -------------------- CCNA (Cisco Certified Network Associate) --------------------
+  {
+    slug: "ccna",
+    title: "CCNA (Cisco Certified Network Associate)",
+    shortTitle: "CCNA",
+    category: "professional-courses",
+    image: "/images/ccna.webp",
+    tagline: "Master networking with Cisco — the most trusted CCNA training in Sikar, Rajasthan.",
+    duration: "4–5 Months",
+    eligibility: "10+2 passed; basic computer knowledge recommended.",
+    fees: "Contact Success Point Institute for the current fee structure and batch schedules.",
+    overview:
+      "Success Point Institute, the best networking training centre in Sikar, Rajasthan, offers a comprehensive CCNA course that covers everything from network fundamentals to advanced routing, switching, and troubleshooting. Our hands‑on lab sessions using Cisco Packet Tracer and real equipment prepare you for the Cisco certification exam and real‑world network administration. Whether you aim for a career in network engineering or IT infrastructure, this course gives you a solid foundation.",
+    curriculum: [
+      "Network Fundamentals & OSI Model",
+      "IP Addressing & Subnetting (IPv4 & IPv6)",
+      "Cisco IOS & Basic Configuration",
+      "Routing Protocols (RIP, OSPF, EIGRP, BGP)",
+      "Switching & VLANs (Spanning‑Tree, EtherChannel)",
+      "Network Security & Access‑Control Lists (ACL)",
+      "WAN Technologies (PPP, Frame Relay, MPLS)",
+      "Network Management & Troubleshooting",
+    ],
+    software: ["Cisco Packet Tracer", "GNS3", "Wireshark", "PuTTY"],
+    projects: [
+      "Design and implement a small‑to‑medium business network with redundancy",
+      "Troubleshoot a simulated enterprise network with routing and switching issues",
+    ],
+    certification: "Prepares you for Cisco CCNA (200‑301) certification; certificate of completion from Success Point Institute.",
+    placementSupport:
+      "We connect you with network administrator and support roles in Sikar, Jaipur, and IT companies across Rajasthan.",
+    careers: [
+      "Network Engineer",
+      "Network Administrator",
+      "IT Support Specialist",
+      "Network Technician",
+      "Systems Engineer",
+    ],
+    salaryRange: "₹2.5 LPA – ₹6 LPA for freshers, higher with certification",
+    rating: 4.8,
+    enrolled: 92,
+    faqs: [
+      {
+        q: "Do I need prior networking knowledge to join CCNA?",
+        a: "No — we start from the basics of networking and IP addressing, so beginners are welcome.",
+      },
+      {
+        q: "Is the course aligned with the latest CCNA exam?",
+        a: "Yes, our curriculum is updated regularly to match Cisco's current exam objectives.",
+      },
+    ],
+    related: ["computer-networking", "pg-diploma-cyber-security", "ethical-hacking"],
+  },
+
+  // -------------------- Data Science --------------------
+  {
+    slug: "data-science",
+    title: "Data Science Course",
+    shortTitle: "Data Science",
+    category: "professional-courses",
+    image: "/images/datascience.webp",
+    tagline: "Unlock the power of data — the best Data Science program in Sikar for aspiring data professionals.",
+    duration: "6 Months",
+    eligibility: "Graduation in any stream; basic mathematics and programming skills are beneficial.",
+    fees: "Contact Success Point Institute for current fee and EMI options.",
+    overview:
+      "Success Point Institute, the leading data science training institute in Sikar, Rajasthan, delivers a comprehensive Data Science course that covers Python, statistics, machine learning, deep learning, and big data tools. You work on industry‑level datasets, build predictive models, and learn to communicate insights effectively. This program prepares you for high‑demand roles in analytics, AI, and business intelligence.",
+    curriculum: [
+      "Python Programming for Data Science (NumPy, Pandas, Matplotlib)",
+      "Statistical Analysis & Hypothesis Testing",
+      "Data Wrangling & Exploratory Data Analysis",
+      "Machine Learning (Supervised & Unsupervised)",
+      "Deep Learning with TensorFlow/Keras",
+      "Natural Language Processing (NLP) Basics",
+      "Big Data Fundamentals (Hadoop, Spark)",
+      "Data Visualization with Tableau/Power BI",
+      "Capstone Project on a Real‑World Dataset",
+    ],
+    software: ["Jupyter Notebook", "Anaconda", "TensorFlow", "Tableau", "PyCharm"],
+    projects: [
+      "Build a predictive model for customer churn using a telecom dataset",
+      "Develop a sentiment analysis system for social media data",
+    ],
+    certification: "Certificate of Completion from Success Point Institute; guidance for IBM Data Science and Google certificates.",
+    placementSupport:
+      "Portfolio building, mock interviews, and placements with analytics firms and data‑driven businesses in Jaipur and remote.",
+    careers: [
+      "Data Scientist",
+      "Machine Learning Engineer",
+      "Data Analyst",
+      "Business Intelligence Developer",
+      "AI Researcher",
+    ],
+    salaryRange: "₹4 LPA – ₹10 LPA for freshers, higher with strong project work",
+    rating: 4.9,
+    enrolled: 130,
+    faqs: [
+      {
+        q: "Is this course suitable for non‑IT graduates?",
+        a: "Yes, we start with Python from the ground up, so non‑IT graduates can join with basic math aptitude.",
+      },
+      {
+        q: "Do I need a high‑end laptop for this course?",
+        a: "A standard laptop (8GB RAM, i5) is sufficient; we use cloud environments for heavy computations.",
+      },
+    ],
+    related: ["data-analyst", "full-stack-web-development", "pg-diploma-cyber-security"],
+  },
+
+  // -------------------- Computer Networking --------------------
+  {
+    slug: "computer-networking",
+    title: "Computer Networking Course",
+    shortTitle: "Networking",
+    category: "professional-courses",
+    image: "/images/networking.webp",
+    tagline: "Build and manage robust networks — the best networking course in Sikar, Rajasthan.",
+    duration: "6 Months",
+    eligibility: "10+2 passed; basic computer literacy.",
+    fees: "Contact Success Point Institute for the current fee structure.",
+    overview:
+      "Success Point Institute, the trusted networking institute in Sikar, Rajasthan, offers a foundational Computer Networking course that covers all essential networking concepts, protocols, and hands‑on configuration. You will learn about LAN, WAN, TCP/IP, routing, switching, and network security. This course is ideal for those starting a career in IT infrastructure or preparing for advanced certifications like CCNA.",
+    curriculum: [
+      "Introduction to Networking & OSI Model",
+      "TCP/IP Protocol Suite",
+      "IP Addressing & Subnetting",
+      "Ethernet & Switching Fundamentals",
+      "Routing Basics (Static & Dynamic)",
+      "Wireless Networking & Security",
+      "Network Troubleshooting Tools (Ping, Tracert, Wireshark)",
+      "Basic Firewall & Security Concepts",
+    ],
+    software: ["Cisco Packet Tracer", "Wireshark", "VMware (for labs)", "PuTTY"],
+    projects: [
+      "Set up a small office network with DHCP, DNS, and file sharing",
+      "Analyze network traffic using Wireshark and identify issues",
+    ],
+    certification: "Certificate of Completion from Success Point Institute; prepares for entry‑level networking certifications.",
+    placementSupport:
+      "Assistance with interviews for network support roles in local IT companies, BPOs, and government organisations in Rajasthan.",
+    careers: [
+      "Network Support Engineer",
+      "IT Administrator",
+      "Network Technician",
+      "System Administrator",
+      "Helpdesk Specialist",
+    ],
+    salaryRange: "₹2 LPA – ₹4.5 LPA for freshers",
+    rating: 4.7,
+    enrolled: 85,
+    faqs: [
+      {
+        q: "Is this course different from CCNA?",
+        a: "Yes, it's a broad networking foundation without focusing on Cisco-specific exams, ideal for beginners.",
+      },
+      {
+        q: "Will I learn about cloud networking?",
+        a: "We cover basic cloud concepts and virtual networking, with a focus on on‑premise fundamentals.",
+      },
+    ],
+    related: ["ccna", "pg-diploma-cyber-security", "ethical-hacking"],
+  },
+
+  // -------------------- Ethical Hacking --------------------
+  {
+    slug: "ethical-hacking",
+    title: "Ethical Hacking Course",
+    shortTitle: "Ethical Hacking",
+    category: "professional-courses",
+    image: "/images/ethicalhacking.webp",
+    tagline: "Think like a hacker, secure like a pro — the best ethical hacking training in Sikar, Rajasthan.",
+    duration: "6 Months",
+    eligibility: "10+2 passed; basic computer and networking knowledge recommended.",
+    fees: "Contact Success Point Institute for the current fee and early‑bird discounts.",
+    overview:
+      "Success Point Institute, the premier cyber security training provider in Sikar, Rajasthan, offers a hands‑on Ethical Hacking course that teaches you the tools and techniques used by penetration testers and security analysts. You will learn footprinting, scanning, exploitation, post‑exploitation, and reporting. Our lab‑based approach ensures you gain practical skills that are immediately applicable in security roles.",
+    curriculum: [
+      "Introduction to Ethical Hacking & Cyber Security",
+      "Footprinting & Reconnaissance",
+      "Scanning & Enumeration",
+      "System Hacking (Password Cracking, Privilege Escalation)",
+      "Malware Threats & Countermeasures",
+      "Sniffing & Social Engineering",
+      "Web Application Security (OWASP Top 10)",
+      "Wireless Network Hacking",
+      "Penetration Testing Methodology & Reporting",
+    ],
+    software: ["Kali Linux", "Nmap", "Wireshark", "Burp Suite", "Metasploit", "John the Ripper"],
+    projects: [
+      "Conduct a penetration test on a lab environment and deliver a professional report",
+      "Identify and exploit vulnerabilities in a purposely vulnerable web application",
+    ],
+    certification: "Certificate of Completion from Success Point Institute; guidance for CEH and CompTIA Security+.",
+    placementSupport:
+      "We help you build a security portfolio and connect with security firms, banks, and government agencies in Rajasthan and India.",
+    careers: [
+      "Ethical Hacker / Penetration Tester",
+      "Security Analyst",
+      "Vulnerability Assessor",
+      "Security Consultant",
+      "SOC Analyst",
+    ],
+    salaryRange: "₹3 LPA – ₹8 LPA for freshers, with certification and skills",
+    rating: 4.9,
+    enrolled: 112,
+    faqs: [
+      {
+        q: "Is prior programming knowledge required?",
+        a: "Basic scripting knowledge (Python or Bash) is helpful but not mandatory – we cover what you need.",
+      },
+      {
+        q: "Will this course help me crack CEH certification?",
+        a: "Yes, our curriculum aligns with CEH objectives and includes practice labs.",
+      },
+    ],
+    related: ["pg-diploma-cyber-security", "ccna", "computer-networking"],
   },
 ];
 

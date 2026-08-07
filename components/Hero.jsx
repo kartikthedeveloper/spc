@@ -135,7 +135,7 @@ export default function Hero() {
 
               <div>
                 <h3 className="text-3xl font-bold text-slate-900">
-                  8+
+                  9+
                 </h3>
 
                 <p className="mt-1 text-sm text-slate-500">
@@ -220,7 +220,7 @@ export default function Hero() {
               className="absolute bottom-12 left-0 hidden rounded-2xl bg-white p-5 shadow-2xl lg:block"
             >
               <p className="text-sm text-slate-500">
-                Top Institite in Sikar
+                Top Institute in Sikar | Since 2017
               </p>
 
               <h3 className="mt-1 text-xl font-bold text-blue-600">

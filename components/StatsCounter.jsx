@@ -4,10 +4,10 @@ import { useEffect, useRef } from "react";
 import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 
 const STATS = [
-  { label: "Years of Academic Presence", value: 8, suffix: "+" },
+  { label: "Years of Academic Presence", value: 9, suffix: "+" },
   { label: "Students Trained", value: 1000, suffix: "+" },
-  { label: "Courses Offered", value: 10, suffix: "+" },
-  { label: "Placement Partners", value: 15, suffix: "+" },
+  { label: "Courses Offered", value: 14, suffix: "+" },
+  { label: "Placement Partners", value: 4, suffix: "+" },
 ];
 
 function Counter({ value, suffix }) {

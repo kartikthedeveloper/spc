@@ -4,7 +4,7 @@ import CourseCard from "./CourseCard";
 import { COURSES, CATEGORIES } from "@/data/courses";
 
 export default function FeaturedCourses() {
-  const featured = COURSES.slice(0, 6);
+  const featured = COURSES.slice(0, 16);
 
   return (
     <section className="bg-ivory-100 py-20">
@@ -12,7 +12,7 @@ export default function FeaturedCourses() {
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeading
             eyebrow="Programs"
-            title="Degrees and job-ready courses, side by side"
+            title="14+ Computer Science Courses Available in Sikar – Learn, Build & Get Job Ready"
             description="From a 3-year BCA to a 3-month Tally certification — every program includes real projects, not just lectures."
           />
           <div className="flex flex-wrap gap-2">

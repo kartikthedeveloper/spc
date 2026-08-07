@@ -1,5 +1,5 @@
 {
   "/page": "app/page.js",
-  "/kids-code-in-sikar/page": "app/kids-code-in-sikar/page.js",
-  "/internship/page": "app/internship/page.js"
+  "/course-category/[slug]/page": "app/course-category/[slug]/page.js",
+  "/courses/[slug]/page": "app/courses/[slug]/page.js"
 }
