@@ -123,13 +123,13 @@ export default function AdmissionProcessPage() {
               href="/course-category/graduation-courses"
               className="rounded-full bg-white px-8 py-4 font-semibold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
             >
-              Graducation Course
+              Graduation Course
             </Link>
             <Link
               href="/course-category/post-graduation-courses"
               className="rounded-full bg-white px-8 py-4 font-semibold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
             >
-              Post Graducation Course
+              Post Graduation Course
             </Link>   <Link
               href="/course-category/computer-courses"
               className="rounded-full bg-white px-8 py-4 font-semibold text-indigo-700 shadow-lg transition hover:bg-indigo-50"
