@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "https://successpointsikar.com",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     }

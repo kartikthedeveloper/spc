@@ -1,8 +1,12 @@
 import Link from "next/link";
+import ContactForm from "@/components/ContactForm";
+
 import {
   Rocket,
-  Code2,
   Gamepad2,
+   TrendingUp,
+  BarChart3,
+  Code2,
   Palette,
   Bot,
   Sparkles,
@@ -22,6 +26,7 @@ import {
   Cpu,
   Trophy,
   Heart,
+  Smartphone,
   Globe,
   ArrowRight,
 } from "lucide-react";
@@ -125,27 +130,27 @@ export const metadata = {
 export default function KidsCodingPage() {
   const features = [
     {
-      icon: <Gamepad2 className="h-8 w-8" />,
-      title: "Game Development",
-      desc: "Create your own games using Scratch, Python, and Unity. Learn logic, design, and storytelling.",
+      icon: <Smartphone className="h-8 w-8" />,
+      title: "Digital Marketing",
+      desc: "Learn SEO, social media, Google Ads, content strategy, and AI-powered marketing skills used by businesses today.",
       color: "from-purple-500 to-pink-500",
     },
     {
-      icon: <Bot className="h-8 w-8" />,
-      title: "AI & Robotics",
-      desc: "Build intelligent bots and learn AI concepts. Program robots to perform real-world tasks.",
+      icon: <Code2 className="h-8 w-8" />,
+      title: "Full Stack Web Development",
+      desc: "Build modern websites and real-world web applications using frontend, backend, databases, APIs, and modern development tools.",
       color: "from-blue-500 to-cyan-500",
     },
     {
-      icon: <Palette className="h-8 w-8" />,
-      title: "Web Design",
-      desc: "Create stunning websites with HTML, CSS, and JavaScript. Express creativity through code.",
+      icon: <Smartphone className="h-8 w-8" />,
+      title: "Mobile App Development",
+      desc: "Create powerful Android and cross-platform mobile applications and learn the technologies driving today's mobile-first world.",
       color: "from-orange-500 to-red-500",
     },
     {
-      icon: <Cpu className="h-8 w-8" />,
-      title: "Logic Building",
-      desc: "Develop problem-solving skills through interactive coding challenges and puzzles.",
+      icon: <BarChart3 className="h-8 w-8" />,
+      title: "Data Analytics",
+      desc: "Turn real business data into useful insights using Excel, SQL, Power BI, Python, and modern data analytics tools.",
       color: "from-green-500 to-emerald-500",
     },
   ];
@@ -153,70 +158,82 @@ export default function KidsCodingPage() {
   const benefits = [
     {
       icon: <Brain className="h-6 w-6 text-purple-600" />,
-      title: "Critical Thinking",
-      desc: "Enhances logical reasoning and analytical skills.",
+      title: "Industry Skills",
+      desc: "Learn technologies and skills that companies are using right now.",
     },
     {
       icon: <Zap className="h-6 w-6 text-yellow-600" />,
-      title: "Creativity",
-      desc: "Encourages out-of-the-box thinking and innovation.",
+      title: "AI Ready",
+      desc: "Understand how AI is transforming development, marketing, analytics, and business.",
     },
     {
       icon: <Users className="h-6 w-6 text-blue-600" />,
-      title: "Collaboration",
-      desc: "Learn teamwork through group projects and hackathons.",
+      title: "Real-World Learning",
+      desc: "Work on practical projects that connect learning with real business problems.",
     },
     {
       icon: <Award className="h-6 w-6 text-green-600" />,
       title: "Future Ready",
-      desc: "Build skills for high-demand careers in technology.",
+      desc: "Build a strong technology foundation for careers, higher education, and entrepreneurship.",
     },
   ];
 
   const programs = [
     {
-      age: "Class 6-8",
-      level: "Junior Explorer",
-      courses: ["Scratch Programming", "Game Design", "Basic Web Development"],
-      duration: "6 Months",
+      age: "After 6th",
+      level: "Career Starter",
+      courses: [
+        "Digital Marketing",
+        "Full Stack Web Development",
+        "Mobile App Development",
+      ],
+      duration: "Job-Ready Programs",
       icon: <Rocket className="h-10 w-10 text-purple-600" />,
     },
     {
-      age: "Class 9-10",
-      level: "Code Builder",
-      courses: ["Python Programming", "Web Development", "AI Fundamentals"],
-      duration: "8 Months",
+      age: "Graduate / Student",
+      level: "Tech Professional",
+      courses: [
+        "Data Analytics",
+        "Full Stack Development",
+        "CCNA & Networking",
+      ],
+      duration: "Career-Focused Programs",
       icon: <Code2 className="h-10 w-10 text-blue-600" />,
     },
     {
-      age: "Class 11-12",
-      level: "Tech Innovator",
-      courses: ["Advanced Python", "Data Science", "Robotics & IoT"],
-      duration: "12 Months",
+      age: "Higher Education",
+      level: "Advanced Tech",
+      courses: [
+        "BCA",
+        "MCA",
+        "Advanced Technology & Career Skills",
+      ],
+      duration: "Degree + Career Growth",
       icon: <Bot className="h-10 w-10 text-green-600" />,
     },
   ];
 
   const testimonials = [
     {
-      name: "Mrs. Sharma",
-      child: "Aryan (Class 8)",
+      name: "Aarav",
+      child: "Full Stack Development Student",
       quote:
-        "My son used to play games all day. Now he creates them! The change in his thinking is remarkable.",
+        "I wanted to understand how real websites work. Now I can build complete web applications and understand both frontend and backend development.",
       rating: 5,
     },
     {
-      name: "Mr. Verma",
-      child: "Priya (Class 10)",
+      name: "Priya",
+      child: "Data Analytics Student",
       quote:
-        "Priya developed her own website for the school project. The teachers were amazed! Best decision ever.",
+        "Learning Data Analytics with real datasets helped me understand how companies actually use data to make better decisions.",
       rating: 5,
     },
     {
-      name: "Mrs. Gupta",
-      child: "Rahul (Class 9)",
+      name: "Rahul",
+      child: "Digital Marketing Student",
       quote:
-        "Rahul's problem-solving skills have improved dramatically. He's now teaching his friends coding!",
+        "Digital Marketing is not just about posting on social media. I learned SEO, analytics, advertising, content, and how AI is changing marketing.",
       rating: 5,
     },
   ];
@@ -232,7 +249,7 @@ export default function KidsCodingPage() {
     },
     {
       q: "How are classes conducted?",
-      a: "We offer both offline classes at our Sikar campus and online sessions for convenience. Each session includes theory, practical exercises, and projects.",
+      a: "We offer both offline classes at our Sikar campus. Each session includes theory, practical exercises, and projects in morning and evening batches.",
     },
     {
       q: "Will my child get a certificate?",
@@ -248,7 +265,7 @@ export default function KidsCodingPage() {
     <section className="bg-white overflow-x-hidden">
 
       {/* Hero Section - Colorful & Playful */}
-      <div className="relative overflow-hidden bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 py-20">
+      <div className="relative overflow-hidden mt-14 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 py-20">
         {/* Floating shapes for fun effect */}
         <div className="absolute top-10 left-10 animate-bounce opacity-20">
           <Rocket className="h-20 w-20 text-white" />
@@ -260,7 +277,7 @@ export default function KidsCodingPage() {
           <Code2 className="h-64 w-64 text-white" />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-6 text-center">
+        <div className="relative mx-auto mt-6 max-w-7xl px-6 text-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-white/20 px-6 py-2 text-white backdrop-blur">
             <Sparkles className="h-4 w-4" />
             <span className="font-semibold">🔥 Future Tech Leaders Program</span>
@@ -538,126 +555,8 @@ export default function KidsCodingPage() {
       {/* Call to Action - Application Form */}
       <div id="apply-now" className="py-20 bg-gradient-to-br from-purple-600 to-pink-600">
         <div className="mx-auto max-w-4xl px-6">
-          <div className="rounded-3xl bg-white p-12 shadow-2xl">
-            <div className="text-center">
-              <div className="inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-2 text-purple-700">
-                <Sparkles className="h-4 w-4" />
-                Enroll Now
-              </div>
-              <h2 className="mt-4 text-3xl font-bold text-gray-900 md:text-4xl">
-                Start Your Child's Coding Journey Today!
-              </h2>
-              <p className="mt-3 text-gray-600">
-                Limited seats available. Fill the form below and our team will contact you.
-              </p>
-            </div>
+          <ContactForm />
 
-            {/* Form Section */}
-            <form className="mt-8 space-y-6">
-              <div className="grid gap-6 md:grid-cols-2">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Parent/Guardian Name *
-                  </label>
-                  <input
-                    type="text"
-                    name="parent_name"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-purple-500 focus:outline-none"
-                    placeholder="Your Full Name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Child's Name *
-                  </label>
-                  <input
-                    type="text"
-                    name="child_name"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-purple-500 focus:outline-none"
-                    placeholder="Child's Full Name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Phone Number *
-                  </label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-purple-500 focus:outline-none"
-                    placeholder="9876543210"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-purple-500 focus:outline-none"
-                    placeholder="parent@email.com"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Child's Class *
-                  </label>
-                  <select
-                    name="class"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-purple-500 focus:outline-none"
-                  >
-                    <option value="">Select Class</option>
-                    <option value="6">Class 6</option>
-                    <option value="7">Class 7</option>
-                    <option value="8">Class 8</option>
-                    <option value="9">Class 9</option>
-                    <option value="10">Class 10</option>
-                    <option value="11">Class 11</option>
-                    <option value="12">Class 12</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Preferred Mode *
-                  </label>
-                  <select
-                    name="mode"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-purple-500 focus:outline-none"
-                  >
-                    <option value="">Select Mode</option>
-                    <option value="offline">Offline (Sikar Campus)</option>
-                    <option value="online">Online (Anywhere)</option>
-                  </select>
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700">
-                  Message / Questions
-                </label>
-                <textarea
-                  rows={3}
-                  name="message"
-                  className="mt-2 w-full rounded-lg border-2 p-3 focus:border-purple-500 focus:outline-none"
-                  placeholder="Any specific requirements or questions..."
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 py-4 text-lg font-bold text-white transition hover:scale-105 hover:shadow-xl"
-              >
-                🚀 Enroll Now – Limited Seats!
-              </button>
-              <p className="text-center text-sm text-gray-500">
-                We'll contact you within 24 hours. No spam, guaranteed.
-              </p>
-            </form>
-          </div>
         </div>
       </div>
 
