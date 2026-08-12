@@ -29,13 +29,13 @@ export const metadata = {
     "Success Point Institute admission 2026",
   ],
   alternates: {
-    canonical: "https://successpointsikar.com/admission-process",
+    canonical: "https://successpointsikar.com/admissions",
   },
   openGraph: {
     title: "Admission Process | Success Point Institute Sikar",
     description:
       "Step-by-step guide to admission at Success Point Institute. Apply now for BCA, MCA, and professional courses.",
-    url: "https://successpointsikar.com/admission-process",
+    url: "https://successpointsikar.com/admissions",
     type: "website",
   },
 };

@@ -371,7 +371,7 @@ export default function AboutClient() {
                                 name: "Website Development",
                                 icon: Code,
                                 color: "blue",
-                                href: "/courses/full-stack-website-development",
+                                href: "/courses/full-stack-web-development",
                             },
                             {
                                 name: "Mobile App Development",

@@ -42,21 +42,24 @@ export default function Hero() {
           {/* ================= LEFT CONTENT ================= */}
 
           <div>
-            <motion.span
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 rounded-full bg-blue-100 px-5 py-2 text-sm font-semibold text-blue-700"
+              transition={{ delay: 0.1 }}
+              className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700"
             >
-              <GraduationCap size={18} />
+              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-blue-600 text-xs font-bold text-white">
+                14+
+              </span>
+              Professional IT Courses in Sikar <GraduationCap size={18} />
               Admissions Open 2026–27
-            </motion.span>
+            </motion.div>
 
             <motion.h1
               initial={{ opacity: 0, y: 35 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="mt-8 text-4xl font-extrabold leading-tight text-slate-900 sm:text-5xl lg:text-7xl"
+              className="mt-6 text-4xl font-extrabold leading-tight text-slate-900 sm:text-5xl lg:text-7xl"
             >
               Build Your
               <br />
@@ -67,8 +70,19 @@ export default function Hero() {
 
               <br />
 
-              With IT Industry Skills | Sikar
+              With Industry Skills
             </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.35 }}
+              className="mt-6 max-w-2xl text-lg leading-8 text-slate-600"
+            >
+            Join Success Point Institute, Sikar and Learn <strong className="text-slate-900">14+ professional IT courses</strong>{" "}
+              in Sikar — including BCA, MCA, PGDCA, Web Development, Mobile App Development, Data Analytics, Digital Marketing,
+              Cyber Security, more.
+            </motion.p>
 
             <motion.p
               initial={{ opacity: 0, y: 25 }}
@@ -76,8 +90,7 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="mt-8 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg"
             >
-              Join Success Point Institute, Sikar for BCA, MCA, PGDCA and Cyber
-              Security programs. Learn from industry experts, work on
+             Learn from industry experts, work on
               live projects, earn industry certifications, and receive
               complete placement assistance to build your successful
               career.
@@ -209,7 +222,7 @@ export default function Hero() {
             </motion.div>
             {/* Floating Card */}
 
-             <motion.div
+            <motion.div
               animate={{
                 y: [0, 12, 0],
               }}

@@ -243,7 +243,7 @@ export default function CoursePage({ params }) {
                             </li>
                             <ChevronRight size={12} className="text-indigo-300/40" />
                             <li>
-                                <Link href="/courses" className="hover:text-indigo-300 transition-colors">
+                                <Link href="/" className="hover:text-indigo-300 transition-colors">
                                     Courses
                                 </Link>
                             </li>
