@@ -56,7 +56,7 @@ export const NAV_LINKS = [
     ],
   },
   { label: "Kid's Code", href: "/kids-code-in-sikar" },
-  // { label: "Internship", href: "/internship" },
+  { label: "Internship", href: "/internship" },
   { label: "Blog", href: "/blog" },
 ];
 

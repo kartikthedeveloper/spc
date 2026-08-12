@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ContactForm from "@/components/ContactForm";
+
 import {
   Rocket,
   Code2,
@@ -45,9 +47,10 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Live Project Internship | Success Point College Sikar",
+  title: "Best IT Project Internship in Sikar | Success Point Sikar",
+
   description:
-    "Industry-focused live project internships in BCA, MCA, Digital Marketing, MERN Stack, Data Analytics, and more. Get hands-on experience with real-world projects at Success Point College, Sikar.",
+    "Start your career with a live project internship in Sikar. Gain hands-on experience through real-world projects in MERN Stack, Web Development, Digital Marketing, Data Analytics and more. Ideal for BCA, MCA, college and IT students looking to build skills, projects, portfolios and job-ready experience.",
   keywords: [
     // Primary Local Keywords
     "Internship in Sikar",
@@ -63,7 +66,7 @@ export const metadata = {
     "Winter Internship Sikar",
     "Professional Internship Sikar",
     "Job Oriented Internship Sikar",
-
+    "internship ",
     // College Students
     "Internship for BCA Students Sikar",
     "Internship for MCA Students Sikar",
@@ -139,7 +142,7 @@ export const metadata = {
     canonical: "https://successpointsikar.com/internship",
   },
   openGraph: {
-    title: "Live Project Internship | Success Point College Sikar",
+    title: "Best IT Project Internship | Success Point Sikar",
     description:
       "Build real-world skills with our live project internship program. Work on industry projects, get mentorship, and earn a certificate.",
     url: "https://successpointsikar.com/internship",
@@ -164,18 +167,18 @@ export default function InternshipPage() {
       outcome: "Full-stack developer ready for industry",
     },
     {
-      title: "Data Analytics & Power BI",
-      icon: <BarChart className="h-8 w-8" />,
-      color: "from-green-600 to-emerald-600",
-      duration: "2 Months",
+      title: "Mobile App Development",
+      icon: <Smartphone className="h-8 w-8" />,
+      color: "from-teal-600 to-cyan-600",
+      duration: "2-3 Months",
       projects: [
-        "Sales Dashboard",
-        "Financial Analytics",
-        "Customer Segmentation",
-        "Real-time Data Visualization",
+        "E-commerce App",
+        "Fitness Tracker",
+        "Food Delivery App",
+        "Social Media App",
       ],
-      skills: ["Power BI", "SQL", "Excel", "Python", "Data Visualization"],
-      outcome: "Data-driven decision making expert",
+      skills: ["Flutter", "React Native", "Firebase", "REST APIs"],
+      outcome: "Mobile app developer",
     },
     {
       title: "Digital Marketing",
@@ -191,48 +194,7 @@ export default function InternshipPage() {
       skills: ["SEO", "Google Ads", "Social Media", "Content Strategy", "Analytics"],
       outcome: "Digital marketing specialist",
     },
-    {
-      title: "Python Development & AI",
-      icon: <Cpu className="h-8 w-8" />,
-      color: "from-purple-600 to-pink-600",
-      duration: "3 Months",
-      projects: [
-        "AI Chatbot",
-        "Face Recognition System",
-        "Sentiment Analysis",
-        "Automation Scripts",
-      ],
-      skills: ["Python", "Machine Learning", "Deep Learning", "NLP", "OpenCV"],
-      outcome: "AI/ML developer ready",
-    },
-    {
-      title: "Cyber Security",
-      icon: <Shield className="h-8 w-8" />,
-      color: "from-red-600 to-rose-600",
-      duration: "2-3 Months",
-      projects: [
-        "Vulnerability Assessment",
-        "Network Security Audit",
-        "Security Awareness",
-        "Penetration Testing",
-      ],
-      skills: ["Network Security", "Ethical Hacking", "Firewall", "Encryption"],
-      outcome: "Cyber security analyst",
-    },
-    {
-      title: "Mobile App Development",
-      icon: <Smartphone className="h-8 w-8" />,
-      color: "from-teal-600 to-cyan-600",
-      duration: "2-3 Months",
-      projects: [
-        "E-commerce App",
-        "Fitness Tracker",
-        "Food Delivery App",
-        "Social Media App",
-      ],
-      skills: ["Flutter", "React Native", "Firebase", "REST APIs"],
-      outcome: "Mobile app developer",
-    },
+
   ];
 
   const benefits = [
@@ -264,7 +226,7 @@ export default function InternshipPage() {
       course: "BCA Student",
       internship: "MERN Stack Development",
       quote:
-        "The live project internship at Success Point College gave me real-world experience. I built an e-commerce platform from scratch and got hired right after completion!",
+        "I am studnet of Sobhasaria college sikar and the live project internship at Success Point Sikar gave me real-world experience. I built an e-commerce platform from scratch and got hired right after completion!",
       rating: 5,
       image: "👨‍💻",
     },
@@ -288,11 +250,6 @@ export default function InternshipPage() {
     },
   ];
 
-  const companies = [
-    "TCS", "Infosys", "Wipro", "Capgemini", "Accenture",
-    "Amazon", "Flipkart", "Google", "Microsoft", "IBM"
-  ];
-
   const faqs = [
     {
       q: "Who can apply for the internship program?",
@@ -304,7 +261,7 @@ export default function InternshipPage() {
     },
     {
       q: "What is the duration of the internship?",
-      a: "Internships typically range from 2 to 3 months, depending on the program and project requirements. Flexible timings are available for students.",
+      a: "Internships typically range from 45 Days to 3 months, depending on the program and project requirements. Flexible timings are available for students.",
     },
     {
       q: "Will I get a certificate?",
@@ -344,7 +301,7 @@ export default function InternshipPage() {
 
           <h1 className="mt-8 text-5xl font-black text-white md:text-7xl">
             Live Project <br />
-            <span className="text-yellow-300">Internship Program</span>
+            <span className="text-yellow-300">Internship Program 2026</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-xl text-white/90">
@@ -535,31 +492,6 @@ export default function InternshipPage() {
         </div>
       </div>
 
-      {/* Companies Section */}
-      <div className="py-20 bg-white">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900">
-              Our Interns Work With <span className="text-indigo-600">Top Companies</span>
-            </h2>
-            <p className="mt-3 text-gray-600">
-              Our alumni have been placed at leading companies across India.
-            </p>
-          </div>
-
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-8">
-            {companies.map((company, idx) => (
-              <div
-                key={idx}
-                className="rounded-2xl bg-gray-50 px-6 py-3 font-semibold text-gray-700 transition hover:bg-gray-100"
-              >
-                {company}
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
       {/* How It Works */}
       <div className="py-20 bg-gradient-to-br from-indigo-700 to-purple-700 text-white">
         <div className="mx-auto max-w-7xl px-6">
@@ -659,118 +591,9 @@ export default function InternshipPage() {
               </p>
             </div>
 
-            <form className="mt-8 space-y-6">
-              <div className="grid gap-6 md:grid-cols-2">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Full Name *
-                  </label>
-                  <input
-                    type="text"
-                    name="full_name"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-indigo-500 focus:outline-none"
-                    placeholder="Your Full Name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Email Address *
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-indigo-500 focus:outline-none"
-                    placeholder="you@email.com"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Phone Number *
-                  </label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-indigo-500 focus:outline-none"
-                    placeholder="9876543210"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Qualification *
-                  </label>
-                  <select
-                    name="qualification"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-indigo-500 focus:outline-none"
-                  >
-                    <option value="">Select Qualification</option>
-                    <option value="bca">BCA</option>
-                    <option value="mca">MCA</option>
-                    <option value="bsc">B.Sc</option>
-                    <option value="btech">B.Tech</option>
-                    <option value="mtech">M.Tech</option>
-                    <option value="graduate">Graduate</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Internship Program *
-                  </label>
-                  <select
-                    name="program"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-indigo-500 focus:outline-none"
-                  >
-                    <option value="">Select Program</option>
-                    <option value="mern">MERN Stack Development</option>
-                    <option value="data">Data Analytics & Power BI</option>
-                    <option value="digital">Digital Marketing</option>
-                    <option value="python">Python Development & AI</option>
-                    <option value="cyber">Cyber Security</option>
-                    <option value="mobile">Mobile App Development</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Preferred Mode *
-                  </label>
-                  <select
-                    name="mode"
-                    required
-                    className="mt-2 w-full rounded-lg border-2 p-3 focus:border-indigo-500 focus:outline-none"
-                  >
-                    <option value="">Select Mode</option>
-                    <option value="offline">Offline (Sikar Campus)</option>
-                    <option value="online">Online (Anywhere)</option>
-                    <option value="hybrid">Hybrid</option>
-                  </select>
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700">
-                  Why do you want to join this internship?
-                </label>
-                <textarea
-                  rows={3}
-                  name="message"
-                  className="mt-2 w-full rounded-lg border-2 p-3 focus:border-indigo-500 focus:outline-none"
-                  placeholder="Tell us about your goals, interests, and what you hope to learn..."
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 py-4 text-lg font-bold text-white transition hover:scale-105 hover:shadow-xl"
-              >
-                🚀 Apply Now – Limited Seats!
-              </button>
-              <p className="text-center text-sm text-gray-500">
-                We'll contact you within 24 hours. No spam, guaranteed.
-              </p>
-            </form>
+            <ContactForm />
+
+
           </div>
         </div>
       </div>
