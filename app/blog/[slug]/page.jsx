@@ -184,7 +184,7 @@ export default function BlogPostPage({ params }) {
                     : post.author.name}
                 </p>
                 <p className="text-sm text-ink-500">
-                  Published <span>By {post.author.name}</span>, Sikar — written from direct experience placing students.
+                  Published <span>By {post.author.name}</span>, Sikar.
                 </p>
               </div>
             </div>
