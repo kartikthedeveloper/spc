@@ -457,18 +457,15 @@ export default function AboutClient() {
             {/* ==========================================================
       MSME SECTION
       ========================================================== */}
-            <div className="relative overflow-hidden bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 py-24 lg:py-28">
-                <div className="absolute -left-20 top-10 h-72 w-72 rounded-full bg-white/10 blur-3xl animate-pulse" />
-                <div className="absolute -right-20 bottom-10 h-72 w-72 rounded-full bg-pink-400/10 blur-3xl animate-pulse" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-96 w-96 rounded-full bg-white/5 blur-3xl" />
+            <div className="overflow-hidden bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 py-24 lg:py-28">
 
-                <div className="relative mx-auto max-w-6xl px-6">
+                <div className="px-6">
                     <motion.div
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, margin: "-80px" }}
                         variants={fadeIn}
-                        className="grid items-center gap-12 lg:grid-cols-2"
+                        className="grid items-center"
                     >
                         <motion.div
                             variants={slideInLeft}
@@ -496,54 +493,18 @@ export default function AboutClient() {
                             </p>
                         </motion.div>
 
-                        <motion.div
-                            variants={slideInRight}
-                            whileHover={{ scale: 1.02 }}
-                            transition={{ duration: 0.4 }}
-                            className="rounded-3xl border border-white/20 bg-white/10 p-8 backdrop-blur-xl shadow-2xl"
-                        >
-                            <div className="flex items-center gap-4">
-                                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-green-500 text-3xl shadow-lg animate-bounce">
-                                    ✔
-                                </div>
-                                <div>
-                                    <p className="text-sm uppercase tracking-widest text-indigo-200">
-                                        Registration
-                                    </p>
-                                    <h3 className="text-2xl font-bold text-white">
-                                        UDYAM Registered
-                                    </h3>
-                                </div>
-                            </div>
-                            <div className="mt-8 rounded-2xl bg-white/10 p-5 backdrop-blur-sm">
-                                <p className="text-sm text-indigo-200">
-                                    Udyam Registration Number
-                                </p>
-                                <h4 className="mt-2 break-all text-2xl font-bold text-white tracking-wider">
-                                    UDYAM-RJ-30-0143823
-                                </h4>
-                            </div>
-                            <a
-                                href="https://udyamregistration.gov.in/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="mt-8 inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3.5 font-semibold text-indigo-700 transition-all hover:scale-105 hover:bg-indigo-50 hover:shadow-xl"
-                            >
-                                Verify on Official Portal
-                                <ArrowRight className="h-4 w-4" />
-                            </a>
-                        </motion.div>
+
                     </motion.div>
                 </div>
-            </div>
 
+            </div>
             {/* ==========================================================
       WHY CHOOSE SECTION
       ========================================================== */}
             <div className="relative py-24 lg:py-32">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-50/20 via-transparent to-transparent" />
 
-                <div className="relative mx-auto max-w-7xl px-6">
+                <div className="px-6">
                     <motion.div
                         initial="hidden"
                         whileInView="visible"

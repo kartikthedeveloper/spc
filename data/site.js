@@ -20,7 +20,7 @@ export const SITE = {
   email: "successpointsikar@gmail.com",
   social: {
     facebook: "https://www.facebook.com/successpointitandmanagementcollege",
-    instagram: "https://www.instagram.com/success_point_college",
+    instagram: "https://www.instagram.com/success_point_sikar",
     linkedin: "https://www.linkedin.com/company/success-point-college-sikar",
     google: "https://g.page/r/CYEGXiXLxfNyEBM/review"
   },
@@ -72,7 +72,6 @@ export const FOOTER_LINKS = {
 
   legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },
-    { label: "Refund Policy", href: "/refund-policy" },
     { label: "Terms & Conditions", href: "/terms-and-conditions" },
   ],
 };

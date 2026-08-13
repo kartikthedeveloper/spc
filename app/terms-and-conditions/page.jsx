@@ -132,7 +132,7 @@ export default function TermsConditionsPage() {
             you agree to be bound by these terms.
           </p>
           <p className="mt-4 text-sm text-indigo-200">
-            Last updated: 01 January 2026
+            Last updated: 13 August 2026
           </p>
         </div>
       </div>
@@ -225,7 +225,7 @@ export default function TermsConditionsPage() {
 
       {/* Contact */}
       <div className="bg-gray-50 py-16">
-        <div className="mx-auto max-w-4xl rounded-3xl bg-white p-10 shadow-lg">
+        <div className="mx-auto max-w-7xl rounded-4xl bg-white p-10 shadow-lg">
           <h2 className="text-3xl font-bold text-gray-900 text-center">
             Have Questions About These Terms?
           </h2>
@@ -247,15 +247,15 @@ export default function TermsConditionsPage() {
             <div className="flex flex-col items-center rounded-xl bg-indigo-50 p-6">
               <Phone className="h-8 w-8 text-indigo-600" />
               <p className="mt-2 font-medium text-gray-900">Phone</p>
-              <a href="tel:+919876543210" className="text-indigo-700 hover:underline">
-                +91-98765-43210
+              <a href="tel:+919351540357" className="text-indigo-700 hover:underline">
+                +91-9351540357
               </a>
             </div>
             <div className="flex flex-col items-center rounded-xl bg-indigo-50 p-6">
               <MapPin className="h-8 w-8 text-indigo-600" />
               <p className="mt-2 font-medium text-gray-900">Address</p>
               <p className="text-center text-sm text-gray-700">
-                Success Point Institute, Sikar, Rajasthan
+                Success Point Institute, Opp. M.K. Momorial School,Piprali Road, Sikar, Rajasthan
               </p>
             </div>
           </div>
