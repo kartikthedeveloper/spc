@@ -353,7 +353,7 @@ export default function AdmissionProcessPage() {
               Inside Success Point
             </Link>
             <a
-              href="tel:+919876543210"
+              href="tel:+919351540357"
               className="rounded-full border border-white/30 px-8 py-4 font-semibold text-white transition hover:bg-white/10"
             >
               <Phone className="mr-2 inline h-5 w-5" />
