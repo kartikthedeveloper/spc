@@ -238,10 +238,10 @@ export default function TermsConditionsPage() {
               <Mail className="h-8 w-8 text-indigo-600" />
               <p className="mt-2 font-medium text-gray-900">Email</p>
               <a
-                href="mailto:info@successpointcollege.com"
+                href="mailto:successpointsikarofficial@gmail.com"
                 className="text-indigo-700 hover:underline"
               >
-                info@successpointcollege.com
+                successpointsikarofficial@gmail.com
               </a>
             </div>
             <div className="flex flex-col items-center rounded-xl bg-indigo-50 p-6">

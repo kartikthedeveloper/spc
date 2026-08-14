@@ -193,8 +193,8 @@ export default function CoursePage({ params }) {
             latitude: 27.6121,
             longitude: 75.1399,
         },
-        telephone: SITE.phones?.[0] || "+91-9876543210",
-        email: SITE.email || "info@successpointcollege.com",
+        telephone: SITE.phones?.[0] || "+91-9057508560",
+        email: SITE.email || "successpointsikarofficial@gmail.com",
         priceRange: course.fees || "Contact for fees",
         hasCourse: {
             "@type": "Course",

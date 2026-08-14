@@ -17,7 +17,7 @@ export const SITE = {
   },
   phones: ["+91 9351540357"],
   whatsapp: "919351540357",
-  email: "successpointsikar@gmail.com",
+  email: "successpointsikarofficial@gmail.com",
   social: {
     facebook: "https://www.facebook.com/successpointitandmanagementcollege",
     instagram: "https://www.instagram.com/success_point_sikar",

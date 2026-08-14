@@ -360,12 +360,12 @@ export default function AdmissionProcessPage() {
               Call Us
             </a>
           </div>
-          {/* <p className="mt-6 text-sm text-indigo-200">
+           <p className="mt-6 text-sm text-indigo-200">
             For any queries, email us at{" "}
-            <a href="mailto:kartik.thedeveloper@gmail.com" className="underline">
-              kartik.thedeveloper@gmail.com
+            <a href="mailto:successpointsikarofficial@gmail.com" className="underline">
+              successpointsikarofficial@gmail.com
             </a>
-          </p> */}
+          </p> 
         </div>
       </div>
     </section>
