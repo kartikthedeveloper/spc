@@ -216,21 +216,21 @@ export default function KidsCodingPage() {
 
   const testimonials = [
     {
-      name: "Aarav",
+      name: "Aarav Vyas",
       child: "Full Stack Development Student",
       quote:
         "I wanted to understand how real websites work. Now I can build complete web applications and understand both frontend and backend development.",
       rating: 5,
     },
     {
-      name: "Priya",
+      name: "Priya Somani",
       child: "Data Analytics Student",
       quote:
         "Learning Data Analytics with real datasets helped me understand how companies actually use data to make better decisions.",
       rating: 5,
     },
     {
-      name: "Rahul",
+      name: "Rahul Gurjar",
       child: "Digital Marketing Student",
       quote:
         "Digital Marketing is not just about posting on social media. I learned SEO, analytics, advertising, content, and how AI is changing marketing.",
@@ -457,11 +457,9 @@ export default function KidsCodingPage() {
       <div className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
-            <span className="rounded-full bg-yellow-100 px-4 py-2 text-sm font-semibold text-yellow-700">
-              Why Parents ❤️ Us
-            </span>
+
             <h2 className="mt-4 text-4xl font-bold text-gray-900 md:text-5xl">
-              What Parents Say About <span className="text-yellow-600">Our Program</span>
+              What Students Say About <span className="text-yellow-600">Our Program</span>
             </h2>
           </div>
 
@@ -481,7 +479,7 @@ export default function KidsCodingPage() {
                 </p>
                 <div className="mt-4 border-t pt-4">
                   <p className="font-bold text-gray-900">{testimonial.name}</p>
-                  <p className="text-sm text-gray-600">Parent of {testimonial.child}</p>
+                  {/* <p className="text-sm text-gray-600">Parent of {testimonial.child}</p> */}
                 </div>
               </div>
             ))}

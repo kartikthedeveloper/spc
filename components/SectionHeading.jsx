@@ -24,7 +24,7 @@ export default function SectionHeading({ eyebrow, title, description, align = "l
       )}
       <h2
         className={cn(
-          "mt-3 font-display text-3xl font-semibold sm:text-4xl",
+          "mt-3 font-display text-3xl font-bold sm:text-4xl",
           light ? "text-ivory-50" : "text-navy-950"
         )}
       >

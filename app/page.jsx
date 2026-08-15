@@ -8,6 +8,18 @@ import SectionHeading from "@/components/SectionHeading";
 import BlogCard from "@/components/BlogCard";
 import Image from "next/image";
 import Script from "next/script";
+import Link from "next/link";
+
+import {
+  Rocket,
+  Code2,
+  Bot,
+  Sparkles,
+  Star,
+  Users,
+  Globe,
+  ArrowRight,
+} from "lucide-react";
 
 // ─── METADATA (SEO + Geo + Open Graph + Twitter) ────────────────────────────
 export const metadata = {
@@ -260,6 +272,69 @@ export default function HomePage() {
                         </div>
                     </div>
                 </section>
+
+                <div className="relative overflow-hidden mt-14 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 py-20">
+                    {/* Floating shapes for fun effect */}
+                    <div className="absolute top-10 left-10 animate-bounce opacity-20">
+                        <Rocket className="h-20 w-20 text-white" />
+                    </div>
+                    <div className="absolute bottom-10 right-10 animate-pulse opacity-20">
+                        <Bot className="h-24 w-24 text-white" />
+                    </div>
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-5">
+                        <Code2 className="h-64 w-64 text-white" />
+                    </div>
+
+                    <div className="relative mx-auto mt-6 px-6 text-center">
+                        <div className="inline-flex items-center gap-2 rounded-full bg-white/20 px-6 py-2 text-white backdrop-blur">
+                            <Sparkles className="h-4 w-4" />
+                            <span className="font-semibold">🔥 Future Tech Leaders Program in Sikar</span>
+                        </div>
+
+                        <h1 className="mt-8 text-5xl font-black text-white md:text-7xl">
+                            Kids Coding <br />
+                            <span className="mt-3 text-yellow-300">Classes in Sikar</span>
+                        </h1>
+
+                        <p className="mx-auto mt-6 max-w-4xl text-xl text-white/90">
+                            Transform your child's curiosity into creativity! Fun, interactive,
+                            and future-ready coding courses for <strong className="text-yellow-200">Class 6 to 12</strong> students.
+                        </p>
+
+                        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+                            <Link
+                                href="/kids-code-in-sikar"
+                                className="group rounded-full bg-white px-8 py-4 font-bold text-purple-700 shadow-2xl transition hover:scale-105 hover:shadow-2xl"
+                            >
+                                <span className="flex items-center gap-2">
+                                    View Program
+                                    <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
+                                </span>
+                            </Link>
+                            <Link
+                                href="/contact"
+                                className="rounded-full border-2 border-white px-8 py-4 font-bold text-white transition hover:bg-white/10"
+                            >
+                                Contact Us
+                            </Link>
+                        </div>
+
+                        <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-white">
+                            <div className="flex items-center gap-2">
+                                <Users className="h-5 w-5" />
+                                <span>40+ Students Enrolled</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <Star className="h-5 w-5 text-yellow-300" />
+                                <span>4.9/5 Rating</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <Globe className="h-5 w-5" />
+                                <span>100% Project-Based</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 {/* ─── Blog / Career Guidance ─── */}
                 <section
