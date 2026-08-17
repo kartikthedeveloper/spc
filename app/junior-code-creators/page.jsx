@@ -4,11 +4,8 @@ import ContactForm from "@/components/ContactForm";
 import {
   Rocket,
   Gamepad2,
-  TrendingUp,
-  BarChart3,
   Code2,
   Palette,
-  Bot,
   Sparkles,
   Star,
   Users,
@@ -17,66 +14,55 @@ import {
   Award,
   Zap,
   ChevronRight,
-  Phone,
-  Mail,
-  MapPin,
   CheckCircle2,
   Laptop,
   Brain,
   Cpu,
   Trophy,
-  Heart,
   Smartphone,
   Globe,
   ArrowRight,
   BookOpen,
-  Paintbrush,
-  Puzzle,
   Monitor,
+  Terminal,
+  Layers,
+  Database,
+  Server,
+  GitBranch,
 } from "lucide-react";
 
 export const metadata = {
-  title: "Little Tech Explorers (Age 6–9) | Kids Coding Classes in Sikar",
+  title: "Junior Code Creators (Age 10–13) | Coding Classes in Sikar",
   description:
-    "Fun, project-based technology classes for kids aged 6–9 in Sikar. Build creativity, logic, and digital skills with Scratch, games, and interactive projects. Enroll now!",
+    "Learn coding by building real games, websites, and apps. JavaScript, Python, and project-based learning for kids aged 10–13 in Sikar. Enroll now!",
   keywords: [
     // Primary Local
-    "Kids Coding Classes Sikar",
     "Coding Classes for Kids Sikar",
-    "Coding Course for Kids Sikar",
-    "Best Kids Coding Institute Sikar",
+    "Coding Classes for School Students Sikar",
     "Best Coding Institute Sikar",
-    "Coding Academy Sikar",
-    "Coding Training Institute Sikar",
     "Programming Classes for Kids Sikar",
-    "Computer Classes for Kids Sikar",
-    "Coding Coaching Sikar",
-    "Computer Coaching Sikar",
-    "Coding Institute Near Me",
-    "Coding Classes Near Me",
-    "Kids Coding Near Me",
-    "Programming Classes Near Me",
+    "Python for Kids Sikar",
+    "Web Development for Kids Sikar",
+    "JavaScript for Kids Sikar",
+    "HTML CSS Classes Sikar",
     // Age specific
-    "Coding for 6 Year Olds",
-    "Coding for 7 Year Olds",
-    "Coding for 8 Year Olds",
-    "Coding for 9 Year Olds",
-    "Scratch Programming for Kids",
-    "Scratch Coding Classes Sikar",
-    "Block Coding Classes",
-    "Creative Coding Classes",
-    "Computational Thinking Classes",
+    "Coding for 10 Year Olds",
+    "Coding for 11 Year Olds",
+    "Coding for 12 Year Olds",
+    "Coding for 13 Year Olds",
+    "Scratch to Python Sikar",
+    "Junior Code Creators Sikar",
+    // Technologies
+    "Scratch Programming Classes",
+    "Python Classes for Kids Sikar",
+    "Web Development for Kids",
+    "Game Development for Kids",
     "STEM Education Sikar",
-    "STEM Classes Sikar",
     // Parent intent
     "Best Coding Classes for Children",
-    "Best Computer Classes for Kids",
     "Affordable Coding Classes Sikar",
     "Weekend Coding Classes Sikar",
     "Summer Coding Camp Sikar",
-    "Digital Skills for Kids",
-    "Future Skills for Students",
-    "Technology Classes for Kids",
     // Local
     "Best Computer Institute in Sikar",
     "Top Computer Institute in Sikar",
@@ -88,223 +74,191 @@ export const metadata = {
     "Coding Center Sikar",
     // Brand
     "Success Point Institute Sikar",
-    "Success Point Kids Coding Sikar",
     "Success Point Coding Classes",
-    "Success Point Computer Institute Sikar",
-    "Success Point Programming Classes",
-    "Little Tech Explorers Sikar",
+    "Success Point Junior Code Creators",
   ],
   alternates: {
-    canonical: "https://successpointsikar.com/little-tech-explorers",
+    canonical: "https://successpointsikar.com/junior-code-creators",
   },
   openGraph: {
-    title: "Little Tech Explorers (Age 6–9) | Kids Coding Classes Sikar",
+    title: "Junior Code Creators (Age 10–13) | Coding Classes Sikar",
     description:
-      "Give your child a head start with technology. Fun, hands-on learning in Scratch, logic, and creative projects. Enroll in Sikar today!",
-    url: "https://successpointsikar.com/little-tech-explorers",
+      "Build games, websites, and apps with JavaScript and Python. Project-based coding for kids in Sikar. Enroll today!",
+    url: "https://successpointsikar.com/junior-code-creators",
     type: "website",
   },
 };
 
-export default function KidsCodingPage() {
+export default function JuniorCodeCreatorsPage() {
   // ============================
-  //  DATA FROM PRODUCT ARCHITECTURE
+  //  DATA – PRODUCT ARCHITECTURE
   // ============================
 
-  const curriculumAreas = [
+  const phases = [
     {
-      icon: <Monitor className="h-8 w-8" />,
-      title: "Computer Skills",
+      title: "Phase 1 – Programming Logic",
+      icon: <Brain className="h-8 w-8" />,
       items: [
-        "Computer basics",
-        "Keyboard & mouse",
-        "Files & folders",
-        "Internet basics",
-        "Digital safety",
-      ],
-      color: "from-blue-500 to-cyan-500",
-    },
-    {
-      icon: <Paintbrush className="h-8 w-8" />,
-      title: "Creative Tools",
-      items: [
-        "Paint",
-        "Canva basics",
-        "PowerPoint / Google Slides",
-        "Digital storytelling",
-      ],
-      color: "from-pink-500 to-orange-500",
-    },
-    {
-      icon: <Code2 className="h-8 w-8" />,
-      title: "Coding (Scratch & Blockly)",
-      items: [
-        "ScratchJr",
-        "Scratch",
-        "Blockly",
-        "Animation",
-        "Game creation",
-        "Interactive stories",
-      ],
-      color: "from-purple-500 to-indigo-500",
-    },
-    {
-      icon: <Puzzle className="h-8 w-8" />,
-      title: "Logic & Problem Solving",
-      items: [
-        "Patterns",
-        "Sequencing",
-        "Algorithms",
-        "Debugging",
-        "Creative thinking",
+        "Scratch – advanced concepts",
+        "Variables, conditions, loops",
+        "Events, functions, debugging",
       ],
       color: "from-green-500 to-emerald-500",
     },
+    {
+      title: "Phase 2 – Web Development",
+      icon: <Globe className="h-8 w-8" />,
+      items: ["HTML", "CSS", "Responsive design", "Building a personal website"],
+      color: "from-blue-500 to-cyan-500",
+    },
+    {
+      title: "Phase 3 – JavaScript",
+      icon: <Terminal className="h-8 w-8" />,
+      items: [
+        "Variables, conditions, loops",
+        "Functions, DOM manipulation",
+        "Events, building interactive apps",
+      ],
+      color: "from-yellow-500 to-orange-500",
+    },
+    {
+      title: "Phase 4 – Python",
+      icon: <Code2 className="h-8 w-8" />,
+      items: [
+        "Variables, loops, functions",
+        "Lists, dictionaries",
+        "Mini programs and automation",
+      ],
+      color: "from-purple-500 to-indigo-500",
+    },
+  ];
+
+  const tools = [
+    "VS Code",
+    "GitHub basics",
+    "Browser DevTools",
+    "Online code editors",
   ];
 
   const projects = [
-    "Interactive Story",
-    "Animation",
-    "Simple Game",
-    "Quiz",
-    "Digital Poster",
-    "Presentation",
-  ];
-
-  const levels = [
-    {
-      level: "Level 1",
-      name: "Digital Explorer",
-      description: "Learn computer basics, digital safety, and creative tools.",
-    },
-    {
-      level: "Level 2",
-      name: "Creative Thinker",
-      description: "Build presentations, digital art, and storytelling.",
-    },
-    {
-      level: "Level 3",
-      name: "Little Coder",
-      description: "Start coding with Scratch Jr and Blockly.",
-    },
-    {
-      level: "Level 4",
-      name: "Game Creator",
-      description: "Build your own games and interactive projects.",
-    },
+    { name: "Scratch Game", level: "Beginner" },
+    { name: "Personal Website", level: "Intermediate" },
+    { name: "Calculator (JavaScript)", level: "JavaScript" },
+    { name: "Quiz App", level: "JavaScript" },
+    { name: "Number Guessing Game (Python)", level: "Python" },
+    { name: "Student Result Program", level: "Python" },
+    { name: "Personal Coding Portfolio", level: "Final Project" },
   ];
 
   const benefits = [
     {
       icon: <Brain className="h-6 w-6 text-purple-600" />,
-      title: "Develops Logical Thinking",
-      desc: "Children learn to break problems into steps and think systematically.",
+      title: "Strong Programming Foundation",
+      desc: "Master core programming concepts with both visual (Scratch) and text-based languages (Python, JavaScript).",
     },
     {
-      icon: <Zap className="h-6 w-6 text-yellow-600" />,
-      title: "Boosts Creativity",
-      desc: "Coding is a canvas for imagination. Kids build stories, games, and art.",
+      icon: <Layers className="h-6 w-6 text-blue-600" />,
+      title: "Real Project Experience",
+      desc: "Build 5–10 complete projects that can be showcased to family and future employers.",
     },
     {
-      icon: <Users className="h-6 w-6 text-blue-600" />,
-      title: "Builds Collaboration",
-      desc: "Group projects teach teamwork and communication.",
+      icon: <GitBranch className="h-6 w-6 text-orange-600" />,
+      title: "Professional Tools",
+      desc: "Learn to use VS Code, GitHub, and DevTools – the same tools used by professional developers.",
     },
     {
       icon: <Award className="h-6 w-6 text-green-600" />,
-      title: "Future Ready",
-      desc: "Early exposure to technology builds confidence for the future.",
+      title: "Portfolio Ready",
+      desc: "By the end, each student has a personal coding portfolio with all their projects.",
     },
   ];
 
   const testimonials = [
     {
-      name: "Mrs. Sharma",
-      child: "Parent of Aarav (age 8)",
+      name: "Mrs. Agarwal",
+      child: "Parent of Rohan (age 12)",
       quote:
-        "My son used to just play games on the tablet. Now he builds his own games! The change in his confidence is amazing.",
+        "Rohan built his own website and a quiz app within 3 months. He's now more confident in math and logic. Highly recommend!",
       rating: 5,
     },
     {
-      name: "Mr. Patel",
-      child: "Parent of Ananya (age 7)",
+      name: "Mr. Singh",
+      child: "Parent of Kavya (age 11)",
       quote:
-        "She loves the creative projects. She made a digital story about her family and presented it to us. Wonderful experience.",
+        "Kavya loves the Python projects. She created a number guessing game and showed it to her whole class. Great program.",
       rating: 5,
     },
     {
-      name: "Mrs. Gupta",
-      child: "Parent of Vihaan (age 9)",
+      name: "Mrs. Jain",
+      child: "Parent of Arjun (age 13)",
       quote:
-        "The logical thinking approach has helped him in math as well. He's more organized and curious about how things work.",
+        "The structured approach – from Scratch to Python – really helped Arjun understand concepts deeply. He's ready for advanced courses.",
       rating: 5,
     },
   ];
 
   const faqs = [
     {
-      q: "Does my child need any prior computer knowledge?",
-      a: "Not at all! Our program starts with the very basics—keyboard, mouse, and simple computer usage. We build from there.",
+      q: "Does my child need any prior coding experience?",
+      a: "No, but knowing Scratch or some block coding is helpful. We start with advanced Scratch to transition smoothly to text-based languages.",
     },
     {
-      q: "What if my child already knows Scratch?",
-      a: "We have different levels. Your child can start at a higher level after an assessment. We ensure every child learns at their own pace.",
+      q: "What if my child already knows some Python?",
+      a: "We can assess and place them at the appropriate phase. We have flexible paths for different skill levels.",
     },
     {
-      q: "How long is the course?",
-      a: "The complete journey is 3–6 months, divided into 4 levels. Each level builds on the previous one.",
+      q: "How long is the program?",
+      a: "The complete journey is 6–12 months, depending on the student's pace. Each phase builds on the previous.",
     },
     {
       q: "Will my child get a certificate?",
-      a: "Yes! Each child receives a completion certificate and a portfolio of projects they've built.",
+      a: "Yes, a completion certificate and a digital portfolio of all projects built.",
     },
     {
-      q: "Are classes online or offline?",
-      a: "We offer both! Offline classes at our Sikar campus and online options for flexibility.",
+      q: "Are classes offline or online?",
+      a: "We offer both. Offline at our Sikar campus and online for flexibility.",
     },
   ];
 
   return (
     <section className="bg-white overflow-x-hidden">
       {/* ============================================================
-          HERO SECTION – Colorful & Playful for Young Kids
+          HERO – Playful & Techy
           ============================================================ */}
-      <div className="relative overflow-hidden mt-14 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 py-20">
-        {/* Floating shapes */}
+      <div className="relative overflow-hidden mt-14 bg-gradient-to-br from-green-600 via-teal-500 to-blue-600 py-20">
         <div className="absolute top-10 left-10 animate-bounce opacity-20">
-          <Rocket className="h-20 w-20 text-white" />
+          <Code2 className="h-20 w-20 text-white" />
         </div>
         <div className="absolute bottom-10 right-10 animate-pulse opacity-20">
-          <Gamepad2 className="h-24 w-24 text-white" />
+          <Globe className="h-24 w-24 text-white" />
         </div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-5">
-          <Code2 className="h-64 w-64 text-white" />
+          <Terminal className="h-64 w-64 text-white" />
         </div>
 
         <div className="relative mx-auto mt-6 max-w-7xl px-6 text-center">
-          {/* Badge with age */}
           <div className="inline-flex items-center gap-2 rounded-full bg-white/20 px-6 py-2 text-white backdrop-blur">
             <Sparkles className="h-4 w-4" />
-            <span className="font-semibold">🧒 Age 6–9 • Little Tech Explorers</span>
+            <span className="font-semibold">💻 Age 10–13 • Junior Code Creators</span>
           </div>
 
           <h1 className="mt-8 text-5xl font-black text-white md:text-7xl">
-            Little Tech <br />
-            <span className="text-yellow-300">Explorers</span>
+            Junior Code <br />
+            <span className="text-yellow-300">Creators</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-xl text-white/90">
             <strong className="text-yellow-200">
-              Your child will learn to think, create and use technology — not just consume it.
+              Learn coding by building real games, websites, and apps.
             </strong>
             <br />
-            Fun, project-based classes for kids aged 6–9 in Sikar.
+            From Scratch to Python – a project-based journey for kids aged 10–13.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="#apply-now"
-              className="group rounded-full bg-white px-8 py-4 font-bold text-purple-700 shadow-2xl transition hover:scale-105 hover:shadow-2xl"
+              className="group rounded-full bg-white px-8 py-4 font-bold text-teal-700 shadow-2xl transition hover:scale-105 hover:shadow-2xl"
             >
               <span className="flex items-center gap-2">
                 Enroll Now
@@ -322,7 +276,7 @@ export default function KidsCodingPage() {
           <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-white">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5" />
-              <span>50+ Young Explorers</span>
+              <span>100+ Young Creators</span>
             </div>
             <div className="flex items-center gap-2">
               <Star className="h-5 w-5 text-yellow-300" />
@@ -330,27 +284,28 @@ export default function KidsCodingPage() {
             </div>
             <div className="flex items-center gap-2">
               <BookOpen className="h-5 w-5" />
-              <span>4 Levels • 6–9 Years</span>
+              <span>5+ Projects • Portfolio</span>
             </div>
           </div>
         </div>
       </div>
 
       {/* ============================================================
-          WHY KIDS SHOULD CODE – Benefits Section
+          WHY JUNIOR CODE CREATORS – Benefits
           ============================================================ */}
-      <div className="py-20 bg-gradient-to-b from-white to-blue-50">
+      <div className="py-20 bg-gradient-to-b from-white to-green-50">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
-            <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-              Why Little Tech Explorers?
+            <span className="rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700">
+              Why Junior Code Creators?
             </span>
             <h2 className="mt-4 text-4xl font-bold text-gray-900 md:text-5xl">
-              Screen Time → <span className="text-blue-600">Skill Time</span>
+              From <span className="text-green-600">Scratch</span> to{" "}
+              <span className="text-teal-600">Python</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-gray-600">
-              At this age, we focus on building a strong foundation in logic,
-              creativity, and digital literacy—not just coding.
+              A structured path that builds a strong foundation in programming,
+              web development, and problem solving.
             </p>
           </div>
 
@@ -360,7 +315,7 @@ export default function KidsCodingPage() {
                 key={idx}
                 className="group rounded-3xl bg-white p-8 shadow-lg transition hover:-translate-y-2 hover:shadow-2xl"
               >
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-50 group-hover:bg-blue-100">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-green-50 group-hover:bg-green-100">
                   {benefit.icon}
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-gray-900">
@@ -374,41 +329,42 @@ export default function KidsCodingPage() {
       </div>
 
       {/* ============================================================
-          CURRICULUM – What They Learn
+          CURRICULUM – Phases & Tools
           ============================================================ */}
       <div id="programs" className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
-            <span className="rounded-full bg-purple-100 px-4 py-2 text-sm font-semibold text-purple-700">
-              Curriculum
+            <span className="rounded-full bg-teal-100 px-4 py-2 text-sm font-semibold text-teal-700">
+              Curriculum Roadmap
             </span>
             <h2 className="mt-4 text-4xl font-bold text-gray-900 md:text-5xl">
-              What Will Your Child <span className="text-purple-600">Learn?</span>
+              Learn <span className="text-teal-600">Step by Step</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-gray-600">
-              A balanced mix of computer skills, creative tools, coding, and logic.
+              Four progressive phases that take your child from block coding to
+              building real-world applications.
             </p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {curriculumAreas.map((area, idx) => (
+            {phases.map((phase, idx) => (
               <div
                 key={idx}
                 className="group relative overflow-hidden rounded-3xl bg-white p-8 shadow-lg transition hover:shadow-2xl"
               >
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${area.color} opacity-0 transition group-hover:opacity-5`}
+                  className={`absolute inset-0 bg-gradient-to-br ${phase.color} opacity-0 transition group-hover:opacity-5`}
                 />
                 <div
-                  className={`inline-flex rounded-2xl bg-gradient-to-br ${area.color} p-4 text-white`}
+                  className={`inline-flex rounded-2xl bg-gradient-to-br ${phase.color} p-4 text-white`}
                 >
-                  {area.icon}
+                  {phase.icon}
                 </div>
                 <h3 className="mt-4 text-xl font-bold text-gray-900">
-                  {area.title}
+                  {phase.title}
                 </h3>
                 <ul className="mt-2 space-y-1">
-                  {area.items.map((item, i) => (
+                  {phase.items.map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
                       <CheckCircle2 className="mt-0.5 h-4 w-4 text-green-500 shrink-0" />
                       {item}
@@ -419,62 +375,56 @@ export default function KidsCodingPage() {
             ))}
           </div>
 
-          {/* Projects section */}
-          <div className="mt-16 rounded-3xl bg-gradient-to-br from-blue-50 to-purple-50 p-8">
+          {/* Tools */}
+          <div className="mt-16 rounded-3xl bg-gradient-to-br from-gray-50 to-teal-50 p-8">
             <h3 className="text-2xl font-bold text-gray-900">
-              🎯 Projects Your Child Will Build
+              🛠️ Professional Tools Used
             </h3>
             <div className="mt-4 flex flex-wrap gap-3">
-              {projects.map((project, idx) => (
+              {tools.map((tool, idx) => (
                 <span
                   key={idx}
-                  className="rounded-full bg-white px-5 py-2 text-sm font-semibold text-purple-700 shadow-sm"
+                  className="rounded-full bg-white px-5 py-2 text-sm font-semibold text-teal-700 shadow-sm"
                 >
-                  {project}
+                  {tool}
                 </span>
               ))}
             </div>
             <p className="mt-4 text-gray-600">
-              Each project reinforces skills and builds a portfolio to showcase
-              to family and friends.
+              Students learn industry-standard tools that prepare them for
+              professional development.
             </p>
           </div>
         </div>
       </div>
 
       {/* ============================================================
-          LEVEL PROGRESSION
+          PROJECTS SHOWCASE
           ============================================================ */}
-      <div className="py-20 bg-gradient-to-br from-indigo-50 via-blue-50 to-purple-50">
+      <div className="py-20 bg-gradient-to-br from-green-50 via-teal-50 to-blue-50">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
             <h2 className="text-4xl font-bold text-gray-900 md:text-5xl">
-              Learning <span className="text-indigo-600">Journey</span>
+              Projects Your Child Will <span className="text-teal-600">Build</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-gray-600">
-              4 progressive levels that take your child from absolute beginner to
-              confident creator.
+              5–10 projects that form a complete portfolio by the end of the program.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-4">
-            {levels.map((level, idx) => (
+          <div className="mt-12 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {projects.map((project, idx) => (
               <div
                 key={idx}
-                className="relative rounded-3xl bg-white p-8 shadow-lg transition hover:-translate-y-2 hover:shadow-2xl"
+                className="rounded-2xl bg-white p-6 shadow-md transition hover:shadow-xl hover:-translate-y-1"
               >
-                <div className="absolute -top-4 left-6 rounded-full bg-indigo-600 px-4 py-1 text-sm font-bold text-white">
-                  {level.level}
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">✅</span>
+                  <span className="font-bold text-gray-900">{project.name}</span>
                 </div>
-                <h3 className="mt-4 text-2xl font-bold text-gray-900">
-                  {level.name}
-                </h3>
-                <p className="mt-2 text-gray-600">{level.description}</p>
-                {idx < levels.length - 1 && (
-                  <div className="hidden md:block absolute -right-3 top-1/2 -translate-y-1/2 text-indigo-300">
-                    <ChevronRight className="h-8 w-8" />
-                  </div>
-                )}
+                <span className="mt-1 inline-block rounded-full bg-teal-100 px-2 py-0.5 text-xs font-semibold text-teal-700">
+                  {project.level}
+                </span>
               </div>
             ))}
           </div>
@@ -482,13 +432,13 @@ export default function KidsCodingPage() {
       </div>
 
       {/* ============================================================
-          TESTIMONIALS – Parents Speak
+          TESTIMONIALS
           ============================================================ */}
       <div className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
             <h2 className="text-4xl font-bold text-gray-900 md:text-5xl">
-              What Parents Say <span className="text-blue-600">About Us</span>
+              What Parents Say <span className="text-teal-600">About Us</span>
             </h2>
           </div>
 
@@ -496,7 +446,7 @@ export default function KidsCodingPage() {
             {testimonials.map((testimonial, idx) => (
               <div
                 key={idx}
-                className="rounded-3xl bg-gradient-to-br from-blue-50 to-purple-50 p-8 shadow-lg"
+                className="rounded-3xl bg-gradient-to-br from-green-50 to-teal-50 p-8 shadow-lg"
               >
                 <div className="flex gap-1 text-yellow-500">
                   {[...Array(testimonial.rating)].map((_, i) => (
@@ -519,31 +469,31 @@ export default function KidsCodingPage() {
       {/* ============================================================
           BATCH DETAILS
           ============================================================ */}
-      <div className="py-20 bg-gradient-to-br from-blue-700 to-purple-700">
+      <div className="py-20 bg-gradient-to-br from-teal-700 to-blue-700">
         <div className="mx-auto max-w-7xl px-6 text-center text-white">
           <h2 className="text-4xl font-bold md:text-5xl">
             🚀 Batch Details
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-white/80">
-            New batches starting soon. Give your child the best start.
+            Limited seats. Enroll now to secure your child's spot.
           </p>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {[
               {
                 icon: <Calendar className="h-8 w-8" />,
-                title: "New Start Date",
+                title: "Start Date",
                 value: "September 2026",
               },
               {
                 icon: <Clock className="h-8 w-8" />,
                 title: "Duration",
-                value: "3–6 Months",
+                value: "6–12 Months",
               },
               {
                 icon: <Users className="h-8 w-8" />,
                 title: "Batch Size",
-                value: "8–10 Students",
+                value: "10–12 Students",
               },
             ].map((item, idx) => (
               <div key={idx} className="rounded-3xl bg-white/10 p-8 backdrop-blur">
@@ -557,22 +507,22 @@ export default function KidsCodingPage() {
       </div>
 
       {/* ============================================================
-          FAQs
+          FAQS
           ============================================================ */}
       <div className="py-20 bg-white">
         <div className="mx-auto max-w-4xl px-6">
           <h2 className="text-center text-4xl font-bold text-gray-900 md:text-5xl">
-            Frequently Asked <span className="text-blue-600">Questions</span>
+            Frequently Asked <span className="text-teal-600">Questions</span>
           </h2>
           <div className="mt-10 space-y-4">
             {faqs.map((faq, idx) => (
               <details
                 key={idx}
-                className="group rounded-2xl border-2 bg-white p-6 transition hover:border-blue-300 hover:shadow-lg"
+                className="group rounded-2xl border-2 bg-white p-6 transition hover:border-teal-300 hover:shadow-lg"
               >
                 <summary className="cursor-pointer font-semibold text-gray-900 flex items-center justify-between">
                   <span className="flex items-center gap-2">
-                    <ChevronRight className="h-5 w-5 text-blue-600 transition group-open:rotate-90" />
+                    <ChevronRight className="h-5 w-5 text-teal-600 transition group-open:rotate-90" />
                     {faq.q}
                   </span>
                 </summary>
@@ -584,9 +534,9 @@ export default function KidsCodingPage() {
       </div>
 
       {/* ============================================================
-          CALL TO ACTION – Contact Form
+          CTA – Contact Form
           ============================================================ */}
-      <div id="apply-now" className="py-20 bg-gradient-to-br from-blue-600 to-purple-600">
+      <div id="apply-now" className="py-20 bg-gradient-to-br from-teal-600 to-blue-600">
         <div className="mx-auto max-w-4xl px-6">
           <ContactForm />
         </div>

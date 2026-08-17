@@ -39,9 +39,13 @@ export const NAV_LINKS = [
     ],
   },
   {
-    label: "Courses",
-    href: "/course-category/computer-courses",
+    label: "Our Programs",
+    href: "/",
     children: [
+      { label: "Internship", href: "/internship" },
+      { label: "Little Tech Explorers", href: "/kids-code-in-sikar" },
+      { label: "Junior Code Creators", href: "/junior-code-creators" },
+      { label: "Teen Tech Developers", href: "/teen-tech-developers" },
       { label: "Graduation Courses", href: "/course-category/graduation-courses" },
       { label: "Post Graduation Courses", href: "/course-category/post-graduation-courses" },
       { label: "Computer Courses", href: "/course-category/computer-courses" },
@@ -49,22 +53,34 @@ export const NAV_LINKS = [
     ],
   },
   {
-    label: "Admissions",
-    href: "/admissions",
+    label: "Students",
+    href: "/",
     children: [
-      { label: "Admission Process", href: "/admissions" },
+      { label: "Student Projects", href: "/student-projects" },
+      { label: "Student Achievements", href: "/achievements" },
+
     ],
   },
-  { label: "Kid's Code", href: "/kids-code-in-sikar" },
-  { label: "Internship", href: "/internship" },
-  { label: "Blog", href: "/blog" },
+  {
+    label: "Admissions Process", href: "/admissions",
+  },
+  {
+    label: "Free Resources",
+    href: "/",
+    children: [
+      { label: "Tech Blog", href: "/blog" },
+      { label: "MCQ's", href: "https://www.codeskipper.in/mcq" },
+      { label: "Interview Question", href: "https://www.codeskipper.in/interview" },
+      { label: "Tech Roadmap", href: "https://www.codeskipper.in/roadmap" },
+    ],
+  },
 ];
 
 export const FOOTER_LINKS = {
   quickLinks: [
     { label: "About Institute", href: "/about" },
     { label: "Contact Us", href: "/contact" },
-    { label:"Director's Message", href:"/directors-message"},
+    { label: "Director's Message", href: "/directors-message" },
     { label: "Infrastructure", href: "/infrastructure" },
     { label: "Admission Process", href: "/admissions" },
 

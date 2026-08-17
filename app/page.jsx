@@ -5,20 +5,21 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import CTASection from "@/components/CTASection";
 import { BLOG_POSTS } from "@/data/blog";
 import SectionHeading from "@/components/SectionHeading";
+import Ecosystem from "@/components/Ecosystem"
 import BlogCard from "@/components/BlogCard";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
 
 import {
-  Rocket,
-  Code2,
-  Bot,
-  Sparkles,
-  Star,
-  Users,
-  Globe,
-  ArrowRight,
+    Rocket,
+    Code2,
+    Bot,
+    Sparkles,
+    Star,
+    Users,
+    Globe,
+    ArrowRight,
 } from "lucide-react";
 
 // ─── METADATA (SEO + Geo + Open Graph + Twitter) ────────────────────────────
@@ -225,6 +226,7 @@ export default function HomePage() {
             <main>
                 {/* Hero section (contains H1 and primary CTA) */}
                 <Hero />
+                <Ecosystem />
 
                 {/* Stats counter – social proof */}
                 <StatsCounter />
