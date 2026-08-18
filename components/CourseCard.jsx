@@ -1,212 +1,92 @@
-"use client";
-
-import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  motion,
-  useMotionValue,
-  useSpring,
-  useTransform,
-} from "framer-motion";
-
-import {
-  ArrowUpRight,
-  Clock3,
-  Star,
-  Award,
-  Calendar,
-} from "lucide-react";
+import { ArrowRight, Clock, Star } from "lucide-react";
 
 export default function CourseCard({ course }) {
-  const ref = useRef(null);
+  if (!course?.slug) return null;
 
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
+  const title = course.title || course.shortTitle || "Computer Course";
+  const description =
+    course.description ||
+    course.tagline ||
+    course.overview ||
+    "Career-focused computer training with practical learning and real-world projects.";
 
-  const rotateX = useSpring(
-    useTransform(y, [-50, 50], [8, -8]),
-    {
-      stiffness: 220,
-      damping: 18,
-    }
-  );
-
-  const rotateY = useSpring(
-    useTransform(x, [-50, 50], [-8, 8]),
-    {
-      stiffness: 220,
-      damping: 18,
-    }
-  );
-
-  function handleMouseMove(e) {
-    const rect = ref.current.getBoundingClientRect();
-
-    x.set(e.clientX - rect.left - rect.width / 2);
-    y.set(e.clientY - rect.top - rect.height / 2);
-  }
-
-  function handleLeave() {
-    x.set(0);
-    y.set(0);
-  }
+  const categoryLabel = (course.category || "program")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
 
   return (
-    <motion.div
-      ref={ref}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleLeave}
-      style={{
-        rotateX,
-        rotateY,
-        transformPerspective: 1200,
-      }}
-      whileHover={{ y: -8 }}
-      className="group overflow-hidden rounded-3xl bg-white shadow-xl border border-gray-100 transition-all duration-300 hover:shadow-2xl"
-    >
-      {/* Image */}
+    <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-brass-500/15 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+      <Link
+        href={`/courses/${course.slug}`}
+        aria-label={`View ${title} course details`}
+        className="block overflow-hidden"
+      >
+        <div className="relative aspect-[16/9] overflow-hidden bg-navy-950">
+          {course.image ? (
+            <Image
+              src={course.image}
+              alt={`${title} course at Success Point Institute Sikar`}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover transition duration-500 group-hover:scale-105"
+            />
+          ) : (
+            <div className="grid h-full place-items-center text-sm text-white/70">
+              Success Point Institute Sikar
+            </div>
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 via-transparent to-transparent" />
+          <span className="absolute bottom-3 left-3 rounded-full bg-white/95 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-navy-950">
+            {categoryLabel}
+          </span>
+        </div>
+      </Link>
 
-      <div className="relative h-56 overflow-hidden">
-        <Image
-          src={course.image}
-          alt={course.shortTitle}
-          fill
-          className="object-cover transition duration-500 group-hover:scale-105"
-        />
-      </div>
+      <div className="flex flex-1 flex-col p-5">
+        <div className="flex items-center justify-between gap-3 text-xs text-ink-500">
+          {course.duration ? (
+            <span className="flex items-center gap-1.5">
+              <Clock size={14} aria-hidden="true" />
+              {course.duration}
+            </span>
+          ) : (
+            <span>Career-focused program</span>
+          )}
 
-      {/* Content */}
+          {course.rating ? (
+            <span className="flex items-center gap-1 font-medium text-ink-700">
+              <Star size={14} fill="currentColor" aria-hidden="true" />
+              {course.rating}
+            </span>
+          ) : null}
+        </div>
 
-      <div className="p-6">
-
-        <h3 className="text-2xl font-bold text-slate-900">
-          {course.shortTitle}
+        <h3 className="mt-3 font-display text-xl font-semibold leading-tight text-navy-950">
+          <Link href={`/courses/${course.slug}`} className="hover:text-indigo-700">
+            {title}
+          </Link>
         </h3>
 
-        {/* Rating */}
+        <p className="mt-3 line-clamp-3 text-sm leading-6 text-ink-600">
+          {description}
+        </p>
 
-        <div className="mt-3 flex items-center gap-2">
-
-          <div className="flex text-yellow-500">
-
-            {[1,2,3,4,5].map((i)=>(
-              <Star
-                key={i}
-                size={17}
-                fill="currentColor"
-              />
-            ))}
-
-          </div>
-
-          <span className="text-sm text-gray-600">
-
-            {course.rating || "4.9"} Rating
-
-          </span>
-
-        </div>
-
-        {/* Duration & Level */}
-
-        <div className="mt-6 grid grid-cols-2 gap-4">
-
-          <div className="rounded-xl border bg-blue-200 p-4">
-
-            <div className="flex items-center gap-2">
-
-              <Calendar
-                className="text-blue-600"
-                size={20}
-              />
-
-              <span className="font-semibold">
-                Duration
-              </span>
-
-            </div>
-
-            <p className="mt-2 text-gray-700">
-              {course.duration}
-            </p>
-
-          </div>
-
-          <div className="rounded-xl border bg-blue-200 p-4">
-
-            <div className="flex items-center gap-2">
-
-              <Award
-                className="text-blue-600"
-                size={20}
-              />
-
-              <span className="font-semibold">
-                Level
-              </span>
-
-            </div>
-
-            <p className="mt-2 text-gray-700">
-
-              {course.level || "Beginner to Expert"}
-
-            </p>
-
-          </div>
-
-        </div>
-
-        {/* Highlights */}
-
-        <div className="mt-8">
-
-          <h4 className="border-l-4 border-indigo-500 pl-3 text-xl font-bold">
-            Highlights
-          </h4>
-
-          <ul className="mt-5 space-y-3">
-
-            {course.highlights?.map((item, index) => (
-              <li
-                key={index}
-                className="flex items-start gap-3 text-gray-700"
-              >
-                <Clock3
-                  size={18}
-                  className="mt-0.5 text-orange-500"
-                />
-
-                <span>{item}</span>
-              </li>
-            ))}
-
-          </ul>
-
-        </div>
-
-        {/* Buttons */}
-
-        <div className="mt-8 flex gap-3">
-
-          <Link
-            href="/contact"
-            className="flex-1 rounded-xl bg-indigo-500 py-3 text-center font-semibold text-white transition hover:bg-indigo-600"
-          >
-            Enroll Now
-          </Link>
-
+        <div className="mt-auto pt-5">
           <Link
             href={`/courses/${course.slug}`}
-            className="flex-1 rounded-xl border border-indigo-500 py-3 text-center font-semibold text-indigo-600 transition hover:bg-indigo-500 hover:text-white"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-indigo-700 transition-colors hover:text-navy-950"
           >
-            View Course
+            View course details
+            <ArrowRight
+              size={16}
+              className="transition-transform duration-200 group-hover:translate-x-1"
+              aria-hidden="true"
+            />
           </Link>
-
         </div>
-
       </div>
-    </motion.div>
+    </article>
   );
 }

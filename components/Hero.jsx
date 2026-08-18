@@ -100,7 +100,7 @@ export default function Hero() {
                 6+
               </span>
 
-              Kids to Career Technology Ecosystem in Sikar
+            Year Kids to College Career Technology Ecosystem in Sikar
               <Sparkles size={17} />
             </motion.div>
 
@@ -126,7 +126,7 @@ export default function Hero() {
               transition={{ delay: 0.35 }}
               className="mt-6 max-w-xl text-lg leading-8 text-slate-600"
             >
-              A complete technology learning journey for{" "}
+              A complete tech learning journey for{" "}
               <strong className="text-slate-900">
                 kids, teens and college students
               </strong>
@@ -164,18 +164,18 @@ export default function Hero() {
               className="mt-9 flex flex-wrap gap-4"
             >
               <Link
-                href="/learning-journey"
+                href="/about"
                 className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-7 py-4 font-semibold text-white shadow-lg shadow-blue-600/20 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700"
               >
-                Explore Learning Journey
+                About Us
                 <ArrowRight size={18} />
               </Link>
 
               <Link
-                href="/free-assessment"
+                href="/contact"
                 className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-7 py-4 font-semibold text-slate-800 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-600 hover:text-blue-600"
               >
-                Free Assessment
+                Contact Us
               </Link>
             </motion.div>
           </div>

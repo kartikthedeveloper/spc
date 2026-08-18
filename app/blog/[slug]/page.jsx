@@ -9,19 +9,16 @@ import BlogCard from "@/components/BlogCard";
 import CourseCard from "@/components/CourseCard";
 import Image from "next/image";
 
-export function generateStaticParams() {
-  return BLOG_POSTS.map((post) => ({ slug: post.slug }));
-}
-
-export function generateMetadata({ params }) {
-  const post = getPostBySlug(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   if (!post) return {};
 
   return {
     title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: { canonical: `${SITE.url}/blog/${post.slug}` },
     openGraph: {
       type: "article",
       title: post.title,
@@ -38,8 +35,11 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function BlogPostPage({ params }) {
-  const post = getPostBySlug(params.slug);
+export const dynamic = "force-dynamic";
+
+export default async function BlogPostPage({ params }) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   if (!post) notFound();
 
   const related = getRelatedPosts(post);

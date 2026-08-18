@@ -7,8 +7,9 @@ export function generateStaticParams() {
   return CATEGORIES.map((c) => ({ slug: c.slug }));
 }
 
-export function generateMetadata({ params }) {
-  const category = CATEGORIES.find((c) => c.slug === params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const category = CATEGORIES.find((c) => c.slug === slug);
   if (!category) return {};
   return {
     title: category.title,
@@ -17,8 +18,9 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function CategoryPage({ params }) {
-  const category = CATEGORIES.find((c) => c.slug === params.slug);
+export default async function CategoryPage({ params }) {
+  const { slug } = await params;
+  const category = CATEGORIES.find((c) => c.slug === slug);
   if (!category) notFound();
 
   const courses = getCoursesByCategory(category.slug);

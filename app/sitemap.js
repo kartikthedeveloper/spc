@@ -1,22 +1,30 @@
-import { COURSES, CATEGORIES } from "@/data/courses";
+import { BLOG_POSTS } from "@/data/blog";
+import { CATEGORIES, COURSES } from "@/data/courses";
 import { SITE } from "@/data/site";
 
 export default function sitemap() {
   const staticRoutes = [
     "",
     "/about",
+    "/achievements",
     "/admissions",
     "/blog",
-    "/directors-message",
     "/contact",
+    "/directors-message",
+    "/infrastructure",
+    "/internship",
+    "/junior-code-creators",
+    "/kids-code-in-sikar",
+    "/student-projects",
+    "/teen-tech-developers",
     "/privacy-policy",
-    "/refund-policy",
     "/terms-and-conditions",
+    "/courses",
   ].map((route) => ({
     url: `${SITE.url}${route}`,
     lastModified: new Date(),
     changeFrequency: "monthly",
-    priority: route === "" ? 1 : 0.7,
+    priority: route === "" ? 1 : route === "/courses" ? 0.9 : 0.7,
   }));
 
   const courseRoutes = COURSES.map((course) => ({
@@ -33,5 +41,12 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...courseRoutes, ...categoryRoutes];
+  const blogRoutes = BLOG_POSTS.map((post) => ({
+    url: `${SITE.url}/blog/${post.slug}`,
+    lastModified: new Date(post.updatedAt || post.publishedAt),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...courseRoutes, ...categoryRoutes, ...blogRoutes];
 }

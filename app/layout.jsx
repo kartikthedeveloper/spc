@@ -1,4 +1,3 @@
-import { Fraunces, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -7,26 +6,6 @@ import Ganalytics from "@/components/GoogleAnalytics";
 import ScrollProgressBar from "@/components/ScrollProgressBar";
 import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 import { SITE } from "@/data/site";
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-display",
-  weight: ["500", "600", "700"],
-  display: "swap",
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-body",
-  display: "swap",
-});
-
-const plexMono = IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  variable: "--font-mono",
-  display: "swap",
-});
 
 export const metadata = {
   metadataBase: new URL(SITE.url),
@@ -134,11 +113,11 @@ export default function RootLayout({ children }) {
       addressCountry: "IN",
     },
     telephone: SITE.phones[0],
-    sameAs: Object.values(SITE.social),
+    sameAs: [SITE.social.facebook, SITE.social.instagram, SITE.social.linkedin],
   };
 
   return (
-    <html lang="en" className={`${fraunces.variable} ${inter.variable} ${plexMono.variable}`}>
+    <html lang="en">
       <body suppressHydrationWarning>
         <a
           href="#main-content"

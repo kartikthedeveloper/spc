@@ -31,13 +31,10 @@ import SectionHeading from "@/components/SectionHeading";
 import Image from "next/image";
 
 // ─── Static Params ─────────────────────────────────────────────────────────────
-export function generateStaticParams() {
-    return COURSES.map((course) => ({ slug: course.slug }));
-}
-
 // ─── Metadata ──────────────────────────────────────────────────────────────────
-export function generateMetadata({ params }) {
-    const course = getCourseBySlug(params.slug);
+export async function generateMetadata({ params }) {
+    const { slug } = await params;
+    const course = getCourseBySlug(slug);
     if (!course) return {};
 
     const title = `${course.title} | Success Point Institute Sikar`;
@@ -82,8 +79,11 @@ export function generateMetadata({ params }) {
 }
 
 // ─── Page Component ────────────────────────────────────────────────────────────
-export default function CoursePage({ params }) {
-    const course = getCourseBySlug(params.slug);
+export const dynamic = "force-dynamic";
+
+export default async function CoursePage({ params }) {
+    const { slug } = await params;
+    const course = getCourseBySlug(slug);
     if (!course) notFound();
 
     const related = getRelatedCourses(course);

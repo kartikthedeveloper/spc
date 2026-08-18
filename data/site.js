@@ -1,4 +1,3 @@
-import { label } from "framer-motion/client";
 
 export const SITE = {
   name: "Success Point Institute Sikar",

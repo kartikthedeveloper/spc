@@ -10,6 +10,7 @@ import BlogCard from "@/components/BlogCard";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
+import { SITE } from "@/data/site";
 
 import {
     Rocket,
@@ -27,12 +28,25 @@ export const metadata = {
     title: "Best Coding & Digital Marketing Institute in Sikar | Success Point",
     description:
         "Success Point Sikar offers BCA, MCA, Full Stack Web, Data Analytics & Digital Marketing courses with 100% placement support. Enroll now for career-focused training in Sikar.",
-    alternates: { canonical: "/" },
+    alternates: {
+        canonical: "/",
+        languages: {
+            "en-IN": "/",
+            "x-default": "/",
+        },
+    },
+    other: {
+        "geo.region": "IN-RJ",
+        "geo.placename": "Sikar",
+        "geo.position": "27.6121;75.1399",
+        ICBM: "27.6121, 75.1399",
+        author: SITE.name,
+    },
     openGraph: {
         title: "Success Point Sikar -Best Coding & Digital Marketing Institute in Sikar, Rajasthan",
         description:
             "Join Success Point Sikar for industry-ready courses: BCA, MCA, Full Stack Web, Data Analytics & Digital Marketing. Dedicated placement support and modern campus.",
-        url: "https://successpoint.com",
+        url: SITE.url,
         siteName: "Success Point Institute",
         images: [
             {
@@ -72,10 +86,10 @@ const jsonLd = {
         // ── Organization ──
         {
             "@type": "EducationalOrganization",
-            "@id": "https://successpoint.com/#organization",
+            "@id": `${SITE.url}/#organization`,
             name: "Success Point Institute",
-            url: "https://successpoint.com/",
-            logo: "https://successpoint.com/images/logo.webp",
+            url: `${SITE.url}/`,
+            logo: `${SITE.url}/images/success-point-logo.png`,
             description:
                 "Success Point Sikar offers BCA, MCA, Full Stack Web, Data Analytics & Digital Marketing courses with dedicated placement support.",
             address: {
@@ -93,19 +107,19 @@ const jsonLd = {
                 availableLanguage: ["Hindi", "English"],
             },
             sameAs: [
-                "https://www.facebook.com/successpointitandmanagementcollege",
-                "https://www.instagram.com/success_point_college",
-                "https://www.linkedin.com/company/success-point-college-sikar",
+                SITE.social.facebook,
+                SITE.social.instagram,
+                SITE.social.linkedin,
             ],
         },
         // ── LocalBusiness (for geo & local SEO) ──
         {
             "@type": "LocalBusiness",
-            "@id": "https://successpoint.com/#localbusiness",
+            "@id": `${SITE.url}/#localbusiness`,
             name: "Success Point Institute",
             description:
                 "Premier coding and digital marketing institute in Sikar, Rajasthan. Specialising in BCA, MCA, Full Stack Web, Data Analytics, and Digital Marketing.",
-            url: "https://successpoint.com/",
+            url: `${SITE.url}/`,
             telephone: "+91-9351540357",
             address: {
                 "@type": "PostalAddress",
@@ -140,7 +154,7 @@ const jsonLd = {
         // ── Courses (offered) ──
         {
             "@type": "ItemList",
-            "@id": "https://successpoint.com/#courses",
+            "@id": `${SITE.url}/#courses`,
             name: "Courses Offered at Success Point Sikar",
             description: "Industry-aligned courses with placement support",
             itemListElement: [
@@ -149,48 +163,48 @@ const jsonLd = {
                     position: 1,
                     name: "Bachelor of Computer Applications (BCA)",
                     description: "Three-year degree programme covering programming, databases, and web development.",
-                    provider: { "@id": "https://successpoint.com/#organization" },
+                    provider: { "@id": "https://successpointsikar.com/#organization" },
                 },
                 {
                     "@type": "Course",
                     position: 2,
                     name: "Master of Computer Applications (MCA)",
                     description: "Postgraduate programme focused on advanced programming, data analytics, and system design.",
-                    provider: { "@id": "https://successpoint.com/#organization" },
+                    provider: { "@id": "https://successpointsikar.com/#organization" },
                 },
                 {
                     "@type": "Course",
                     position: 3,
                     name: "Full Stack Web Development",
                     description: "Comprehensive training on MERN stack, DevOps, and modern frontend/backend technologies.",
-                    provider: { "@id": "https://successpoint.com/#organization" },
+                    provider: { "@id": "https://successpointsikar.com/#organization" },
                 },
                 {
                     "@type": "Course",
                     position: 4,
                     name: "Digital Marketing",
                     description: "SEO, SEM, social media, content marketing, and analytics with live projects.",
-                    provider: { "@id": "https://successpoint.com/#organization" },
+                    provider: { "@id": "https://successpointsikar.com/#organization" },
                 },
                 {
                     "@type": "Course",
                     position: 5,
                     name: "Data Analytics",
                     description: "Python, SQL, Power BI, Tableau, and statistical analysis for data-driven decision making.",
-                    provider: { "@id": "https://successpoint.com/#organization" },
+                    provider: { "@id": "https://successpointsikar.com/#organization" },
                 },
             ],
         },
         // ── Breadcrumb (homepage) ──
         {
             "@type": "BreadcrumbList",
-            "@id": "https://successpoint.com/#breadcrumb",
+            "@id": `${SITE.url}/#breadcrumb`,
             itemListElement: [
                 {
                     "@type": "ListItem",
                     position: 1,
                     name: "Home",
-                    item: "https://successpoint.com/",
+                    item: `${SITE.url}/`,
                 },
             ],
         },
@@ -210,9 +224,9 @@ export default function HomePage() {
             <meta name="revisit-after" content="7 days" />
             <meta name="language" content="Hindi, English" />
             <meta name="author" content="Success Point Institute" />
-            <link rel="alternate" hrefLang="hi" href="https://successpoint.com/hi" />
-            <link rel="alternate" hrefLang="en" href="https://successpoint.com/" />
-            <link rel="alternate" hrefLang="x-default" href="https://successpoint.com/" />
+            <link rel="alternate" hrefLang="hi" href='${SITE.url}/hi' />
+            <link rel="alternate" hrefLang="en" href='${SITE.url}/' />
+            <link rel="alternate" hrefLang="x-default" href='${SITE.url}/' />
 
             {/* ─── JSON‑LD Structured Data ─── */}
             <Script
