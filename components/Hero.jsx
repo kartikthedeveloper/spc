@@ -100,7 +100,7 @@ export default function Hero() {
                 6+
               </span>
 
-            Year Kids to College Career Technology Ecosystem in Sikar
+              Year Kids to College Career Technology Ecosystem in Sikar
               <Sparkles size={17} />
             </motion.div>
 
@@ -271,15 +271,12 @@ export default function Hero() {
               className="absolute bottom-16 left-8 rounded-2xl border border-white bg-white p-4 shadow-xl"
             >
               <p className="text-xs font-medium text-slate-500">
-                College
+                17+ Courses
               </p>
               <p className="mt-1 text-lg font-extrabold text-cyan-600">
-                Specialize
-              </p>
+                Kids & College              </p>
               <p className="text-xs text-slate-500">
-                Career Technology
-              </p>
-            </motion.div>
+                Skills & Job Oriented </p>  </motion.div>
 
             <motion.div
               animate={{ y: [0, 7, 0] }}

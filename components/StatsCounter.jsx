@@ -6,7 +6,7 @@ import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 const STATS = [
   { label: "Years of Academic Presence", value: 9, suffix: "+" },
   { label: "Students Trained", value: 1000, suffix: "+" },
-  { label: "Courses Offered", value: 14, suffix: "+" },
+  { label: "Courses Offered", value: 17, suffix: "+" },
   { label: "Placement Partners", value: 4, suffix: "+" },
 ];
 

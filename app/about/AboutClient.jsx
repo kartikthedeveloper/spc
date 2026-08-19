@@ -185,7 +185,7 @@ export default function AboutClient() {
                         >
                             {[
                                 { label: "Students Trained", value: "1000+", icon: Users },
-                                { label: "Courses Offered", value: "14+", icon: BookOpen },
+                                { label: "Courses Offered", value: "17+", icon: BookOpen },
                                 { label: "Expert Faculty", value: "4+", icon: Award },
                                 { label: "Placement Rate", value: "95%", icon: Briefcase },
                             ].map((stat) => (
