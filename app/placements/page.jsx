@@ -3,35 +3,15 @@ import ContactForm from "@/components/ContactForm";
 import {
     Users,
     Briefcase,
-    MapPin,
-    Award,
     Star,
     ChevronRight,
     CheckCircle2,
     ArrowRight,
-    Calendar,
-    Clock,
     Building,
-    GraduationCap,
     Sparkles,
     TrendingUp,
-    Filter,
-    Search,
-    X,
-    User,
-    Code2,
-    Monitor,
-    Smartphone,
-    Database,
-    Server,
-    Globe,
-    BookOpen,
-    Terminal,
-    Layers,
-    GitBranch,
     Trophy,
-    Zap,
-    Brain,
+    
 } from "lucide-react";
 
 export const metadata = {
@@ -102,9 +82,9 @@ export default function StudentPlacementPage() {
         },
         {
             id: 2,
-            name: "Gautam Sharma",
-            photo: "/images/students/gautam-sharma-ia.webp",
-            company: "Informatics Assistant (Govt. Job)",
+            name: "Ankit Soni",
+            photo: "/images/students/ankit-soni.webp",
+            company: "Senior .Net Developer in Surat",
 
         },
         {
@@ -133,7 +113,47 @@ export default function StudentPlacementPage() {
             photo: "/images/students/apoorva-tiwari-mern.webp",
             company: "MERN Stack Developer in Bangalore",
         },
-   
+       {
+            id: 7,
+            name: "Gautam Sharma",
+            photo: "/images/students/gautam-sharma-ia.webp",
+            company: "Informatics Assistant (Govt. Job)",
+        },    {
+            id: 8,
+            name: "Dinesh Kumar",
+            photo: "/images/students/dinesh-kumar.webp",
+            company: "Informatics Assistant (Govt. Job)",
+        },    {
+            id: 9,
+            name: "Lokesh Bharia",
+            photo: "/images/students/lokesh-bharia.webp",
+            company: "Informatics Assistant (Govt. Job)",
+        },    {
+            id: 10,
+            name: "Piyush",
+            photo: "/images/students/piyush.webp",
+            company: "Informatics Assistant (Govt. Job)",
+        },    {
+            id: 11,
+            name: "Sakshi Jangir",
+            photo: "/images/students/sakshi-jangir.webp",
+            company: "Data Analyst",
+        },    {
+            id: 12,
+            name: "Shahrukh",
+            photo: "/images/students/shahrukh.webp",
+            company: "Informatics Assistant (Govt. Job)",
+        },    {
+            id: 13,
+            name: "Vinod Kumar",
+            photo: "/images/students/vinod-kumar.webp",
+            company: "Placed in IT Company",
+        },    {
+            id: 14,
+            name: "Vinod Jangir",
+            photo: "/images/students/vinod-jangir.webp",
+            company: "Informatics Assistant (Govt. Job)",
+        },
     ];
 
     // Stats
@@ -155,7 +175,6 @@ export default function StudentPlacementPage() {
         "Python & Django",
         "Web Development (HTML, CSS, JS)",
         "Data Analytics",
-        "Java & Spring Boot",
     ];
 
 
@@ -190,20 +209,20 @@ export default function StudentPlacementPage() {
     const testimonials = [
         {
             name: "Pooja Sharma",
-            placement: "Microsoft • 18 LPA",
-            quote: "Success Point's rigorous training and placement support helped me crack Microsoft. The DSA modules were world-class.",
+            placement: "Surat • 4.5 LPA",
+            quote: "Success Point's rigorous training and placement support helped me crack MERN Stack Development.",
             rating: 5,
         },
         {
-            name: "Ananya Gupta",
-            placement: "Amazon • 12 LPA",
-            quote: "The design thinking and frontend modules at Success Point are industry-aligned. I built a portfolio that Amazon loved.",
+            name: "Apoorva Tiwari",
+            placement: "Jaipur • 2.5 LPA",
+            quote: "The design thinking and frontend modules at Success Point are industry-aligned. I built a portfolio that IT Industry loved.",
             rating: 5,
         },
         {
-            name: "Suresh Kumar",
-            placement: "Oracle • 14 LPA",
-            quote: "From a small town in Sikar to Oracle Bangalore – Success Point made it possible. The Java+Spring Boot program is comprehensive.",
+            name: "Dinesh Kumar",
+            placement: "Ahmedabad • 5.5 LPA",
+            quote: "From a small town in Sikar to Ahmedabad – Success Point made it possible. The AI MERN Stack program is comprehensive.",
             rating: 5,
         },
     ];
@@ -413,9 +432,7 @@ export default function StudentPlacementPage() {
                                     <CheckCircle2 className="h-5 w-5 text-yellow-300" />
                                     <span className="font-semibold">{course}</span>
                                 </div>
-                                <p className="mt-2 text-sm text-white/70">
-                                    Placed in {["TCS", "Infosys", "Wipro", "Accenture", "Amazon", "Microsoft", "Oracle", "Deloitte", "Flipkart"][idx % 9]}
-                                </p>
+                              
                             </div>
                         ))}
                     </div>

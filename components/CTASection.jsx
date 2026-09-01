@@ -24,6 +24,14 @@ export default function CTASection() {
                 <ArrowRight size={18} />
               </Link>
               <Link
+                href="/placements"
+                className="inline-flex items-center gap-2 rounded-xl glass-panel px-6 py-3.5 font-semibold text-ivory-50 transition-transform hover:-translate-y-0.5 focus-ring"
+              >
+                Our Placed Students
+                <ArrowRight size={18} />
+
+              </Link>
+              <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 rounded-xl glass-panel px-6 py-3.5 font-semibold text-ivory-50 transition-transform hover:-translate-y-0.5 focus-ring"
               >

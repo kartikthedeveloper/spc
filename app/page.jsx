@@ -3,6 +3,7 @@ import StatsCounter from "@/components/StatsCounter";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import CTASection from "@/components/CTASection";
+import Placement from "@/components/Placement";
 import { BLOG_POSTS } from "@/data/blog";
 import SectionHeading from "@/components/SectionHeading";
 import Ecosystem from "@/components/Ecosystem"
@@ -288,6 +289,8 @@ export default function HomePage() {
                         </div>
                     </div>
                 </section>
+
+                <Placement/>
 
                 <div className="relative overflow-hidden mt-14 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 py-20">
                     {/* Floating shapes for fun effect */}
