@@ -55,6 +55,7 @@ export const NAV_LINKS = [
     label: "Students",
     href: "/",
     children: [
+      { label: "Student Placement", href: "/placements" },
       { label: "Student Projects", href: "/student-projects" },
       { label: "Student Achievements", href: "/achievements" },
 
