@@ -163,6 +163,12 @@ export default function Hero() {
               transition={{ delay: 0.55 }}
               className="mt-9 flex flex-wrap gap-4"
             >
+               <Link
+                href="https://drive.google.com/file/d/16G1TH2rEeILnDeXSTXKKqRzgKZyLDIYI/view?usp=sharing"
+                className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-7 py-4 font-semibold text-slate-800 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-600 hover:text-blue-600"
+              >Download Brochure
+              </Link>
+           
               <Link
                 href="/about"
                 className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-7 py-4 font-semibold text-white shadow-lg shadow-blue-600/20 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700"
