@@ -13,7 +13,7 @@ export default function FeaturedCourses() {
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeading
             eyebrow="Programs"
-            title="17+ Computer Science Courses Available in Sikar – Learn, Build & Get Job Ready"
+            title="AI Practical Based Computer Science Courses Available in Sikar – Learn, Build & Get Job Ready"
             description="From degree programs to professional certifications, every program includes practical learning, real projects, and career-focused skills."
           />
 
