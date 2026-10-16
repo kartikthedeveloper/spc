@@ -277,7 +277,7 @@ export default function Hero() {
               className="absolute bottom-16 left-8 rounded-2xl border border-white bg-white p-4 shadow-xl"
             >
               <p className="text-xs font-medium text-slate-500">
-                17+ Courses
+                AI Practical Based Courses
               </p>
               <p className="mt-1 text-lg font-extrabold text-cyan-600">
                 Kids & College              </p>
