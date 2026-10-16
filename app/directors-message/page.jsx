@@ -72,15 +72,15 @@ export default function LeadershipPage() {
 
           <div className="overflow-hidden rounded-3xl border bg-white shadow-xl">
 
-            <div className="w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl">
-              <Image
-                src="/images/praveen-soni.webp"
-                alt="Mr. Praveen Soni Founder Success Point Institute"
-                width={500}
-                height={500}
-                className="w-full h-full object-cover"
-              />
-            </div>
+           <div className="mx-auto w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl">
+  <Image
+    src="/images/praveen-soni.webp"
+    alt="Mr. Praveen Soni Founder Success Point Institute"
+    width={500}
+    height={500}
+    className="w-full h-full object-cover"
+  />
+</div>
 
             <div className="p-8">
 
@@ -127,15 +127,15 @@ export default function LeadershipPage() {
 
            <div className="overflow-hidden  rounded-3xl border bg-white shadow-xl">
 
-            <div className="w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl flex justify-center items-center">
-              <Image
-                src="/images/kartik-sharma.webp"
-                alt="Mr. Kartik Sharma Co-Founder Success Point Institute"
-                width={500}
-                height={500}
-                className="w-full h-full object-cover "
-              />
-            </div>
+           <div className="mx-auto w-52 h-52 sm:w-60 sm:h-60 lg:w-72 lg:h-72 overflow-hidden rounded-full shadow-xl flex justify-center items-center">
+  <Image
+    src="/images/kartik-sharma.webp"
+    alt="Mr. Kartik Sharma Co-Founder Success Point Institute"
+    width={500}
+    height={500}
+    className="w-full h-full object-cover"
+  />
+</div>
             <div className="p-8">
               <span className="rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700">
                 Co-Founder
