@@ -607,60 +607,7 @@ export const COURSES = [
   },
 
   // -------------------- Ethical Hacking --------------------
-  {
-    slug: "ethical-hacking",
-    title: "Ethical Hacking Course",
-    shortTitle: "Ethical Hacking",
-    category: "professional-courses",
-    image: "/images/ethicalhacking.webp",
-    tagline: "Think like a hacker, secure like a pro — the best ethical hacking training in Sikar, Rajasthan.",
-    duration: "6 Months",
-    eligibility: "10+2 passed; basic computer and networking knowledge recommended.",
-    fees: "Contact Success Point Institute for the current fee and early‑bird discounts.",
-    overview:
-      "Success Point Institute, the premier cyber security training provider in Sikar, Rajasthan, offers a hands‑on Ethical Hacking course that teaches you the tools and techniques used by penetration testers and security analysts. You will learn footprinting, scanning, exploitation, post‑exploitation, and reporting. Our lab‑based approach ensures you gain practical skills that are immediately applicable in security roles.",
-    curriculum: [
-      "Introduction to Ethical Hacking & Cyber Security",
-      "Footprinting & Reconnaissance",
-      "Scanning & Enumeration",
-      "System Hacking (Password Cracking, Privilege Escalation)",
-      "Malware Threats & Countermeasures",
-      "Sniffing & Social Engineering",
-      "Web Application Security (OWASP Top 10)",
-      "Wireless Network Hacking",
-      "Penetration Testing Methodology & Reporting",
-    ],
-    software: ["Kali Linux", "Nmap", "Wireshark", "Burp Suite", "Metasploit", "John the Ripper"],
-    projects: [
-      "Conduct a penetration test on a lab environment and deliver a professional report",
-      "Identify and exploit vulnerabilities in a purposely vulnerable web application",
-    ],
-    certification: "Certificate of Completion from Success Point Institute; guidance for CEH and CompTIA Security+.",
-    placementSupport:
-      "We help you build a security portfolio and connect with security firms, banks, and government agencies in Rajasthan and India.",
-    careers: [
-      "Ethical Hacker / Penetration Tester",
-      "Security Analyst",
-      "Vulnerability Assessor",
-      "Security Consultant",
-      "SOC Analyst",
-    ],
-    salaryRange: "₹3 LPA – ₹8 LPA for freshers, with certification and skills",
-    rating: 4.9,
-    enrolled: 112,
-    faqs: [
-      {
-        q: "Is prior programming knowledge required?",
-        a: "Basic scripting knowledge (Python or Bash) is helpful but not mandatory – we cover what you need.",
-      },
-      {
-        q: "Will this course help me crack CEH certification?",
-        a: "Yes, our curriculum aligns with CEH objectives and includes practice labs.",
-      },
-    ],
-    related: ["pg-diploma-cyber-security", "ccna", "computer-networking"],
-  },
-];
+ ];
 
 // Helper functions (unchanged)
 export function getCourseBySlug(slug) {
