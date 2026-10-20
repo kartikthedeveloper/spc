@@ -76,7 +76,7 @@ export default function Footer() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-300 opacity-60" />
                 <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400" />
               </span>
-              Team Behind Success Point Sikar
+               Success Point Sikar
             </span>
 
             <h1 className="mt-7 text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-7xl">
