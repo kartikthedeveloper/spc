@@ -273,11 +273,6 @@ export default function Footer() {
           />
 
           <div className="mx-auto max-w-5xl rounded-[2rem] border border-indigo-100 bg-gradient-to-br from-white via-indigo-50/70 to-sky-50/80 px-6 py-12 text-center shadow-[0_20px_70px_-35px_rgba(79,70,229,0.3)] sm:px-12 sm:py-16">
-
-            <div className="mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-600 to-blue-500 text-4xl font-serif text-white shadow-lg shadow-indigo-500/25">
-              “
-            </div>
-
             <blockquote className="text-2xl font-bold leading-relaxed tracking-tight text-slate-900 sm:text-3xl md:text-4xl">
               Learning never stops. Innovation begins where curiosity meets
               opportunity.
